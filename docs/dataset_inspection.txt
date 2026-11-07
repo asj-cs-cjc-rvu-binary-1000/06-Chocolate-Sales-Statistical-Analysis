@@ -1,0 +1,123 @@
+
+======================================================================
+FILE: customers.csv
+======================================================================
+File size: 1,549,565 bytes
+
+Column count: 5
+Columns: ['customer_id', 'age', 'gender', 'loyalty_member', 'join_date']
+
+Data records: 50,000
+
+COLUMN DATA TYPES (PRELIMINARY):
+customer_id: Text
+age: Integer
+gender: Text
+loyalty_member: Integer
+join_date: Date
+
+FIRST 4 DATA RECORDS:
+{'customer_id': 'C000001', 'age': '40', 'gender': 'Male', 'loyalty_member': '1', 'join_date': '2025-05-21'}
+{'customer_id': 'C000002', 'age': '47', 'gender': 'Male', 'loyalty_member': '0', 'join_date': '2021-12-26'}
+{'customer_id': 'C000003', 'age': '58', 'gender': 'Female', 'loyalty_member': '1', 'join_date': '2022-09-13'}
+{'customer_id': 'C000004', 'age': '25', 'gender': 'Female', 'loyalty_member': '0', 'join_date': '2025-02-27'}
+
+======================================================================
+FILE: products.csv
+======================================================================
+File size: 9,552 bytes
+
+Column count: 6
+Columns: ['product_id', 'product_name', 'brand', 'category', 'cocoa_percent', 'weight_g']
+
+Data records: 200
+
+COLUMN DATA TYPES (PRELIMINARY):
+product_id: Text
+product_name: Text
+brand: Text
+category: Text
+cocoa_percent: Integer
+weight_g: Integer
+
+FIRST 4 DATA RECORDS:
+{'product_id': 'P0001', 'product_name': 'White Chocolate 80%', 'brand': 'Mars', 'category': 'Truffle', 'cocoa_percent': '80', 'weight_g': '120'}
+{'product_id': 'P0002', 'product_name': 'Dark Chocolate 70%', 'brand': 'Cadbury', 'category': 'Praline', 'cocoa_percent': '70', 'weight_g': '100'}
+{'product_id': 'P0003', 'product_name': 'Truffle Chocolate 70%', 'brand': 'Hershey', 'category': 'Praline', 'cocoa_percent': '70', 'weight_g': '120'}
+{'product_id': 'P0004', 'product_name': 'Milk Chocolate 50%', 'brand': 'Mars', 'category': 'Praline', 'cocoa_percent': '50', 'weight_g': '80'}
+
+======================================================================
+FILE: sales.csv
+======================================================================
+File size: 70,928,144 bytes
+
+Column count: 11
+Columns: ['order_id', 'order_date', 'product_id', 'store_id', 'customer_id', 'quantity', 'unit_price', 'discount', 'revenue', 'cost', 'profit']
+
+Data records: 1,000,000
+
+COLUMN DATA TYPES (PRELIMINARY):
+order_id: Text
+order_date: Date
+product_id: Text
+store_id: Text
+customer_id: Text
+quantity: Integer
+unit_price: Decimal / numeric
+discount: Decimal / numeric
+revenue: Decimal / numeric
+cost: Decimal / numeric
+profit: Decimal / numeric
+
+FIRST 4 DATA RECORDS:
+{'order_id': '0RD00000001', 'order_date': '2023-01-07', 'product_id': 'P0080', 'store_id': 'S093', 'customer_id': 'C040749', 'quantity': '5', 'unit_price': '14.43', 'discount': '0.15', 'revenue': '61.33', 'cost': '42.77', 'profit': '18.56'}
+{'order_id': '0RD00000002', 'order_date': '2023-10-22', 'product_id': 'P0173', 'store_id': 'S065', 'customer_id': 'C020161', 'quantity': '3', 'unit_price': '12.01', 'discount': '0.0', 'revenue': '36.03', 'cost': '19.06', 'profit': '16.97'}
+{'order_id': '0RD00000003', 'order_date': '2023-05-07', 'product_id': 'P0115', 'store_id': 'S078', 'customer_id': 'C048069', 'quantity': '2', 'unit_price': '10.02', 'discount': '0.0', 'revenue': '20.04', 'cost': '10.29', 'profit': '9.75'}
+{'order_id': '0RD00000004', 'order_date': '2024-06-23', 'product_id': 'P0186', 'store_id': 'S088', 'customer_id': 'C047901', 'quantity': '2', 'unit_price': '14.66', 'discount': '0.1', 'revenue': '26.39', 'cost': '16.35', 'profit': '10.04'}
+
+======================================================================
+FILE: stores.csv
+======================================================================
+File size: 4,613 bytes
+
+Column count: 5
+Columns: ['store_id', 'store_name', 'city', 'country', 'store_type']
+
+Data records: 100
+
+COLUMN DATA TYPES (PRELIMINARY):
+store_id: Text
+store_name: Text
+city: Text
+country: Text
+store_type: Text
+
+FIRST 4 DATA RECORDS:
+{'store_id': 'S001', 'store_name': 'Chocolate Store 1', 'city': 'New York', 'country': 'Canada', 'store_type': 'Retail'}
+{'store_id': 'S002', 'store_name': 'Chocolate Store 2', 'city': 'Melbourne', 'country': 'Canada', 'store_type': 'Mall'}
+{'store_id': 'S003', 'store_name': 'Chocolate Store 3', 'city': 'Berlin', 'country': 'France', 'store_type': 'Mall'}
+{'store_id': 'S004', 'store_name': 'Chocolate Store 4', 'city': 'Paris', 'country': 'UK', 'store_type': 'Airport'}
+
+======================================================================
+FILE: calendar.csv
+======================================================================
+File size: 19,615 bytes
+
+Column count: 6
+Columns: ['date', 'year', 'month', 'day', 'week', 'day_of_week']
+
+Data records: 731
+
+COLUMN DATA TYPES (PRELIMINARY):
+date: Date
+year: Integer
+month: Integer
+day: Integer
+week: Integer
+day_of_week: Integer
+
+FIRST 4 DATA RECORDS:
+{'date': '2023-01-01', 'year': '2023', 'month': '1', 'day': '1', 'week': '52', 'day_of_week': '6'}
+{'date': '2023-01-02', 'year': '2023', 'month': '1', 'day': '2', 'week': '1', 'day_of_week': '0'}
+{'date': '2023-01-03', 'year': '2023', 'month': '1', 'day': '3', 'week': '1', 'day_of_week': '1'}
+{'date': '2023-01-04', 'year': '2023', 'month': '1', 'day': '4', 'week': '1', 'day_of_week': '2'}

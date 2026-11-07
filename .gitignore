@@ -1,0 +1,31 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Generated system files
+*.swp
+*.swo
