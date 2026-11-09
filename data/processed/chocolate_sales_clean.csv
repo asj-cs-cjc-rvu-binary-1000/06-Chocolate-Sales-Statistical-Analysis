@@ -1,0 +1,993 @@
+order_id,order_date,product_id,store_id,customer_id,quantity,unit_price,discount,revenue,cost,profit,product_name,brand,category,cocoa_percent,weight_g,age,gender,loyalty_member,join_date,store_name,city,country,store_type
+0RD00987232,2024-03-02,P0138,S054,C013030,2,13.15,0.0,26.3,17.4,8.9,Milk Chocolate 80%,Mars,White,80.0,120.0,30,Female,1,2022-11-27,Chocolate Store 54,London,Canada,Online
+0RD00079955,2024-03-26,P0127,S096,C037848,4,4.9,0.2,15.68,10.22,5.46,Praline Chocolate 90%,Mars,White,90.0,80.0,43,Female,1,2025-05-30,Chocolate Store 96,Berlin,UK,Mall
+0RD00567131,2023-02-20,P0117,S014,C006775,1,14.47,0.0,14.47,8.29,6.18,Dark Chocolate 50%,Mars,White,50.0,50.0,27,Male,1,2021-10-27,Chocolate Store 14,London,Australia,Airport
+0RD00500892,2023-07-12,P0149,S090,C039653,3,5.63,0.1,15.2,9.84,5.36,Milk Chocolate 80%,Lindt,Dark,80.0,80.0,40,Male,1,2024-09-07,Chocolate Store 90,Toronto,France,Online
+0RD00055400,2024-02-12,P0135,S082,C033500,1,11.77,0.0,11.77,6.12,5.65,White Chocolate 80%,Godiva,Praline,80.0,200.0,46,Male,0,2022-01-22,Chocolate Store 82,Toronto,Australia,Mall
+0RD00135050,2023-08-30,P0142,S044,C014588,5,7.78,0.0,38.9,22.52,16.38,Praline Chocolate 70%,Lindt,Dark,70.0,200.0,18,Female,0,2024-04-26,Chocolate Store 44,Paris,UK,Airport
+0RD00733379,2023-11-13,P0024,S085,C005965,5,11.62,0.15,49.38,31.54,17.85,Milk Chocolate 70%,Cadbury,White,70.0,100.0,40,Male,1,2021-03-28,Chocolate Store 85,Melbourne,USA,Online
+0RD00732058,2024-09-07,P0128,S081,C039080,5,14.22,0.0,71.1,45.26,25.84,White Chocolate 80%,Godiva,Dark,80.0,50.0,22,Female,1,2021-07-16,Chocolate Store 81,Melbourne,Canada,Airport
+0RD00051334,2023-06-09,P0026,S050,C015274,2,9.11,0.0,18.22,12.65,5.57,Dark Chocolate 90%,Godiva,Praline,90.0,120.0,32,Male,0,2024-10-11,Chocolate Store 50,New York,Canada,Airport
+0RD00731480,2024-11-15,P0159,S005,C029801,4,11.25,0.0,45.0,29.45,15.55,Truffle Chocolate 70%,Godiva,Milk,70.0,100.0,69,Female,0,2023-05-09,Chocolate Store 5,Sydney,USA,Online
+0RD00399759,2023-11-13,P0017,S005,C040563,1,3.19,0.15,2.71,1.56,1.15,White Chocolate 50%,Hershey,Milk,50.0,120.0,41,Female,1,2022-06-08,Chocolate Store 5,Sydney,USA,Online
+0RD00401398,2023-02-28,P0135,S059,C004794,3,14.85,0.15,37.87,24.87,13.0,White Chocolate 80%,Godiva,Praline,80.0,200.0,23,Female,1,2023-05-21,Chocolate Store 59,New York,Germany,Airport
+0RD00855486,2023-04-15,P0143,S047,C004492,5,9.53,0.1,42.88,28.69,14.19,White Chocolate 90%,Godiva,Milk,90.0,50.0,65,Male,1,2022-04-30,Chocolate Store 47,New York,UK,Mall
+0RD00858885,2023-01-13,P0149,S008,C036167,3,9.6,0.2,23.04,12.93,10.11,Milk Chocolate 80%,Lindt,Dark,80.0,80.0,64,Female,1,2024-08-21,Chocolate Store 8,Paris,UK,Mall
+0RD00503248,2024-03-21,P0015,S021,C009348,2,12.57,0.0,25.14,16.16,8.98,Dark Chocolate 50%,Ferrero,Praline,50.0,50.0,38,Male,1,2021-03-26,Chocolate Store 21,Melbourne,USA,Mall
+0RD00864742,2024-12-31,P0158,S057,C029384,1,7.41,0.0,7.41,4.16,3.25,Truffle Chocolate 80%,Godiva,Dark,80.0,100.0,61,Male,1,2022-06-29,Chocolate Store 57,London,UK,Airport
+0RD00035033,2023-03-03,P0174,S028,C002317,1,8.37,0.2,6.7,4.55,2.14,Dark Chocolate 90%,Lindt,White,90.0,100.0,61,Female,0,2023-01-03,Chocolate Store 28,London,Australia,Mall
+0RD00995704,2024-09-15,P0104,S043,C033610,3,9.35,0.1,25.24,14.89,10.36,Praline Chocolate 80%,Godiva,Truffle,80.0,120.0,63,Male,0,2024-10-19,Chocolate Store 43,London,Germany,Airport
+0RD00376762,2024-12-24,P0116,S040,C042490,4,7.3,0.0,29.2,14.68,14.52,Dark Chocolate 70%,Ferrero,Dark,70.0,100.0,44,Male,0,2024-09-15,Chocolate Store 40,Melbourne,Canada,Airport
+0RD00811354,2023-12-22,P0094,S026,C033464,5,8.94,0.1,40.23,27.29,12.94,Dark Chocolate 50%,Ferrero,Dark,50.0,200.0,70,Male,0,2024-12-30,Chocolate Store 26,London,USA,Online
+0RD00577746,2023-06-08,P0046,S007,C039395,4,12.27,0.2,39.26,24.48,14.79,Dark Chocolate 50%,Cadbury,White,50.0,120.0,46,Female,1,2025-04-03,Chocolate Store 7,Sydney,France,Mall
+0RD00659807,2023-06-17,P0086,S097,C017697,4,10.62,0.1,38.23,24.86,13.37,Truffle Chocolate 80%,Cadbury,Truffle,80.0,120.0,27,Female,0,2025-05-18,Chocolate Store 97,Toronto,Canada,Mall
+0RD00219340,2023-11-29,P0150,S092,C046024,5,9.8,0.15,41.65,20.93,20.72,Milk Chocolate 50%,Hershey,Praline,50.0,100.0,57,Female,0,2022-03-11,Chocolate Store 92,London,UK,Airport
+0RD00979756,2023-03-06,P0066,S091,C020626,4,9.13,0.0,36.52,22.49,14.03,White Chocolate 80%,Ferrero,Praline,80.0,80.0,48,Male,1,2024-07-19,Chocolate Store 91,Sydney,UK,Online
+0RD00625692,2023-06-08,P0019,S015,C013224,2,13.05,0.15,22.19,12.75,9.44,Dark Chocolate 70%,Mars,White,70.0,50.0,61,Female,0,2025-07-11,Chocolate Store 15,Paris,Canada,Airport
+0RD00215340,2024-01-07,P0183,S040,C009452,1,14.19,0.0,14.19,7.62,6.57,White Chocolate 50%,Mars,Praline,50.0,120.0,64,Male,0,2021-04-11,Chocolate Store 40,Melbourne,Canada,Airport
+0RD00443418,2024-05-27,P0034,S062,C037068,5,3.63,0.0,18.15,12.17,5.98,White Chocolate 60%,Godiva,Praline,60.0,100.0,48,Male,0,2024-06-08,Chocolate Store 62,Toronto,Canada,Airport
+0RD00980329,2023-10-30,P0179,S083,C007126,5,14.45,0.0,72.25,49.52,22.73,White Chocolate 90%,Ferrero,Dark,90.0,100.0,50,Female,0,2021-04-22,Chocolate Store 83,Toronto,France,Mall
+0RD00336984,2024-07-25,P0040,S042,C035636,4,9.85,0.0,39.4,24.55,14.85,Dark Chocolate 60%,Mars,Praline,60.0,80.0,26,Female,0,2024-12-23,Chocolate Store 42,Paris,USA,Online
+0RD00518813,2024-07-23,P0105,S074,C044494,2,6.8,0.2,10.88,5.68,5.2,Milk Chocolate 80%,Mars,White,80.0,100.0,70,Female,0,2025-08-01,Chocolate Store 74,Sydney,USA,Online
+0RD00943379,2024-05-31,P0046,S089,C036938,5,12.1,0.0,60.5,32.32,28.18,Dark Chocolate 50%,Cadbury,White,50.0,120.0,46,Male,1,2022-08-21,Chocolate Store 89,Paris,Canada,Online
+0RD00002086,2024-04-08,P0125,S058,C043987,4,11.57,0.15,39.34,20.79,18.55,Milk Chocolate 60%,Lindt,Truffle,60.0,50.0,54,Female,0,2025-01-16,Chocolate Store 58,Paris,USA,Airport
+0RD00663616,2024-02-08,P0194,S010,C003275,3,4.81,0.15,12.27,8.36,3.9,Truffle Chocolate 90%,Godiva,Milk,90.0,200.0,69,Male,0,2023-08-15,Chocolate Store 10,Toronto,UK,Retail
+0RD00677815,2023-01-11,P0179,S015,C016540,3,4.9,0.0,14.7,9.64,5.06,White Chocolate 90%,Ferrero,Dark,90.0,100.0,50,Male,1,2024-08-12,Chocolate Store 15,Paris,Canada,Airport
+0RD00957738,2024-12-07,P0040,S041,C023676,1,4.76,0.2,3.81,2.6,1.21,Dark Chocolate 60%,Mars,Praline,60.0,80.0,54,Female,0,2024-08-30,Chocolate Store 41,London,Germany,Airport
+0RD00543083,2024-02-15,P0033,S013,C030460,2,10.53,0.0,21.06,12.58,8.48,White Chocolate 90%,Hershey,Praline,90.0,120.0,70,Male,0,2025-03-29,Chocolate Store 13,Melbourne,France,Retail
+0RD00529928,2024-06-13,P0010,S089,C041791,3,5.65,0.2,13.56,9.0,4.56,Milk Chocolate 70%,Hershey,Truffle,70.0,50.0,62,Female,0,2025-01-03,Chocolate Store 89,Paris,Canada,Online
+0RD00066337,2024-07-06,P0196,S095,C018988,3,5.37,0.0,16.11,8.28,7.83,White Chocolate 60%,Mars,Praline,60.0,80.0,64,Male,0,2023-01-18,Chocolate Store 95,Toronto,Canada,Mall
+0RD00272967,2024-10-08,P0156,S061,C013453,4,6.5,0.2,20.8,13.06,7.74,Dark Chocolate 60%,Cadbury,White,60.0,200.0,38,Female,0,2021-05-27,Chocolate Store 61,London,France,Online
+0RD00876376,2024-10-29,P0184,S096,C018586,1,3.51,0.0,3.51,1.79,1.72,Dark Chocolate 60%,Ferrero,Truffle,60.0,50.0,63,Female,1,2025-12-22,Chocolate Store 96,Berlin,UK,Mall
+0RD00443182,2023-10-30,P0128,S055,C012819,4,12.92,0.0,51.68,29.02,22.66,White Chocolate 80%,Godiva,Dark,80.0,50.0,39,Male,1,2023-01-18,Chocolate Store 55,New York,France,Retail
+0RD00038748,2023-03-16,P0097,S017,C047847,2,4.86,0.0,9.72,5.45,4.27,Milk Chocolate 80%,Godiva,Milk,80.0,50.0,52,Male,0,2025-06-17,Chocolate Store 17,Melbourne,UK,Airport
+0RD00244519,2024-05-23,P0092,S081,C027364,2,6.73,0.1,12.11,7.34,4.78,Truffle Chocolate 60%,Lindt,Praline,60.0,50.0,25,Female,0,2022-02-08,Chocolate Store 81,Melbourne,Canada,Airport
+0RD00321942,2023-07-30,P0015,S093,C017437,4,3.13,0.0,12.52,7.66,4.86,Dark Chocolate 50%,Ferrero,Praline,50.0,50.0,59,Female,1,2022-10-21,Chocolate Store 93,Sydney,UK,Airport
+0RD00212424,2024-05-25,P0103,S033,C037334,5,6.08,0.0,30.4,19.14,11.26,Praline Chocolate 50%,Ferrero,White,50.0,100.0,51,Male,1,2025-06-13,Chocolate Store 33,Toronto,Australia,Retail
+0RD00684488,2024-08-10,P0135,S084,C020307,3,6.14,0.0,18.42,12.52,5.9,White Chocolate 80%,Godiva,Praline,80.0,200.0,51,Male,0,2022-03-16,Chocolate Store 84,Toronto,France,Airport
+0RD00460022,2024-05-24,P0136,S098,C041299,3,12.88,0.0,38.64,24.51,14.13,Dark Chocolate 90%,Mars,Milk,90.0,200.0,20,Female,0,2021-10-14,Chocolate Store 98,New York,Australia,Online
+0RD00330798,2024-07-16,P0036,S028,C016952,1,7.71,0.0,7.71,5.23,2.48,Dark Chocolate 50%,Lindt,Praline,50.0,50.0,68,Female,1,2025-04-09,Chocolate Store 28,London,Australia,Mall
+0RD00820288,2023-07-30,P0199,S062,C001734,4,4.94,0.15,16.8,10.31,6.49,Dark Chocolate 70%,Hershey,White,70.0,80.0,70,Female,1,2024-02-14,Chocolate Store 62,Toronto,Canada,Airport
+0RD00878903,2024-12-19,P0173,S075,C031497,4,3.63,0.0,14.52,8.77,5.75,Dark Chocolate 60%,Lindt,Praline,60.0,50.0,54,Male,1,2025-07-07,Chocolate Store 75,Sydney,France,Airport
+0RD00507015,2024-07-12,P0200,S060,C046349,4,4.98,0.0,19.92,12.13,7.79,Milk Chocolate 50%,Cadbury,Milk,50.0,100.0,56,Male,0,2021-03-28,Chocolate Store 60,Paris,Australia,Airport
+0RD00063469,2024-07-15,P0194,S020,C048813,2,10.53,0.0,21.06,11.02,10.04,Truffle Chocolate 90%,Godiva,Milk,90.0,200.0,47,Male,1,2025-07-31,Chocolate Store 20,Toronto,Germany,Retail
+0RD00568671,2024-09-08,P0145,S057,C006981,3,9.71,0.0,29.13,19.28,9.85,White Chocolate 70%,Godiva,Praline,70.0,50.0,39,Female,1,2021-10-24,Chocolate Store 57,London,UK,Airport
+0RD00855772,2024-07-12,P0155,S034,C026419,5,8.76,0.0,43.8,24.34,19.46,Dark Chocolate 80%,Mars,Truffle,80.0,50.0,35,Male,0,2022-03-11,Chocolate Store 34,Paris,Canada,Mall
+0RD00606373,2023-01-26,P0133,S014,C000576,4,6.62,0.0,26.48,15.17,11.31,Milk Chocolate 90%,Lindt,Dark,90.0,100.0,45,Female,0,2026-03-02,Chocolate Store 14,London,Australia,Airport
+0RD00358901,2023-05-03,P0108,S061,C001349,5,8.53,0.0,42.65,27.3,15.35,Dark Chocolate 60%,Lindt,Truffle,60.0,100.0,70,Male,1,2024-05-30,Chocolate Store 61,London,France,Online
+0RD00178393,2024-03-09,P0176,S037,C015021,3,4.41,0.0,13.23,8.77,4.46,Truffle Chocolate 90%,Lindt,Praline,90.0,50.0,24,Male,0,2023-09-22,Chocolate Store 37,London,Canada,Online
+0RD00921915,2023-11-17,P0130,S018,C002424,5,6.86,0.1,30.87,18.77,12.1,Praline Chocolate 70%,Ferrero,Milk,70.0,100.0,33,Female,1,2021-04-04,Chocolate Store 18,London,Germany,Retail
+0RD00348366,2024-03-18,P0188,S039,C037882,1,13.42,0.0,13.42,8.0,5.42,Praline Chocolate 50%,Cadbury,Dark,50.0,120.0,48,Male,1,2021-03-07,Chocolate Store 39,New York,UK,Mall
+0RD00377483,2024-02-04,P0048,S063,C004115,4,6.92,0.0,27.68,15.41,12.27,Praline Chocolate 90%,Cadbury,Milk,90.0,50.0,45,Male,0,2025-01-10,Chocolate Store 63,Sydney,Australia,Retail
+0RD00044793,2024-12-29,P0102,S048,C036295,1,13.82,0.0,13.82,9.01,4.81,Dark Chocolate 50%,Cadbury,Truffle,50.0,50.0,30,Male,0,2023-07-23,Chocolate Store 48,Toronto,Canada,Airport
+0RD00690928,2024-05-24,P0145,S062,C027946,1,8.79,0.1,7.91,5.32,2.59,White Chocolate 70%,Godiva,Praline,70.0,50.0,38,Male,0,2025-04-28,Chocolate Store 62,Toronto,Canada,Airport
+0RD00050314,2024-02-15,P0159,S070,C024753,4,10.59,0.0,42.36,25.85,16.51,Truffle Chocolate 70%,Godiva,Milk,70.0,100.0,55,Female,1,2024-08-07,Chocolate Store 70,Toronto,Canada,Online
+0RD00780882,2024-01-14,P0166,S007,C019272,1,14.78,0.0,14.78,8.89,5.89,Milk Chocolate 90%,Mars,White,90.0,80.0,54,Female,1,2025-07-16,Chocolate Store 7,Sydney,France,Mall
+0RD00018959,2024-03-01,P0148,S066,C042229,3,11.17,0.1,30.16,18.45,11.71,White Chocolate 50%,Hershey,Dark,50.0,200.0,60,Male,1,2022-10-03,Chocolate Store 66,Sydney,USA,Online
+0RD00804704,2024-04-30,P0147,S091,C032823,3,5.74,0.2,13.78,7.26,6.52,Dark Chocolate 60%,Mars,White,60.0,120.0,49,Female,1,2025-07-04,Chocolate Store 91,Sydney,UK,Online
+0RD00008986,2023-02-01,P0165,S035,C017359,1,14.28,0.2,11.42,6.28,5.14,Praline Chocolate 70%,Godiva,Dark,70.0,50.0,40,Female,1,2025-06-14,Chocolate Store 35,Melbourne,USA,Mall
+0RD00099902,2024-03-18,P0095,S019,C042453,2,5.02,0.1,9.04,4.88,4.16,Praline Chocolate 50%,Ferrero,Praline,50.0,80.0,22,Male,0,2023-02-14,Chocolate Store 19,New York,Germany,Airport
+0RD00655319,2023-12-17,P0181,S090,C042692,3,4.55,0.0,13.65,6.98,6.67,Praline Chocolate 50%,Ferrero,Milk,50.0,50.0,20,Female,0,2023-08-31,Chocolate Store 90,Toronto,France,Online
+0RD00224929,2023-01-24,P0115,S063,C004341,3,8.15,0.0,24.45,15.55,8.9,Milk Chocolate 90%,Hershey,Milk,90.0,50.0,26,Female,1,2024-04-07,Chocolate Store 63,Sydney,Australia,Retail
+0RD00926626,2023-03-31,P0073,S073,C018674,1,14.94,0.0,14.94,8.14,6.8,Milk Chocolate 50%,Mars,Praline,50.0,80.0,62,Male,0,2022-04-27,Chocolate Store 73,Toronto,UK,Online
+0RD00067899,2024-12-23,P0124,S045,C026115,2,14.46,0.0,28.92,18.08,10.84,Truffle Chocolate 80%,Lindt,Praline,80.0,100.0,31,Male,0,2022-06-11,Chocolate Store 45,Sydney,Canada,Online
+0RD00068879,2024-06-23,P0111,S045,C037385,5,6.69,0.1,30.11,20.95,9.15,White Chocolate 80%,Cadbury,Dark,80.0,50.0,24,Male,0,2021-08-26,Chocolate Store 45,Sydney,Canada,Online
+0RD00904485,2023-09-08,P0147,S070,C018560,2,10.18,0.0,20.36,10.78,9.58,Dark Chocolate 60%,Mars,White,60.0,120.0,25,Female,0,2024-02-27,Chocolate Store 70,Toronto,Canada,Online
+0RD00244300,2023-03-14,P0032,S070,C004612,3,8.8,0.0,26.4,18.31,8.09,Praline Chocolate 70%,Ferrero,Dark,70.0,200.0,35,Female,0,2025-01-05,Chocolate Store 70,Toronto,Canada,Online
+0RD00912238,2024-08-07,P0176,S014,C030804,3,12.4,0.0,37.2,20.01,17.19,Truffle Chocolate 90%,Lindt,Praline,90.0,50.0,33,Female,1,2022-10-07,Chocolate Store 14,London,Australia,Airport
+0RD00803685,2023-12-30,P0143,S080,C024681,4,7.64,0.15,25.98,14.73,11.25,White Chocolate 90%,Godiva,Milk,90.0,50.0,37,Female,1,2023-08-09,Chocolate Store 80,Sydney,Australia,Online
+0RD00444937,2023-01-19,P0060,S082,C007604,2,3.9,0.0,7.8,4.44,3.36,Milk Chocolate 70%,Mars,Praline,70.0,120.0,30,Male,1,2023-09-20,Chocolate Store 82,Toronto,Australia,Mall
+0RD00895959,2023-12-10,P0184,S024,C021707,2,14.73,0.0,29.46,18.87,10.59,Dark Chocolate 60%,Ferrero,Truffle,60.0,50.0,70,Male,1,2025-10-16,Chocolate Store 24,Paris,France,Online
+0RD00858829,2023-10-04,P0043,S087,C049929,3,10.01,0.1,27.03,16.43,10.6,Truffle Chocolate 90%,Lindt,Praline,90.0,200.0,61,Female,0,2022-03-26,Chocolate Store 87,Paris,Germany,Airport
+0RD00575348,2024-05-28,P0063,S055,C043147,4,12.46,0.0,49.84,34.72,15.12,Praline Chocolate 90%,Lindt,White,90.0,100.0,29,Male,1,2025-06-24,Chocolate Store 55,New York,France,Retail
+0RD00464017,2023-11-28,P0011,S021,C004741,4,13.61,0.15,46.27,28.03,18.25,Praline Chocolate 90%,Ferrero,Truffle,90.0,80.0,70,Male,1,2021-05-09,Chocolate Store 21,Melbourne,USA,Mall
+0RD00196830,2024-05-11,P0046,S092,C029677,1,8.37,0.1,7.53,4.13,3.41,Dark Chocolate 50%,Cadbury,White,50.0,120.0,46,Female,0,2025-09-22,Chocolate Store 92,London,UK,Airport
+0RD00309024,2023-01-12,P0025,S080,C015141,5,5.56,0.15,23.63,15.75,7.88,Praline Chocolate 90%,Lindt,Truffle,90.0,120.0,25,Male,0,2024-07-03,Chocolate Store 80,Sydney,Australia,Online
+0RD00347382,2024-07-21,P0193,S011,C024612,2,8.78,0.1,15.8,8.97,6.83,White Chocolate 90%,Cadbury,Dark,90.0,80.0,25,Male,0,2023-02-08,Chocolate Store 11,New York,USA,Retail
+0RD00310805,2024-03-20,P0080,S091,C022897,1,14.02,0.15,11.92,7.36,4.56,Praline Chocolate 70%,Hershey,White,70.0,200.0,21,Male,0,2026-01-24,Chocolate Store 91,Sydney,UK,Online
+0RD00837524,2024-05-21,P0120,S082,C021085,5,9.62,0.0,48.1,29.42,18.68,Milk Chocolate 90%,Mars,Dark,90.0,100.0,18,Female,1,2025-05-15,Chocolate Store 82,Toronto,Australia,Mall
+0RD00268241,2024-06-25,P0092,S054,C037864,3,7.16,0.2,17.18,11.89,5.29,Truffle Chocolate 60%,Lindt,Praline,60.0,50.0,62,Male,0,2023-03-26,Chocolate Store 54,London,Canada,Online
+0RD00366138,2023-12-04,P0194,S009,C047212,5,13.22,0.0,66.1,34.33,31.77,Truffle Chocolate 90%,Godiva,Milk,90.0,200.0,67,Male,1,2022-03-17,Chocolate Store 9,Paris,France,Online
+0RD00449597,2023-10-08,P0013,S009,C039205,4,6.01,0.2,19.23,11.31,7.92,White Chocolate 70%,Godiva,Truffle,70.0,120.0,33,Male,0,2025-05-19,Chocolate Store 9,Paris,France,Online
+0RD00586918,2024-06-03,P0071,S016,C036737,2,7.34,0.2,11.74,7.28,4.46,Praline Chocolate 70%,Cadbury,Dark,70.0,100.0,63,Female,1,2021-05-23,Chocolate Store 16,New York,USA,Mall
+0RD00980754,2023-10-19,P0194,S028,C046978,3,10.45,0.0,31.35,19.21,12.14,Truffle Chocolate 90%,Godiva,Milk,90.0,200.0,35,Female,1,2023-04-23,Chocolate Store 28,London,Australia,Mall
+0RD00051663,2024-09-19,P0029,S088,C002983,1,6.58,0.0,6.58,4.35,2.23,Milk Chocolate 60%,Lindt,Milk,60.0,100.0,50,Male,0,2025-02-04,Chocolate Store 88,Toronto,USA,Retail
+0RD00892874,2023-08-17,P0027,S064,C045987,2,9.73,0.0,19.46,12.17,7.29,White Chocolate 60%,Mars,White,60.0,200.0,23,Male,1,2025-01-14,Chocolate Store 64,Berlin,Germany,Airport
+0RD00576799,2024-03-30,P0172,S057,C041226,4,12.53,0.0,50.12,32.32,17.8,Truffle Chocolate 80%,Lindt,Dark,80.0,200.0,38,Male,0,2022-11-07,Chocolate Store 57,London,UK,Airport
+0RD00480867,2023-05-23,P0099,S017,C029219,1,3.04,0.0,3.04,1.95,1.09,White Chocolate 80%,Lindt,White,80.0,120.0,34,Female,0,2025-11-29,Chocolate Store 17,Melbourne,UK,Airport
+0RD00550671,2023-10-03,P0142,S062,C009305,1,7.82,0.0,7.82,4.13,3.69,Praline Chocolate 70%,Lindt,Dark,70.0,200.0,52,Female,0,2022-02-10,Chocolate Store 62,Toronto,Canada,Airport
+0RD00584292,2024-06-14,P0058,S021,C049693,1,6.06,0.0,6.06,4.15,1.91,Truffle Chocolate 80%,Lindt,Dark,80.0,120.0,62,Male,1,2023-12-06,Chocolate Store 21,Melbourne,USA,Mall
+0RD00362132,2023-03-06,P0174,S055,C049717,1,6.66,0.0,6.66,3.86,2.8,Dark Chocolate 90%,Lindt,White,90.0,100.0,48,Female,0,2021-05-05,Chocolate Store 55,New York,France,Retail
+0RD00033320,2024-08-04,P0130,S034,C010902,5,4.29,0.15,18.23,9.6,8.64,Praline Chocolate 70%,Ferrero,Milk,70.0,100.0,28,Male,1,2023-09-06,Chocolate Store 34,Paris,Canada,Mall
+0RD00215538,2024-08-26,P0024,S062,C042534,4,5.54,0.1,19.94,10.95,9.0,Milk Chocolate 70%,Cadbury,White,70.0,100.0,21,Male,1,2023-11-24,Chocolate Store 62,Toronto,Canada,Airport
+0RD00126315,2024-05-15,P0055,S001,C002767,1,6.39,0.1,5.75,3.0,2.75,Milk Chocolate 60%,Lindt,Milk,60.0,100.0,50,Female,0,2021-05-17,Chocolate Store 1,New York,Canada,Retail
+0RD00460374,2024-02-19,P0130,S045,C019210,1,7.41,0.1,6.67,4.43,2.24,Praline Chocolate 70%,Ferrero,Milk,70.0,100.0,57,Male,0,2021-04-01,Chocolate Store 45,Sydney,Canada,Online
+0RD00489380,2023-08-15,P0011,S011,C026096,1,12.06,0.0,12.06,6.23,5.83,Praline Chocolate 90%,Ferrero,Truffle,90.0,80.0,35,Female,0,2023-02-22,Chocolate Store 11,New York,USA,Retail
+0RD00063225,2023-06-28,P0162,S004,C004790,2,11.49,0.1,20.68,11.81,8.87,Dark Chocolate 60%,Cadbury,White,60.0,100.0,40,Female,0,2025-08-20,Chocolate Store 4,Paris,UK,Airport
+0RD00965340,2024-07-28,P0131,S044,C030122,1,9.3,0.2,7.44,4.06,3.38,Dark Chocolate 80%,Hershey,Dark,80.0,80.0,56,Male,0,2023-05-12,Chocolate Store 44,Paris,UK,Airport
+0RD00779636,2024-07-21,P0045,S035,C031451,2,6.37,0.2,10.19,5.87,4.32,Milk Chocolate 80%,Godiva,Truffle,80.0,50.0,69,Male,1,2021-03-17,Chocolate Store 35,Melbourne,USA,Mall
+0RD00695826,2023-02-24,P0082,S067,C000097,2,7.56,0.0,15.12,8.94,6.18,Praline Chocolate 60%,Ferrero,Milk,60.0,120.0,65,Male,0,2024-06-04,Chocolate Store 67,Berlin,UK,Online
+0RD00561881,2023-02-13,P0145,S080,C033095,1,8.15,0.1,7.34,5.04,2.29,White Chocolate 70%,Godiva,Praline,70.0,50.0,27,Male,1,2022-11-10,Chocolate Store 80,Sydney,Australia,Online
+0RD00279995,2023-05-13,P0062,S073,C000254,5,14.98,0.1,67.41,35.52,31.89,Truffle Chocolate 80%,Mars,Dark,80.0,120.0,29,Female,0,2025-09-07,Chocolate Store 73,Toronto,UK,Online
+0RD00876145,2023-02-08,P0033,S012,C016575,3,4.5,0.0,13.5,8.55,4.95,White Chocolate 90%,Hershey,Praline,90.0,120.0,39,Female,0,2022-07-17,Chocolate Store 12,London,France,Mall
+0RD00571750,2023-06-14,P0198,S099,C031654,1,12.35,0.1,11.12,7.33,3.79,Dark Chocolate 90%,Ferrero,White,90.0,80.0,56,Female,1,2025-07-01,Chocolate Store 99,Toronto,Australia,Mall
+0RD00435459,2023-02-08,P0169,S008,C043337,2,6.91,0.0,13.82,9.57,4.25,Milk Chocolate 60%,Lindt,White,60.0,80.0,55,Male,0,2021-09-09,Chocolate Store 8,Paris,UK,Mall
+0RD00256148,2023-04-20,P0004,S086,C022101,5,7.6,0.0,38.0,20.3,17.7,Milk Chocolate 50%,Mars,Praline,50.0,80.0,30,Female,0,2024-07-10,Chocolate Store 86,Berlin,Australia,Mall
+0RD00527944,2024-02-20,P0178,S048,C023466,1,10.98,0.0,10.98,6.43,4.55,Praline Chocolate 80%,Hershey,Truffle,80.0,200.0,27,Male,0,2025-10-08,Chocolate Store 48,Toronto,Canada,Airport
+0RD00330302,2023-09-07,P0069,S083,C004062,2,12.9,0.0,25.8,13.9,11.9,White Chocolate 90%,Cadbury,Milk,90.0,120.0,28,Female,1,2023-04-12,Chocolate Store 83,Toronto,France,Mall
+0RD00872560,2023-08-28,P0106,S032,C038211,5,6.54,0.0,32.7,19.37,13.33,Milk Chocolate 50%,Lindt,White,50.0,50.0,36,Male,1,2021-12-29,Chocolate Store 32,Paris,UK,Mall
+0RD00069255,2023-07-26,P0073,S065,C031517,2,4.46,0.0,8.92,5.65,3.27,Milk Chocolate 50%,Mars,Praline,50.0,80.0,70,Female,1,2024-10-11,Chocolate Store 65,New York,Australia,Retail
+0RD00678876,2024-07-23,P0067,S039,C021452,1,9.08,0.0,9.08,6.34,2.74,Praline Chocolate 80%,Mars,Praline,80.0,120.0,55,Female,1,2024-03-19,Chocolate Store 39,New York,UK,Mall
+0RD00275406,2024-10-01,P0145,S041,C000355,1,4.07,0.15,3.46,1.88,1.58,White Chocolate 70%,Godiva,Praline,70.0,50.0,68,Male,1,2023-05-26,Chocolate Store 41,London,Germany,Airport
+0RD00943252,2023-05-09,P0001,S068,C007553,1,4.26,0.2,3.41,2.27,1.14,White Chocolate 80%,Mars,Truffle,80.0,120.0,19,Female,0,2021-08-28,Chocolate Store 68,Melbourne,UK,Online
+0RD00587306,2023-03-27,P0121,S055,C037579,1,8.58,0.2,6.86,4.1,2.76,White Chocolate 60%,Mars,Praline,60.0,50.0,53,Female,0,2022-10-11,Chocolate Store 55,New York,France,Retail
+0RD00889146,2023-08-10,P0095,S048,C039690,4,11.46,0.0,45.84,25.68,20.16,Praline Chocolate 50%,Ferrero,Praline,50.0,80.0,70,Male,1,2025-11-19,Chocolate Store 48,Toronto,Canada,Airport
+0RD00379067,2024-09-09,P0173,S049,C014865,5,9.91,0.0,49.55,28.36,21.19,Dark Chocolate 60%,Lindt,Praline,60.0,50.0,28,Female,0,2022-04-11,Chocolate Store 49,Berlin,France,Mall
+0RD00115772,2024-06-25,P0128,S072,C035110,4,13.5,0.0,54.0,31.55,22.45,White Chocolate 80%,Godiva,Dark,80.0,50.0,55,Male,0,2024-07-02,Chocolate Store 72,New York,France,Mall
+0RD00517432,2023-08-31,P0098,S073,C047507,2,6.77,0.2,10.83,6.35,4.49,Truffle Chocolate 50%,Mars,Milk,50.0,200.0,67,Female,0,2025-08-21,Chocolate Store 73,Toronto,UK,Online
+0RD00265974,2023-11-03,P0184,S028,C011675,4,11.91,0.0,47.64,31.26,16.38,Dark Chocolate 60%,Ferrero,Truffle,60.0,50.0,22,Male,1,2021-08-06,Chocolate Store 28,London,Australia,Mall
+0RD00675595,2024-01-24,P0114,S070,C037932,1,13.43,0.15,11.42,6.59,4.83,Milk Chocolate 90%,Hershey,Dark,90.0,80.0,61,Female,1,2024-03-21,Chocolate Store 70,Toronto,Canada,Online
+0RD00400808,2023-04-18,P0146,S074,C030708,3,6.35,0.15,16.19,10.9,5.29,White Chocolate 50%,Mars,Dark,50.0,50.0,63,Male,0,2022-07-10,Chocolate Store 74,Sydney,USA,Online
+0RD00565511,2023-12-11,P0142,S060,C022682,3,3.77,0.0,11.31,7.57,3.74,Praline Chocolate 70%,Lindt,Dark,70.0,200.0,70,Male,1,2024-12-04,Chocolate Store 60,Paris,Australia,Airport
+0RD00100076,2023-02-19,P0078,S032,C025743,5,3.93,0.0,19.65,12.43,7.22,Dark Chocolate 60%,Cadbury,White,60.0,120.0,68,Female,0,2022-01-09,Chocolate Store 32,Paris,UK,Mall
+0RD00701083,2023-12-24,P0104,S003,C036944,3,11.83,0.15,30.17,19.14,11.03,Praline Chocolate 80%,Godiva,Truffle,80.0,120.0,42,Male,0,2025-02-10,Chocolate Store 3,Berlin,France,Mall
+0RD00103661,2023-12-23,P0035,S087,C015562,4,4.34,0.0,17.36,9.97,7.39,White Chocolate 70%,Hershey,Dark,70.0,200.0,23,Male,1,2022-09-20,Chocolate Store 87,Paris,Germany,Airport
+0RD00172272,2024-05-19,P0129,S005,C027162,2,4.56,0.0,9.12,4.65,4.47,Truffle Chocolate 90%,Cadbury,White,90.0,80.0,59,Female,1,2023-09-07,Chocolate Store 5,Sydney,USA,Online
+0RD00331228,2023-03-05,P0171,S070,C027971,4,6.71,0.2,21.47,14.65,6.82,Dark Chocolate 50%,Mars,Dark,50.0,50.0,35,Male,0,2025-08-15,Chocolate Store 70,Toronto,Canada,Online
+0RD00259150,2023-07-08,P0072,S055,C027551,1,8.21,0.1,7.39,4.51,2.87,Truffle Chocolate 90%,Ferrero,White,90.0,100.0,30,Male,1,2025-12-19,Chocolate Store 55,New York,France,Retail
+0RD00938627,2024-08-20,P0072,S067,C037810,5,6.86,0.1,30.87,18.72,12.15,Truffle Chocolate 90%,Ferrero,White,90.0,100.0,19,Female,1,2025-06-20,Chocolate Store 67,Berlin,UK,Online
+0RD00606358,2024-01-07,P0003,S090,C023327,2,14.25,0.15,24.22,12.88,11.35,Truffle Chocolate 70%,Hershey,Praline,70.0,120.0,20,Female,0,2024-09-23,Chocolate Store 90,Toronto,France,Online
+0RD00990307,2023-11-19,P0014,S031,C027477,2,11.8,0.0,23.6,12.32,11.28,White Chocolate 60%,Mars,Praline,60.0,100.0,38,Female,1,2022-06-17,Chocolate Store 31,Paris,Australia,Retail
+0RD00829830,2023-01-23,P0009,S092,C012069,5,7.29,0.0,36.45,19.64,16.81,White Chocolate 50%,Ferrero,Dark,50.0,80.0,54,Male,0,2021-12-21,Chocolate Store 92,London,UK,Airport
+0RD00875278,2023-10-16,P0154,S074,C016959,2,10.71,0.0,21.42,11.06,10.36,Milk Chocolate 70%,Ferrero,Praline,70.0,200.0,57,Male,1,2023-01-29,Chocolate Store 74,Sydney,USA,Online
+0RD00256730,2023-07-09,P0108,S042,C032120,1,12.21,0.0,12.21,6.65,5.56,Dark Chocolate 60%,Lindt,Truffle,60.0,100.0,59,Male,0,2024-08-21,Chocolate Store 42,Paris,USA,Online
+0RD00246896,2023-09-03,P0081,S087,C028728,1,6.7,0.0,6.7,3.84,2.86,Truffle Chocolate 90%,Cadbury,White,90.0,100.0,47,Male,1,2026-01-01,Chocolate Store 87,Paris,Germany,Airport
+0RD00040811,2024-10-01,P0076,S028,C036544,1,6.69,0.0,6.69,3.82,2.87,White Chocolate 60%,Mars,Truffle,60.0,50.0,56,Male,1,2021-11-14,Chocolate Store 28,London,Australia,Mall
+0RD00314675,2024-07-13,P0083,S097,C024975,2,6.92,0.0,13.84,9.02,4.82,Truffle Chocolate 70%,Cadbury,White,70.0,200.0,20,Male,1,2021-10-29,Chocolate Store 97,Toronto,Canada,Mall
+0RD00020474,2023-07-15,P0084,S040,C041255,4,4.59,0.0,18.36,10.97,7.39,Truffle Chocolate 50%,Hershey,White,50.0,100.0,52,Female,0,2024-04-28,Chocolate Store 40,Melbourne,Canada,Airport
+0RD00525061,2024-05-24,P0082,S006,C007068,1,10.19,0.2,8.15,4.52,3.63,Praline Chocolate 60%,Ferrero,Milk,60.0,120.0,18,Female,1,2023-01-29,Chocolate Store 6,Toronto,Canada,Online
+0RD00582947,2023-03-24,P0109,S085,C031250,3,12.13,0.0,36.39,20.65,15.74,Truffle Chocolate 50%,Godiva,Dark,50.0,50.0,36,Male,1,2025-07-02,Chocolate Store 85,Melbourne,USA,Online
+0RD00881795,2024-03-17,P0199,S092,C005130,5,6.63,0.15,28.18,16.82,11.36,Dark Chocolate 70%,Hershey,White,70.0,80.0,34,Female,1,2026-03-06,Chocolate Store 92,London,UK,Airport
+0RD00974159,2024-05-29,P0171,S009,C006006,5,12.49,0.0,62.45,40.86,21.59,Dark Chocolate 50%,Mars,Dark,50.0,50.0,55,Male,0,2022-07-08,Chocolate Store 9,Paris,France,Online
+0RD00422759,2023-09-02,P0004,S088,C022295,1,5.58,0.0,5.58,3.66,1.92,Milk Chocolate 50%,Mars,Praline,50.0,80.0,64,Male,1,2022-07-23,Chocolate Store 88,Toronto,USA,Retail
+0RD00673533,2024-08-23,P0010,S078,C036958,4,8.08,0.0,32.32,19.74,12.58,Milk Chocolate 70%,Hershey,Truffle,70.0,50.0,25,Female,1,2021-11-30,Chocolate Store 78,London,UK,Airport
+0RD00826661,2024-02-05,P0170,S069,C023383,3,10.53,0.0,31.59,18.65,12.94,Truffle Chocolate 50%,Ferrero,Praline,50.0,50.0,26,Male,0,2023-08-23,Chocolate Store 69,London,France,Retail
+0RD00733811,2023-02-16,P0046,S068,C034858,5,12.35,0.0,61.75,35.79,25.96,Dark Chocolate 50%,Cadbury,White,50.0,120.0,54,Male,0,2021-05-06,Chocolate Store 68,Melbourne,UK,Online
+0RD00837316,2024-09-02,P0041,S082,C047481,5,9.88,0.15,41.99,21.56,20.43,Milk Chocolate 70%,Cadbury,Praline,70.0,80.0,37,Male,1,2024-07-03,Chocolate Store 82,Toronto,Australia,Mall
+0RD00570267,2023-07-11,P0111,S022,C025178,2,12.83,0.0,25.66,14.86,10.8,White Chocolate 80%,Cadbury,Dark,80.0,50.0,57,Female,0,2022-02-21,Chocolate Store 22,Berlin,USA,Retail
+0RD00006299,2023-09-06,P0101,S093,C018022,5,10.58,0.0,52.9,27.38,25.52,Milk Chocolate 70%,Hershey,Praline,70.0,100.0,29,Female,1,2025-06-01,Chocolate Store 93,Sydney,UK,Airport
+0RD00996136,2023-03-03,P0083,S082,C009871,4,14.89,0.0,59.56,30.37,29.19,Truffle Chocolate 70%,Cadbury,White,70.0,200.0,58,Female,1,2025-12-30,Chocolate Store 82,Toronto,Australia,Mall
+0RD00711525,2023-01-31,P0120,S034,C037792,5,10.63,0.15,45.18,22.65,22.53,Milk Chocolate 90%,Mars,Dark,90.0,100.0,22,Male,1,2022-10-31,Chocolate Store 34,Paris,Canada,Mall
+0RD00959376,2023-03-15,P0154,S019,C040629,4,12.65,0.2,40.48,22.55,17.93,Milk Chocolate 70%,Ferrero,Praline,70.0,200.0,42,Female,0,2021-09-18,Chocolate Store 19,New York,Germany,Airport
+0RD00055071,2023-10-27,P0083,S088,C040979,2,6.7,0.0,13.4,7.57,5.83,Truffle Chocolate 70%,Cadbury,White,70.0,200.0,38,Male,0,2021-03-28,Chocolate Store 88,Toronto,USA,Retail
+0RD00021220,2023-10-15,P0096,S029,C026854,3,12.74,0.2,30.58,17.72,12.85,White Chocolate 50%,Hershey,Truffle,50.0,100.0,62,Female,0,2021-11-06,Chocolate Store 29,Melbourne,Australia,Online
+0RD00430194,2024-03-04,P0092,S073,C028578,3,9.47,0.1,25.57,15.99,9.58,Truffle Chocolate 60%,Lindt,Praline,60.0,50.0,70,Male,0,2023-04-13,Chocolate Store 73,Toronto,UK,Online
+0RD00992620,2024-11-19,P0146,S082,C038973,2,9.63,0.2,15.41,9.81,5.6,White Chocolate 50%,Mars,Dark,50.0,50.0,35,Male,1,2021-03-10,Chocolate Store 82,Toronto,Australia,Mall
+0RD00123552,2024-12-18,P0090,S025,C027423,1,4.74,0.0,4.74,3.29,1.45,Dark Chocolate 50%,Hershey,Praline,50.0,120.0,44,Male,1,2021-07-30,Chocolate Store 25,Sydney,USA,Airport
+0RD00432317,2024-04-24,P0054,S042,C021132,2,13.85,0.0,27.7,14.35,13.35,Truffle Chocolate 80%,Lindt,Praline,80.0,50.0,32,Male,1,2025-09-30,Chocolate Store 42,Paris,USA,Online
+0RD00274637,2023-03-22,P0060,S007,C028588,4,8.52,0.0,34.08,20.2,13.88,Milk Chocolate 70%,Mars,Praline,70.0,120.0,67,Female,0,2022-04-05,Chocolate Store 7,Sydney,France,Mall
+0RD00115139,2024-01-11,P0090,S037,C003435,2,4.6,0.1,8.28,5.79,2.49,Dark Chocolate 50%,Hershey,Praline,50.0,120.0,31,Male,0,2022-04-19,Chocolate Store 37,London,Canada,Online
+0RD00431447,2024-11-04,P0092,S007,C038998,3,10.43,0.0,31.29,16.64,14.65,Truffle Chocolate 60%,Lindt,Praline,60.0,50.0,45,Male,0,2024-12-28,Chocolate Store 7,Sydney,France,Mall
+0RD00092661,2023-01-28,P0086,S079,C023117,2,12.23,0.0,24.46,16.65,7.81,Truffle Chocolate 80%,Cadbury,Truffle,80.0,120.0,44,Male,1,2024-03-06,Chocolate Store 79,New York,USA,Mall
+0RD00450103,2023-09-17,P0123,S081,C034312,4,8.29,0.0,33.16,21.14,12.02,Praline Chocolate 50%,Cadbury,White,50.0,50.0,59,Female,0,2025-03-11,Chocolate Store 81,Melbourne,Canada,Airport
+0RD00348667,2024-07-09,P0079,S090,C022855,1,7.25,0.15,6.16,3.14,3.02,White Chocolate 80%,Hershey,Praline,80.0,50.0,51,Female,1,2021-07-26,Chocolate Store 90,Toronto,France,Online
+0RD00344475,2024-02-13,P0064,S074,C047869,3,13.58,0.0,40.74,26.4,14.34,Dark Chocolate 50%,Ferrero,Milk,50.0,200.0,29,Male,1,2023-06-11,Chocolate Store 74,Sydney,USA,Online
+0RD00483616,2023-02-09,P0076,S041,C022594,2,10.18,0.0,20.36,11.81,8.55,White Chocolate 60%,Mars,Truffle,60.0,50.0,67,Female,1,2024-02-06,Chocolate Store 41,London,Germany,Airport
+0RD00508946,2023-06-06,P0132,S046,C014289,1,5.58,0.0,5.58,3.28,2.3,Dark Chocolate 70%,Lindt,Milk,70.0,50.0,42,Female,0,2022-02-16,Chocolate Store 46,London,Canada,Mall
+0RD00481189,2024-08-07,P0071,S017,C029091,3,11.05,0.2,26.52,17.77,8.75,Praline Chocolate 70%,Cadbury,Dark,70.0,100.0,30,Female,0,2022-09-08,Chocolate Store 17,Melbourne,UK,Airport
+0RD00441452,2023-01-25,P0173,S043,C037645,3,10.9,0.0,32.7,22.31,10.39,Dark Chocolate 60%,Lindt,Praline,60.0,50.0,58,Male,1,2021-08-30,Chocolate Store 43,London,Germany,Airport
+0RD00531788,2024-03-23,P0181,S087,C001820,2,5.64,0.0,11.28,7.27,4.01,Praline Chocolate 50%,Ferrero,Milk,50.0,50.0,51,Female,0,2025-10-28,Chocolate Store 87,Paris,Germany,Airport
+0RD00556419,2023-07-28,P0092,S058,C000702,3,7.62,0.2,18.29,10.47,7.81,Truffle Chocolate 60%,Lindt,Praline,60.0,50.0,63,Female,1,2023-01-18,Chocolate Store 58,Paris,USA,Airport
+0RD00973424,2023-05-30,P0171,S030,C022572,1,5.85,0.1,5.26,2.81,2.46,Dark Chocolate 50%,Mars,Dark,50.0,50.0,34,Female,0,2024-03-07,Chocolate Store 30,New York,UK,Airport
+0RD00386543,2023-06-02,P0049,S073,C045029,3,12.21,0.1,32.97,17.64,15.33,Milk Chocolate 60%,Ferrero,Truffle,60.0,50.0,69,Female,0,2025-07-13,Chocolate Store 73,Toronto,UK,Online
+0RD00025769,2024-01-01,P0163,S008,C012800,3,5.26,0.0,15.78,10.89,4.89,White Chocolate 70%,Lindt,White,70.0,200.0,27,Male,0,2023-01-13,Chocolate Store 8,Paris,UK,Mall
+0RD00470129,2024-11-10,P0098,S079,C032959,2,12.33,0.2,19.73,12.55,7.18,Truffle Chocolate 50%,Mars,Milk,50.0,200.0,52,Female,1,2022-05-07,Chocolate Store 79,New York,USA,Mall
+0RD00931865,2024-09-03,P0047,S068,C035549,3,6.37,0.0,19.11,10.66,8.45,Truffle Chocolate 70%,Mars,Dark,70.0,200.0,67,Female,0,2023-01-17,Chocolate Store 68,Melbourne,UK,Online
+0RD00488470,2023-08-22,P0112,S068,C016365,3,4.59,0.0,13.77,7.07,6.7,Dark Chocolate 50%,Cadbury,Truffle,50.0,80.0,43,Female,0,2023-04-25,Chocolate Store 68,Melbourne,UK,Online
+0RD00200615,2023-11-15,P0056,S082,C018605,1,7.87,0.0,7.87,4.02,3.85,Dark Chocolate 50%,Lindt,Praline,50.0,120.0,56,Female,0,2023-11-17,Chocolate Store 82,Toronto,Australia,Mall
+0RD00694207,2024-02-09,P0094,S019,C039464,1,4.33,0.1,3.9,2.49,1.4,Dark Chocolate 50%,Ferrero,Dark,50.0,200.0,63,Female,1,2024-10-15,Chocolate Store 19,New York,Germany,Airport
+0RD00969440,2024-05-19,P0167,S044,C047281,4,13.43,0.0,53.72,32.72,21.0,Truffle Chocolate 80%,Godiva,White,80.0,200.0,59,Male,0,2022-05-23,Chocolate Store 44,Paris,UK,Airport
+0RD00802842,2023-08-30,P0048,S097,C009346,4,11.57,0.0,46.28,25.95,20.33,Praline Chocolate 90%,Cadbury,Milk,90.0,50.0,47,Male,0,2025-08-06,Chocolate Store 97,Toronto,Canada,Mall
+0RD00098606,2024-08-24,P0024,S073,C027846,1,8.48,0.0,8.48,4.61,3.87,Milk Chocolate 70%,Cadbury,White,70.0,100.0,54,Male,1,2024-01-12,Chocolate Store 73,Toronto,UK,Online
+0RD00303098,2023-10-05,P0045,S058,C027722,4,12.74,0.0,50.96,28.14,22.82,Milk Chocolate 80%,Godiva,Truffle,80.0,50.0,69,Male,1,2024-08-21,Chocolate Store 58,Paris,USA,Airport
+0RD00765404,2023-06-29,P0076,S079,C041878,4,4.57,0.2,14.62,8.37,6.26,White Chocolate 60%,Mars,Truffle,60.0,50.0,35,Male,0,2025-10-27,Chocolate Store 79,New York,USA,Mall
+0RD00727933,2024-09-20,P0039,S010,C014990,3,3.11,0.0,9.33,5.47,3.86,Truffle Chocolate 90%,Ferrero,White,90.0,50.0,69,Female,1,2023-06-08,Chocolate Store 10,Toronto,UK,Retail
+0RD00519049,2023-02-23,P0041,S043,C008533,3,5.73,0.0,17.19,10.47,6.72,Milk Chocolate 70%,Cadbury,Praline,70.0,80.0,57,Female,0,2021-09-05,Chocolate Store 43,London,Germany,Airport
+0RD00538357,2024-06-18,P0072,S049,C014135,5,5.6,0.0,28.0,17.62,10.38,Truffle Chocolate 90%,Ferrero,White,90.0,100.0,27,Female,1,2022-08-07,Chocolate Store 49,Berlin,France,Mall
+0RD00442080,2023-06-05,P0135,S064,C044996,3,12.9,0.0,38.7,24.96,13.74,White Chocolate 80%,Godiva,Praline,80.0,200.0,26,Female,0,2024-12-21,Chocolate Store 64,Berlin,Germany,Airport
+0RD00421034,2023-07-15,P0197,S075,C045624,5,11.13,0.0,55.65,35.22,20.43,Truffle Chocolate 90%,Hershey,Truffle,90.0,120.0,62,Female,0,2023-04-26,Chocolate Store 75,Sydney,France,Airport
+0RD00185499,2024-12-31,P0091,S005,C040368,2,9.01,0.15,15.32,10.66,4.66,Dark Chocolate 60%,Cadbury,Dark,60.0,200.0,51,Male,0,2023-04-02,Chocolate Store 5,Sydney,USA,Online
+0RD00062037,2023-12-23,P0153,S068,C004927,1,12.0,0.15,10.2,5.3,4.9,White Chocolate 70%,Cadbury,White,70.0,50.0,29,Female,0,2025-09-18,Chocolate Store 68,Melbourne,UK,Online
+0RD00026707,2024-10-02,P0034,S081,C025433,3,6.15,0.0,18.45,11.69,6.76,White Chocolate 60%,Godiva,Praline,60.0,100.0,53,Male,1,2025-01-15,Chocolate Store 81,Melbourne,Canada,Airport
+0RD00178229,2024-09-12,P0122,S092,C003952,3,7.38,0.0,22.14,14.78,7.36,White Chocolate 70%,Lindt,Milk,70.0,120.0,68,Male,0,2023-05-31,Chocolate Store 92,London,UK,Airport
+0RD00265705,2023-07-14,P0167,S006,C008196,2,10.58,0.15,17.99,12.3,5.68,Truffle Chocolate 80%,Godiva,White,80.0,200.0,64,Male,1,2024-02-28,Chocolate Store 6,Toronto,Canada,Online
+0RD00198494,2024-10-01,P0087,S012,C002530,1,10.66,0.1,9.59,6.38,3.21,Truffle Chocolate 60%,Godiva,Dark,60.0,100.0,39,Male,0,2025-12-04,Chocolate Store 12,London,France,Mall
+0RD00373299,2024-05-20,P0005,S062,C010763,1,13.92,0.2,11.14,7.39,3.74,White Chocolate 70%,Ferrero,White,70.0,50.0,54,Male,0,2023-05-29,Chocolate Store 62,Toronto,Canada,Airport
+0RD00836406,2024-02-19,P0154,S019,C003246,2,12.27,0.0,24.54,14.19,10.35,Milk Chocolate 70%,Ferrero,Praline,70.0,200.0,64,Male,1,2021-09-09,Chocolate Store 19,New York,Germany,Airport
+0RD00160614,2023-02-08,P0180,S011,C009231,1,4.25,0.0,4.25,2.89,1.36,Truffle Chocolate 80%,Hershey,Praline,80.0,80.0,61,Female,1,2025-05-21,Chocolate Store 11,New York,USA,Retail
+0RD00071973,2024-04-09,P0132,S002,C004948,2,10.53,0.0,21.06,11.58,9.48,Dark Chocolate 70%,Lindt,Milk,70.0,50.0,26,Female,0,2025-05-12,Chocolate Store 2,Melbourne,Canada,Mall
+0RD00803049,2024-12-29,P0112,S071,C011545,2,5.12,0.15,8.7,4.73,3.98,Dark Chocolate 50%,Cadbury,Truffle,50.0,80.0,57,Female,0,2025-09-30,Chocolate Store 71,Sydney,Canada,Online
+0RD00045679,2023-02-24,P0031,S083,C047825,2,3.42,0.0,6.84,3.56,3.28,White Chocolate 80%,Godiva,Praline,80.0,80.0,27,Female,1,2021-05-08,Chocolate Store 83,Toronto,France,Mall
+0RD00599915,2023-01-12,P0195,S085,C035869,3,3.53,0.0,10.59,6.28,4.31,White Chocolate 90%,Cadbury,Dark,90.0,120.0,33,Male,0,2025-08-26,Chocolate Store 85,Melbourne,USA,Online
+0RD00352278,2024-09-04,P0119,S083,C041748,4,3.31,0.15,11.25,6.35,4.9,Truffle Chocolate 50%,Ferrero,White,50.0,100.0,38,Female,0,2023-05-28,Chocolate Store 83,Toronto,France,Mall
+0RD00458904,2024-04-25,P0007,S086,C021529,5,10.85,0.0,54.25,36.52,17.73,Praline Chocolate 70%,Cadbury,Praline,70.0,120.0,66,Male,0,2024-06-05,Chocolate Store 86,Berlin,Australia,Mall
+0RD00777380,2023-09-07,P0136,S011,C011631,3,7.53,0.0,22.59,12.52,10.07,Dark Chocolate 90%,Mars,Milk,90.0,200.0,18,Male,0,2023-03-14,Chocolate Store 11,New York,USA,Retail
+0RD00841963,2024-12-01,P0068,S005,C030106,5,4.62,0.2,18.48,11.52,6.96,Praline Chocolate 50%,Hershey,Truffle,50.0,80.0,31,Male,0,2024-02-25,Chocolate Store 5,Sydney,USA,Online
+0RD00488709,2024-09-04,P0093,S018,C035151,5,7.31,0.0,36.55,18.41,18.14,Milk Chocolate 90%,Cadbury,White,90.0,80.0,33,Male,0,2024-10-09,Chocolate Store 18,London,Germany,Retail
+0RD00360636,2023-06-28,P0084,S007,C000349,1,9.15,0.0,9.15,4.93,4.22,Truffle Chocolate 50%,Hershey,White,50.0,100.0,27,Female,1,2025-06-16,Chocolate Store 7,Sydney,France,Mall
+0RD00384369,2023-09-10,P0171,S059,C043351,3,7.48,0.2,17.95,12.26,5.69,Dark Chocolate 50%,Mars,Dark,50.0,50.0,57,Male,1,2022-09-21,Chocolate Store 59,New York,Germany,Airport
+0RD00194703,2024-12-27,P0149,S016,C030552,2,7.01,0.0,14.02,7.75,6.27,Milk Chocolate 80%,Lindt,Dark,80.0,80.0,66,Female,0,2024-07-14,Chocolate Store 16,New York,USA,Mall
+0RD00186263,2024-04-07,P0143,S090,C019007,1,6.64,0.0,6.64,4.41,2.23,White Chocolate 90%,Godiva,Milk,90.0,50.0,64,Female,1,2024-07-30,Chocolate Store 90,Toronto,France,Online
+0RD00743972,2023-08-04,P0181,S087,C007676,4,3.11,0.0,12.44,7.25,5.19,Praline Chocolate 50%,Ferrero,Milk,50.0,50.0,45,Male,1,2025-11-22,Chocolate Store 87,Paris,Germany,Airport
+0RD00768295,2024-11-04,P0055,S097,C004723,3,3.95,0.0,11.85,6.56,5.29,Milk Chocolate 60%,Lindt,Milk,60.0,100.0,42,Male,0,2021-08-17,Chocolate Store 97,Toronto,Canada,Mall
+0RD00394961,2023-04-12,P0059,S029,C009459,4,11.69,0.0,46.76,23.51,23.25,Praline Chocolate 50%,Godiva,White,50.0,80.0,54,Male,1,2022-05-08,Chocolate Store 29,Melbourne,Australia,Online
+0RD00573358,2024-12-25,P0117,S021,C033904,2,9.74,0.0,19.48,10.79,8.69,Dark Chocolate 50%,Mars,White,50.0,50.0,43,Female,1,2023-11-26,Chocolate Store 21,Melbourne,USA,Mall
+0RD00928830,2024-08-16,P0142,S059,C002709,3,14.44,0.15,36.82,20.62,16.2,Praline Chocolate 70%,Lindt,Dark,70.0,200.0,32,Female,0,2022-01-10,Chocolate Store 59,New York,Germany,Airport
+0RD00852652,2024-10-24,P0168,S003,C043424,3,7.15,0.0,21.45,14.47,6.98,Truffle Chocolate 50%,Ferrero,Praline,50.0,80.0,66,Male,0,2022-03-20,Chocolate Store 3,Berlin,France,Mall
+0RD00736363,2023-10-11,P0014,S045,C035375,2,13.44,0.0,26.88,16.95,9.93,White Chocolate 60%,Mars,Praline,60.0,100.0,56,Female,0,2022-01-15,Chocolate Store 45,Sydney,Canada,Online
+0RD00723093,2023-12-26,P0008,S021,C042052,2,12.3,0.0,24.6,16.21,8.39,White Chocolate 90%,Godiva,Dark,90.0,100.0,57,Female,0,2025-09-29,Chocolate Store 21,Melbourne,USA,Mall
+0RD00496376,2024-07-01,P0118,S039,C002098,1,9.56,0.2,7.65,4.89,2.76,Milk Chocolate 70%,Godiva,Praline,70.0,120.0,24,Female,1,2023-12-25,Chocolate Store 39,New York,UK,Mall
+0RD00189081,2024-08-28,P0053,S031,C009019,5,14.29,0.2,57.16,35.27,21.89,Milk Chocolate 60%,Ferrero,White,60.0,100.0,66,Female,0,2022-01-17,Chocolate Store 31,Paris,Australia,Retail
+0RD00829339,2024-11-29,P0058,S095,C033408,3,12.04,0.0,36.12,18.95,17.17,Truffle Chocolate 80%,Lindt,Dark,80.0,120.0,63,Female,0,2026-02-04,Chocolate Store 95,Toronto,Canada,Mall
+0RD00414039,2023-10-03,P0148,S042,C036631,4,4.3,0.0,17.2,9.27,7.93,White Chocolate 50%,Hershey,Dark,50.0,200.0,42,Male,1,2022-03-12,Chocolate Store 42,Paris,USA,Online
+0RD00773850,2024-06-13,P0173,S064,C046735,2,14.13,0.0,28.26,16.34,11.92,Dark Chocolate 60%,Lindt,Praline,60.0,50.0,55,Male,0,2026-01-15,Chocolate Store 64,Berlin,Germany,Airport
+0RD00199528,2023-12-12,P0063,S069,C016806,5,6.82,0.0,34.1,18.98,15.12,Praline Chocolate 90%,Lindt,White,90.0,100.0,63,Female,0,2023-10-19,Chocolate Store 69,London,France,Retail
+0RD00532187,2024-12-09,P0135,S089,C029527,4,14.21,0.1,51.16,29.64,21.51,White Chocolate 80%,Godiva,Praline,80.0,200.0,66,Female,1,2025-06-28,Chocolate Store 89,Paris,Canada,Online
+0RD00920814,2024-05-21,P0173,S085,C020885,3,8.9,0.0,26.7,16.48,10.22,Dark Chocolate 60%,Lindt,Praline,60.0,50.0,70,Male,0,2025-11-07,Chocolate Store 85,Melbourne,USA,Online
+0RD00935026,2024-04-23,P0038,S039,C003080,5,11.09,0.0,55.45,34.04,21.41,White Chocolate 50%,Cadbury,Milk,50.0,100.0,63,Female,1,2023-07-15,Chocolate Store 39,New York,UK,Mall
+0RD00514450,2023-09-14,P0034,S038,C006464,3,10.4,0.0,31.2,21.14,10.06,White Chocolate 60%,Godiva,Praline,60.0,100.0,27,Female,0,2022-12-23,Chocolate Store 38,Melbourne,USA,Mall
+0RD00941566,2024-08-01,P0169,S082,C044216,4,4.57,0.0,18.28,12.02,6.26,Milk Chocolate 60%,Lindt,White,60.0,80.0,61,Female,0,2022-03-11,Chocolate Store 82,Toronto,Australia,Mall
+0RD00158993,2023-12-14,P0094,S087,C005078,1,7.12,0.0,7.12,3.82,3.3,Dark Chocolate 50%,Ferrero,Dark,50.0,200.0,44,Female,0,2023-11-18,Chocolate Store 87,Paris,Germany,Airport
+0RD00995279,2023-10-18,P0039,S053,C036346,2,10.46,0.2,16.74,9.02,7.71,Truffle Chocolate 90%,Ferrero,White,90.0,50.0,42,Male,1,2023-10-25,Chocolate Store 53,New York,USA,Retail
+0RD00607357,2023-06-12,P0125,S046,C019816,2,5.17,0.0,10.34,6.59,3.75,Milk Chocolate 60%,Lindt,Truffle,60.0,50.0,18,Male,1,2025-05-22,Chocolate Store 46,London,Canada,Mall
+0RD00567224,2023-07-18,P0050,S042,C024139,1,9.95,0.0,9.95,5.18,4.77,Praline Chocolate 60%,Ferrero,Truffle,60.0,50.0,47,Female,1,2023-06-29,Chocolate Store 42,Paris,USA,Online
+0RD00924645,2023-02-27,P0098,S040,C011078,3,12.87,0.0,38.61,22.3,16.31,Truffle Chocolate 50%,Mars,Milk,50.0,200.0,40,Female,1,2025-06-04,Chocolate Store 40,Melbourne,Canada,Airport
+0RD00120647,2024-10-02,P0150,S030,C048280,3,9.0,0.15,22.95,13.17,9.78,Milk Chocolate 50%,Hershey,Praline,50.0,100.0,60,Male,1,2025-01-07,Chocolate Store 30,New York,UK,Airport
+0RD00098151,2024-05-26,P0113,S089,C034392,4,4.43,0.0,17.72,8.9,8.82,Truffle Chocolate 80%,Mars,White,80.0,50.0,68,Male,1,2024-06-24,Chocolate Store 89,Paris,Canada,Online
+0RD00740316,2023-03-22,P0015,S100,C023217,2,9.34,0.1,16.81,8.63,8.18,Dark Chocolate 50%,Ferrero,Praline,50.0,50.0,50,Male,0,2023-01-08,Chocolate Store 100,Berlin,France,Airport
+0RD00795487,2024-05-04,P0061,S087,C013398,5,14.65,0.0,73.25,36.88,36.37,Truffle Chocolate 50%,Lindt,Milk,50.0,200.0,23,Male,0,2024-12-25,Chocolate Store 87,Paris,Germany,Airport
+0RD00638309,2023-03-25,P0140,S076,C037143,4,3.83,0.0,15.32,8.22,7.1,Dark Chocolate 80%,Lindt,Milk,80.0,120.0,35,Male,1,2026-02-26,Chocolate Store 76,Berlin,Germany,Retail
+0RD00859619,2024-06-21,P0114,S084,C036111,2,13.64,0.1,24.55,14.49,10.06,Milk Chocolate 90%,Hershey,Dark,90.0,80.0,65,Female,0,2025-10-03,Chocolate Store 84,Toronto,France,Airport
+0RD00030321,2024-06-15,P0180,S084,C005516,1,10.31,0.1,9.28,4.69,4.59,Truffle Chocolate 80%,Hershey,Praline,80.0,80.0,66,Male,1,2021-04-24,Chocolate Store 84,Toronto,France,Airport
+0RD00622550,2024-10-20,P0046,S032,C019352,2,12.63,0.15,21.47,12.38,9.09,Dark Chocolate 50%,Cadbury,White,50.0,120.0,68,Male,1,2022-05-04,Chocolate Store 32,Paris,UK,Mall
+0RD00027964,2024-05-02,P0124,S087,C035804,5,8.87,0.0,44.35,22.72,21.63,Truffle Chocolate 80%,Lindt,Praline,80.0,100.0,48,Male,1,2024-07-11,Chocolate Store 87,Paris,Germany,Airport
+0RD00896188,2023-05-06,P0097,S034,C041989,4,13.6,0.0,54.4,33.16,21.24,Milk Chocolate 80%,Godiva,Milk,80.0,50.0,32,Male,1,2023-02-02,Chocolate Store 34,Paris,Canada,Mall
+0RD00528533,2023-06-29,P0073,S093,C011616,4,7.0,0.0,28.0,15.08,12.92,Milk Chocolate 50%,Mars,Praline,50.0,80.0,69,Male,1,2023-10-24,Chocolate Store 93,Sydney,UK,Airport
+0RD00091198,2023-12-15,P0157,S063,C018211,4,3.52,0.1,12.67,8.35,4.32,Dark Chocolate 80%,Cadbury,Truffle,80.0,200.0,41,Male,1,2023-11-16,Chocolate Store 63,Sydney,Australia,Retail
+0RD00644428,2023-11-21,P0166,S065,C026752,2,6.24,0.0,12.48,7.72,4.76,Milk Chocolate 90%,Mars,White,90.0,80.0,62,Female,0,2025-11-26,Chocolate Store 65,New York,Australia,Retail
+0RD00361513,2023-12-06,P0145,S096,C032734,3,8.91,0.0,26.73,16.02,10.71,White Chocolate 70%,Godiva,Praline,70.0,50.0,29,Male,1,2025-10-12,Chocolate Store 96,Berlin,UK,Mall
+0RD00705986,2024-09-21,P0043,S054,C040447,1,14.65,0.1,13.19,7.68,5.51,Truffle Chocolate 90%,Lindt,Praline,90.0,200.0,63,Male,1,2023-11-01,Chocolate Store 54,London,Canada,Online
+0RD00735053,2024-05-14,P0069,S004,C024472,5,3.36,0.15,14.28,7.17,7.11,White Chocolate 90%,Cadbury,Milk,90.0,120.0,29,Male,0,2021-10-04,Chocolate Store 4,Paris,UK,Airport
+0RD00015921,2023-05-12,P0081,S063,C038651,4,7.26,0.1,26.14,18.06,8.08,Truffle Chocolate 90%,Cadbury,White,90.0,100.0,41,Male,0,2024-12-16,Chocolate Store 63,Sydney,Australia,Retail
+0RD00871824,2023-09-17,P0086,S055,C012423,2,3.3,0.0,6.6,3.83,2.77,Truffle Chocolate 80%,Cadbury,Truffle,80.0,120.0,54,Female,0,2026-02-17,Chocolate Store 55,New York,France,Retail
+0RD00346149,2023-06-02,P0076,S062,C036257,3,10.62,0.0,31.86,21.66,10.2,White Chocolate 60%,Mars,Truffle,60.0,50.0,23,Male,1,2025-01-31,Chocolate Store 62,Toronto,Canada,Airport
+0RD00597099,2024-10-20,P0036,S070,C026651,2,3.54,0.15,6.02,3.04,2.98,Dark Chocolate 50%,Lindt,Praline,50.0,50.0,62,Male,1,2022-07-17,Chocolate Store 70,Toronto,Canada,Online
+0RD00306874,2023-08-06,P0045,S090,C049711,5,14.35,0.15,60.99,31.32,29.67,Milk Chocolate 80%,Godiva,Truffle,80.0,50.0,49,Male,1,2024-11-14,Chocolate Store 90,Toronto,France,Online
+0RD00909953,2023-07-29,P0160,S014,C023910,5,10.82,0.0,54.1,31.73,22.37,Praline Chocolate 90%,Hershey,Dark,90.0,100.0,37,Male,1,2025-10-15,Chocolate Store 14,London,Australia,Airport
+0RD00950087,2024-12-18,P0098,S091,C027196,4,8.55,0.0,34.2,20.37,13.83,Truffle Chocolate 50%,Mars,Milk,50.0,200.0,25,Female,0,2022-02-25,Chocolate Store 91,Sydney,UK,Online
+0RD00759041,2024-08-31,P0130,S013,C045035,4,5.49,0.0,21.96,14.05,7.91,Praline Chocolate 70%,Ferrero,Milk,70.0,100.0,50,Male,0,2025-06-03,Chocolate Store 13,Melbourne,France,Retail
+0RD00462526,2023-07-22,P0103,S060,C017870,1,5.15,0.15,4.38,2.22,2.16,Praline Chocolate 50%,Ferrero,White,50.0,100.0,43,Male,0,2024-11-24,Chocolate Store 60,Paris,Australia,Airport
+0RD00662245,2024-06-23,P0169,S067,C027804,1,12.56,0.2,10.05,6.21,3.84,Milk Chocolate 60%,Lindt,White,60.0,80.0,28,Male,1,2021-10-01,Chocolate Store 67,Berlin,UK,Online
+0RD00696213,2024-03-21,P0018,S079,C033301,1,7.79,0.15,6.62,3.4,3.22,Dark Chocolate 70%,Ferrero,Dark,70.0,50.0,68,Female,1,2025-05-26,Chocolate Store 79,New York,USA,Mall
+0RD00141888,2024-10-09,P0193,S095,C033937,5,8.65,0.0,43.25,28.15,15.1,White Chocolate 90%,Cadbury,Dark,90.0,80.0,55,Male,0,2021-03-09,Chocolate Store 95,Toronto,Canada,Mall
+0RD00604825,2024-02-10,P0097,S062,C047210,1,13.24,0.0,13.24,7.23,6.01,Milk Chocolate 80%,Godiva,Milk,80.0,50.0,63,Female,1,2026-02-13,Chocolate Store 62,Toronto,Canada,Airport
+0RD00584243,2023-11-27,P0189,S039,C047244,4,11.22,0.0,44.88,31.01,13.87,Milk Chocolate 50%,Godiva,Truffle,50.0,100.0,58,Male,1,2024-12-10,Chocolate Store 39,New York,UK,Mall
+0RD00143249,2024-11-10,P0014,S080,C040151,4,10.55,0.0,42.2,21.12,21.08,White Chocolate 60%,Mars,Praline,60.0,100.0,32,Male,0,2022-12-13,Chocolate Store 80,Sydney,Australia,Online
+0RD00455702,2023-11-30,P0092,S028,C040296,4,4.76,0.0,19.04,12.11,6.93,Truffle Chocolate 60%,Lindt,Praline,60.0,50.0,24,Male,0,2025-08-02,Chocolate Store 28,London,Australia,Mall
+0RD00122339,2023-06-18,P0055,S021,C010955,2,7.58,0.15,12.89,8.41,4.47,Milk Chocolate 60%,Lindt,Milk,60.0,100.0,51,Male,0,2023-08-05,Chocolate Store 21,Melbourne,USA,Mall
+0RD00716009,2023-09-02,P0076,S082,C040880,3,14.9,0.0,44.7,29.63,15.07,White Chocolate 60%,Mars,Truffle,60.0,50.0,26,Female,0,2023-09-28,Chocolate Store 82,Toronto,Australia,Mall
+0RD00653637,2024-01-18,P0171,S088,C000479,4,8.51,0.0,34.04,18.04,16.0,Dark Chocolate 50%,Mars,Dark,50.0,50.0,25,Female,0,2021-07-08,Chocolate Store 88,Toronto,USA,Retail
+0RD00358748,2024-06-22,P0133,S071,C004268,2,9.6,0.2,15.36,9.3,6.06,Milk Chocolate 90%,Lindt,Dark,90.0,100.0,21,Male,1,2022-09-22,Chocolate Store 71,Sydney,Canada,Online
+0RD00974039,2024-02-11,P0174,S049,C008849,5,8.34,0.0,41.7,22.91,18.79,Dark Chocolate 90%,Lindt,White,90.0,100.0,35,Male,1,2024-03-08,Chocolate Store 49,Berlin,France,Mall
+0RD00321780,2023-04-20,P0148,S014,C028249,2,9.7,0.15,16.49,9.03,7.46,White Chocolate 50%,Hershey,Dark,50.0,200.0,51,Male,0,2023-01-30,Chocolate Store 14,London,Australia,Airport
+0RD00540479,2024-10-10,P0175,S010,C009637,2,3.88,0.0,7.76,4.83,2.93,White Chocolate 70%,Cadbury,Praline,70.0,100.0,39,Male,0,2025-02-25,Chocolate Store 10,Toronto,UK,Retail
+0RD00751997,2023-02-24,P0008,S021,C003432,1,10.15,0.0,10.15,5.61,4.54,White Chocolate 90%,Godiva,Dark,90.0,100.0,69,Male,0,2025-08-03,Chocolate Store 21,Melbourne,USA,Mall
+0RD00183569,2023-04-04,P0097,S003,C009421,1,12.8,0.0,12.8,7.93,4.87,Milk Chocolate 80%,Godiva,Milk,80.0,50.0,33,Female,0,2023-11-15,Chocolate Store 3,Berlin,France,Mall
+0RD00749754,2024-04-07,P0131,S061,C036408,5,5.03,0.0,25.15,16.57,8.58,Dark Chocolate 80%,Hershey,Dark,80.0,80.0,61,Male,1,2024-07-30,Chocolate Store 61,London,France,Online
+0RD00568229,2024-01-29,P0197,S021,C019355,3,14.5,0.0,43.5,29.44,14.06,Truffle Chocolate 90%,Hershey,Truffle,90.0,120.0,39,Female,1,2025-10-11,Chocolate Store 21,Melbourne,USA,Mall
+0RD00119620,2023-10-18,P0081,S016,C040934,1,13.7,0.0,13.7,8.67,5.03,Truffle Chocolate 90%,Cadbury,White,90.0,100.0,62,Male,0,2022-11-29,Chocolate Store 16,New York,USA,Mall
+0RD00861635,2024-04-08,P0193,S013,C010834,5,10.16,0.1,45.72,23.28,22.44,White Chocolate 90%,Cadbury,Dark,90.0,80.0,59,Female,0,2024-05-16,Chocolate Store 13,Melbourne,France,Retail
+0RD00780382,2023-07-12,P0151,S053,C013660,1,4.71,0.0,4.71,2.99,1.72,Milk Chocolate 70%,Hershey,White,70.0,200.0,67,Female,1,2022-03-07,Chocolate Store 53,New York,USA,Retail
+0RD00252027,2023-02-05,P0113,S010,C027392,2,14.76,0.2,23.62,13.91,9.71,Truffle Chocolate 80%,Mars,White,80.0,50.0,33,Male,0,2024-10-21,Chocolate Store 10,Toronto,UK,Retail
+0RD00394958,2023-10-03,P0023,S069,C044001,4,14.16,0.0,56.64,38.95,17.69,Dark Chocolate 70%,Cadbury,Praline,70.0,100.0,60,Female,0,2023-09-20,Chocolate Store 69,London,France,Retail
+0RD00542973,2023-08-10,P0008,S047,C046492,3,14.86,0.0,44.58,24.47,20.11,White Chocolate 90%,Godiva,Dark,90.0,100.0,68,Male,1,2022-12-31,Chocolate Store 47,New York,UK,Mall
+0RD00648862,2023-12-11,P0030,S070,C012619,2,12.13,0.15,20.62,10.47,10.15,Praline Chocolate 90%,Lindt,Praline,90.0,120.0,55,Female,1,2022-05-17,Chocolate Store 70,Toronto,Canada,Online
+0RD00298013,2024-05-07,P0004,S078,C031146,1,5.55,0.0,5.55,3.04,2.51,Milk Chocolate 50%,Mars,Praline,50.0,80.0,60,Female,1,2025-12-29,Chocolate Store 78,London,UK,Airport
+0RD00285676,2024-02-20,P0068,S010,C000820,2,8.41,0.15,14.3,7.54,6.75,Praline Chocolate 50%,Hershey,Truffle,50.0,80.0,59,Male,1,2025-04-08,Chocolate Store 10,Toronto,UK,Retail
+0RD00961339,2023-09-04,P0082,S055,C020455,5,8.24,0.0,41.2,24.14,17.06,Praline Chocolate 60%,Ferrero,Milk,60.0,120.0,53,Female,0,2021-07-10,Chocolate Store 55,New York,France,Retail
+0RD00432372,2024-08-07,P0001,S031,C021860,4,7.3,0.0,29.2,20.42,8.78,White Chocolate 80%,Mars,Truffle,80.0,120.0,47,Female,1,2022-12-16,Chocolate Store 31,Paris,Australia,Retail
+0RD00307799,2023-08-02,P0044,S046,C038684,2,8.26,0.2,13.22,7.91,5.3,White Chocolate 50%,Ferrero,Praline,50.0,100.0,55,Male,1,2025-06-26,Chocolate Store 46,London,Canada,Mall
+0RD00373281,2023-05-06,P0022,S030,C002853,3,3.22,0.15,8.21,5.64,2.57,Praline Chocolate 50%,Hershey,Dark,50.0,200.0,23,Male,1,2025-09-16,Chocolate Store 30,New York,UK,Airport
+0RD00648369,2023-03-05,P0166,S002,C005403,4,11.33,0.2,36.26,25.1,11.16,Milk Chocolate 90%,Mars,White,90.0,80.0,23,Female,0,2024-08-07,Chocolate Store 2,Melbourne,Canada,Mall
+0RD00049624,2023-09-07,P0115,S081,C036688,1,14.59,0.0,14.59,9.08,5.51,Milk Chocolate 90%,Hershey,Milk,90.0,50.0,50,Male,0,2024-09-15,Chocolate Store 81,Melbourne,Canada,Airport
+0RD00330567,2023-06-20,P0047,S088,C048609,4,12.67,0.2,40.54,21.59,18.95,Truffle Chocolate 70%,Mars,Dark,70.0,200.0,67,Female,1,2021-11-18,Chocolate Store 88,Toronto,USA,Retail
+0RD00580404,2024-09-20,P0074,S032,C022265,4,12.44,0.0,49.76,31.87,17.89,Dark Chocolate 90%,Hershey,Truffle,90.0,80.0,21,Female,0,2023-12-25,Chocolate Store 32,Paris,UK,Mall
+0RD00148485,2024-07-11,P0113,S040,C007528,2,9.03,0.0,18.06,9.69,8.37,Truffle Chocolate 80%,Mars,White,80.0,50.0,37,Male,1,2023-04-22,Chocolate Store 40,Melbourne,Canada,Airport
+0RD00696240,2024-05-08,P0170,S100,C034465,5,10.13,0.0,50.65,28.24,22.41,Truffle Chocolate 50%,Ferrero,Praline,50.0,50.0,66,Male,0,2025-03-02,Chocolate Store 100,Berlin,France,Airport
+0RD00489114,2024-09-19,P0150,S096,C012132,4,10.55,0.0,42.2,24.39,17.81,Milk Chocolate 50%,Hershey,Praline,50.0,100.0,61,Female,1,2024-10-14,Chocolate Store 96,Berlin,UK,Mall
+0RD00964939,2023-12-01,P0171,S057,C037137,5,4.07,0.0,20.35,12.82,7.53,Dark Chocolate 50%,Mars,Dark,50.0,50.0,58,Male,0,2025-12-06,Chocolate Store 57,London,UK,Airport
+0RD00352952,2023-05-04,P0007,S018,C036270,2,14.09,0.15,23.95,14.77,9.18,Praline Chocolate 70%,Cadbury,Praline,70.0,120.0,50,Female,0,2025-06-26,Chocolate Store 18,London,Germany,Retail
+0RD00214218,2023-10-30,P0192,S046,C023898,1,7.13,0.15,6.06,3.61,2.45,Milk Chocolate 50%,Ferrero,Dark,50.0,200.0,47,Female,1,2024-10-14,Chocolate Store 46,London,Canada,Mall
+0RD00043275,2023-03-16,P0057,S046,C003365,2,14.69,0.1,26.44,16.74,9.7,Truffle Chocolate 90%,Cadbury,Milk,90.0,80.0,18,Male,1,2026-02-12,Chocolate Store 46,London,Canada,Mall
+0RD00762640,2024-01-10,P0164,S037,C044283,4,5.29,0.0,21.16,10.63,10.53,Dark Chocolate 80%,Lindt,White,80.0,100.0,28,Male,0,2023-03-25,Chocolate Store 37,London,Canada,Online
+0RD00480990,2023-11-12,P0185,S079,C017247,1,12.1,0.0,12.1,6.97,5.13,Milk Chocolate 70%,Ferrero,Praline,70.0,100.0,40,Female,1,2025-07-05,Chocolate Store 79,New York,USA,Mall
+0RD00125146,2023-12-13,P0009,S024,C004841,1,8.0,0.15,6.8,3.91,2.89,White Chocolate 50%,Ferrero,Dark,50.0,80.0,59,Female,0,2023-05-20,Chocolate Store 24,Paris,France,Online
+0RD00655617,2024-02-24,P0098,S056,C035771,3,7.59,0.15,19.35,10.89,8.47,Truffle Chocolate 50%,Mars,Milk,50.0,200.0,24,Male,0,2024-01-15,Chocolate Store 56,Melbourne,Germany,Online
+0RD00522841,2023-01-27,P0181,S009,C013430,3,4.54,0.0,13.62,7.4,6.22,Praline Chocolate 50%,Ferrero,Milk,50.0,50.0,35,Female,0,2026-02-15,Chocolate Store 9,Paris,France,Online
+0RD00696591,2024-05-30,P0091,S052,C001670,2,9.4,0.2,15.04,8.2,6.84,Dark Chocolate 60%,Cadbury,Dark,60.0,200.0,43,Female,0,2024-08-02,Chocolate Store 52,Toronto,France,Retail
+0RD00113388,2023-07-19,P0042,S016,C014888,3,10.67,0.1,28.81,16.99,11.82,Praline Chocolate 50%,Ferrero,Truffle,50.0,120.0,58,Female,1,2021-12-18,Chocolate Store 16,New York,USA,Mall
+0RD00590300,2023-08-20,P0064,S084,C046136,2,7.22,0.1,13.0,6.94,6.06,Dark Chocolate 50%,Ferrero,Milk,50.0,200.0,22,Male,0,2023-07-24,Chocolate Store 84,Toronto,France,Airport
+0RD00696608,2024-07-16,P0041,S082,C012839,4,14.25,0.15,48.45,27.56,20.89,Milk Chocolate 70%,Cadbury,Praline,70.0,80.0,33,Male,0,2024-04-16,Chocolate Store 82,Toronto,Australia,Mall
+0RD00592288,2023-04-28,P0106,S058,C035336,2,4.98,0.2,7.97,4.01,3.96,Milk Chocolate 50%,Lindt,White,50.0,50.0,38,Female,0,2024-05-11,Chocolate Store 58,Paris,USA,Airport
+0RD00184781,2024-11-09,P0016,S062,C017332,2,10.21,0.15,17.36,10.53,6.83,Dark Chocolate 90%,Mars,White,90.0,50.0,22,Female,0,2022-01-30,Chocolate Store 62,Toronto,Canada,Airport
+0RD00723571,2024-10-18,P0180,S074,C033853,2,12.76,0.0,25.52,13.86,11.66,Truffle Chocolate 80%,Hershey,Praline,80.0,80.0,61,Female,0,2025-03-14,Chocolate Store 74,Sydney,USA,Online
+0RD00698253,2024-09-05,P0195,S098,C038175,3,14.58,0.0,43.74,23.66,20.08,White Chocolate 90%,Cadbury,Dark,90.0,120.0,70,Female,1,2024-12-12,Chocolate Store 98,New York,Australia,Online
+0RD00948561,2024-05-10,P0162,S087,C006635,5,5.44,0.15,23.12,13.31,9.81,Dark Chocolate 60%,Cadbury,White,60.0,100.0,18,Male,1,2025-04-27,Chocolate Store 87,Paris,Germany,Airport
+0RD00487425,2024-06-08,P0131,S076,C007552,5,13.82,0.15,58.73,35.29,23.44,Dark Chocolate 80%,Hershey,Dark,80.0,80.0,31,Male,0,2024-02-23,Chocolate Store 76,Berlin,Germany,Retail
+0RD00326076,2024-03-15,P0146,S038,C016444,3,10.25,0.0,30.75,15.85,14.9,White Chocolate 50%,Mars,Dark,50.0,50.0,50,Female,1,2023-08-20,Chocolate Store 38,Melbourne,USA,Mall
+0RD00778660,2023-03-11,P0110,S054,C048497,5,6.53,0.0,32.65,18.66,13.99,White Chocolate 50%,Godiva,Milk,50.0,80.0,48,Male,0,2021-10-22,Chocolate Store 54,London,Canada,Online
+0RD00661040,2023-10-08,P0151,S027,C049450,1,8.13,0.2,6.5,4.43,2.07,Milk Chocolate 70%,Hershey,White,70.0,200.0,61,Male,0,2026-01-11,Chocolate Store 27,Sydney,Germany,Airport
+0RD00684661,2024-01-15,P0157,S061,C042410,5,4.42,0.0,22.1,12.89,9.21,Dark Chocolate 80%,Cadbury,Truffle,80.0,200.0,27,Female,0,2022-02-14,Chocolate Store 61,London,France,Online
+0RD00013374,2024-05-23,P0005,S100,C030200,2,9.84,0.15,16.73,11.37,5.36,White Chocolate 70%,Ferrero,White,70.0,50.0,66,Female,1,2021-04-30,Chocolate Store 100,Berlin,France,Airport
+0RD00995316,2023-08-30,P0110,S015,C036419,1,12.28,0.15,10.44,5.76,4.68,White Chocolate 50%,Godiva,Milk,50.0,80.0,37,Female,0,2023-03-25,Chocolate Store 15,Paris,Canada,Airport
+0RD00259362,2023-08-25,P0060,S091,C014005,2,10.09,0.0,20.18,10.9,9.28,Milk Chocolate 70%,Mars,Praline,70.0,120.0,56,Female,0,2023-01-07,Chocolate Store 91,Sydney,UK,Online
+0RD00737971,2024-05-07,P0073,S039,C013601,2,12.43,0.0,24.86,17.0,7.86,Milk Chocolate 50%,Mars,Praline,50.0,80.0,54,Male,1,2024-09-16,Chocolate Store 39,New York,UK,Mall
+0RD00708092,2023-04-08,P0083,S019,C042698,2,10.25,0.0,20.5,10.97,9.53,Truffle Chocolate 70%,Cadbury,White,70.0,200.0,66,Male,0,2024-06-13,Chocolate Store 19,New York,Germany,Airport
+0RD00490878,2024-10-24,P0154,S009,C018322,3,3.6,0.0,10.8,7.33,3.47,Milk Chocolate 70%,Ferrero,Praline,70.0,200.0,43,Female,1,2024-12-12,Chocolate Store 9,Paris,France,Online
+0RD00466440,2024-03-29,P0137,S016,C026103,5,8.05,0.0,40.25,26.71,13.54,Praline Chocolate 80%,Cadbury,White,80.0,100.0,42,Female,1,2021-07-03,Chocolate Store 16,New York,USA,Mall
+0RD00944952,2023-01-17,P0065,S068,C047743,1,7.16,0.15,6.09,3.98,2.1,White Chocolate 80%,Ferrero,Dark,80.0,80.0,37,Male,1,2025-04-07,Chocolate Store 68,Melbourne,UK,Online
+0RD00719757,2023-06-26,P0196,S034,C015690,2,7.67,0.0,15.34,9.32,6.02,White Chocolate 60%,Mars,Praline,60.0,80.0,25,Male,1,2023-12-14,Chocolate Store 34,Paris,Canada,Mall
+0RD00134217,2024-07-10,P0096,S030,C045923,2,10.73,0.0,21.46,12.16,9.3,White Chocolate 50%,Hershey,Truffle,50.0,100.0,42,Male,1,2024-11-18,Chocolate Store 30,New York,UK,Airport
+0RD00145155,2023-11-24,P0092,S085,C033758,2,6.84,0.0,13.68,9.09,4.59,Truffle Chocolate 60%,Lindt,Praline,60.0,50.0,55,Female,0,2025-11-04,Chocolate Store 85,Melbourne,USA,Online
+0RD00527357,2023-11-11,P0099,S062,C016126,2,4.44,0.2,7.1,4.68,2.43,White Chocolate 80%,Lindt,White,80.0,120.0,52,Male,1,2024-08-02,Chocolate Store 62,Toronto,Canada,Airport
+0RD00652556,2024-05-25,P0030,S036,C000128,4,12.23,0.2,39.14,26.28,12.85,Praline Chocolate 90%,Lindt,Praline,90.0,120.0,35,Male,0,2022-11-10,Chocolate Store 36,Berlin,Australia,Mall
+0RD00792578,2024-09-12,P0056,S069,C012244,4,13.53,0.1,48.71,33.63,15.08,Dark Chocolate 50%,Lindt,Praline,50.0,120.0,54,Female,1,2023-07-27,Chocolate Store 69,London,France,Retail
+0RD00965855,2024-06-04,P0052,S049,C009924,4,7.24,0.0,28.96,14.71,14.25,Dark Chocolate 90%,Cadbury,Praline,90.0,100.0,30,Male,1,2023-06-09,Chocolate Store 49,Berlin,France,Mall
+0RD00304683,2023-04-08,P0100,S009,C039846,4,11.54,0.1,41.54,24.45,17.1,Truffle Chocolate 50%,Ferrero,Milk,50.0,200.0,69,Male,1,2025-07-22,Chocolate Store 9,Paris,France,Online
+0RD00902073,2024-09-20,P0171,S067,C009082,1,12.78,0.0,12.78,7.79,4.99,Dark Chocolate 50%,Mars,Dark,50.0,50.0,53,Male,1,2025-02-15,Chocolate Store 67,Berlin,UK,Online
+0RD00602845,2023-12-02,P0193,S045,C034937,5,13.9,0.0,69.5,46.69,22.81,White Chocolate 90%,Cadbury,Dark,90.0,80.0,45,Male,1,2023-11-22,Chocolate Store 45,Sydney,Canada,Online
+0RD00813897,2024-11-22,P0084,S098,C017795,1,6.89,0.0,6.89,4.64,2.25,Truffle Chocolate 50%,Hershey,White,50.0,100.0,29,Female,0,2021-09-08,Chocolate Store 98,New York,Australia,Online
+0RD00728236,2023-07-10,P0187,S049,C010980,2,6.89,0.15,11.71,7.24,4.47,Praline Chocolate 50%,Godiva,Truffle,50.0,120.0,22,Male,1,2021-10-23,Chocolate Store 49,Berlin,France,Mall
+0RD00630162,2023-05-12,P0174,S063,C027608,3,10.73,0.15,27.36,17.61,9.76,Dark Chocolate 90%,Lindt,White,90.0,100.0,63,Female,1,2023-08-06,Chocolate Store 63,Sydney,Australia,Retail
+0RD00789556,2024-10-23,P0175,S090,C044272,2,6.04,0.0,12.08,8.29,3.79,White Chocolate 70%,Cadbury,Praline,70.0,100.0,44,Male,0,2022-06-11,Chocolate Store 90,Toronto,France,Online
+0RD00762142,2024-03-07,P0063,S050,C016960,4,13.39,0.0,53.56,37.22,16.34,Praline Chocolate 90%,Lindt,White,90.0,100.0,43,Female,1,2023-06-16,Chocolate Store 50,New York,Canada,Airport
+0RD00602328,2023-07-11,P0182,S099,C037996,1,8.41,0.0,8.41,4.71,3.7,Praline Chocolate 60%,Mars,Truffle,60.0,120.0,63,Female,0,2025-02-15,Chocolate Store 99,Toronto,Australia,Mall
+0RD00858788,2023-02-06,P0120,S005,C020869,5,5.23,0.2,20.92,14.21,6.71,Milk Chocolate 90%,Mars,Dark,90.0,100.0,53,Female,1,2024-10-12,Chocolate Store 5,Sydney,USA,Online
+0RD00385484,2024-06-21,P0197,S064,C039457,5,9.21,0.0,46.05,30.56,15.49,Truffle Chocolate 90%,Hershey,Truffle,90.0,120.0,56,Female,1,2021-09-13,Chocolate Store 64,Berlin,Germany,Airport
+0RD00474812,2023-05-11,P0071,S096,C044178,5,3.12,0.0,15.6,10.5,5.1,Praline Chocolate 70%,Cadbury,Dark,70.0,100.0,51,Female,0,2021-11-23,Chocolate Store 96,Berlin,UK,Mall
+0RD00550034,2023-09-01,P0038,S022,C016043,1,10.6,0.15,9.01,6.04,2.97,White Chocolate 50%,Cadbury,Milk,50.0,100.0,61,Female,1,2021-06-30,Chocolate Store 22,Berlin,USA,Retail
+0RD00573559,2023-04-21,P0066,S094,C030233,4,5.18,0.0,20.72,10.42,10.3,White Chocolate 80%,Ferrero,Praline,80.0,80.0,59,Male,0,2024-03-08,Chocolate Store 94,Paris,Germany,Airport
+0RD00329039,2024-10-11,P0127,S013,C022223,2,8.95,0.0,17.9,10.34,7.56,Praline Chocolate 90%,Mars,White,90.0,80.0,63,Female,1,2024-09-14,Chocolate Store 13,Melbourne,France,Retail
+0RD00642789,2024-08-01,P0199,S067,C042694,1,4.59,0.0,4.59,2.4,2.19,Dark Chocolate 70%,Hershey,White,70.0,80.0,53,Male,0,2025-10-11,Chocolate Store 67,Berlin,UK,Online
+0RD00576650,2023-07-29,P0157,S067,C033920,1,9.67,0.0,9.67,5.72,3.95,Dark Chocolate 80%,Cadbury,Truffle,80.0,200.0,62,Male,0,2024-09-12,Chocolate Store 67,Berlin,UK,Online
+0RD00578366,2024-05-21,P0024,S047,C044504,4,12.46,0.0,49.84,34.85,14.99,Milk Chocolate 70%,Cadbury,White,70.0,100.0,20,Male,1,2022-05-29,Chocolate Store 47,New York,UK,Mall
+0RD00857349,2023-07-19,P0149,S069,C020090,5,6.13,0.1,27.59,14.88,12.71,Milk Chocolate 80%,Lindt,Dark,80.0,80.0,54,Male,0,2026-03-04,Chocolate Store 69,London,France,Retail
+0RD00284922,2023-02-12,P0158,S056,C039953,2,11.5,0.2,18.4,12.86,5.54,Truffle Chocolate 80%,Godiva,Dark,80.0,100.0,33,Female,1,2023-07-25,Chocolate Store 56,Melbourne,Germany,Online
+0RD00013997,2024-05-10,P0136,S095,C007303,5,8.6,0.1,38.7,24.44,14.26,Dark Chocolate 90%,Mars,Milk,90.0,200.0,56,Female,0,2023-02-07,Chocolate Store 95,Toronto,Canada,Mall
+0RD00501170,2024-01-12,P0035,S011,C005043,5,10.34,0.0,51.7,27.18,24.52,White Chocolate 70%,Hershey,Dark,70.0,200.0,47,Male,1,2025-04-04,Chocolate Store 11,New York,USA,Retail
+0RD00018043,2024-12-09,P0192,S094,C034493,1,7.95,0.0,7.95,4.49,3.46,Milk Chocolate 50%,Ferrero,Dark,50.0,200.0,53,Female,0,2021-06-24,Chocolate Store 94,Paris,Germany,Airport
+0RD00292259,2024-05-19,P0071,S066,C028628,4,9.75,0.0,39.0,22.61,16.39,Praline Chocolate 70%,Cadbury,Dark,70.0,100.0,30,Female,0,2025-10-01,Chocolate Store 66,Sydney,USA,Online
+0RD00003919,2023-09-18,P0075,S009,C012774,4,3.64,0.0,14.56,9.65,4.91,Praline Chocolate 70%,Godiva,White,70.0,200.0,48,Male,0,2021-08-16,Chocolate Store 9,Paris,France,Online
+0RD00014063,2023-05-12,P0091,S091,C013816,3,4.85,0.0,14.55,9.36,5.19,Dark Chocolate 60%,Cadbury,Dark,60.0,200.0,64,Male,0,2021-03-16,Chocolate Store 91,Sydney,UK,Online
+0RD00817045,2024-08-26,P0081,S040,C046457,1,11.18,0.0,11.18,6.2,4.98,Truffle Chocolate 90%,Cadbury,White,90.0,100.0,41,Female,0,2021-12-19,Chocolate Store 40,Melbourne,Canada,Airport
+0RD00809182,2024-11-02,P0125,S084,C049268,2,9.53,0.15,16.2,8.51,7.69,Milk Chocolate 60%,Lindt,Truffle,60.0,50.0,25,Female,0,2022-04-27,Chocolate Store 84,Toronto,France,Airport
+0RD00403045,2024-02-22,P0037,S017,C027889,2,13.34,0.0,26.68,13.68,13.0,Truffle Chocolate 60%,Hershey,White,60.0,120.0,31,Female,0,2024-12-17,Chocolate Store 17,Melbourne,UK,Airport
+0RD00627981,2023-12-04,P0138,S055,C005085,1,4.05,0.0,4.05,2.62,1.43,Milk Chocolate 80%,Mars,White,80.0,120.0,67,Female,0,2024-02-20,Chocolate Store 55,New York,France,Retail
+0RD00384263,2023-06-06,P0056,S012,C027636,5,12.49,0.0,62.45,36.55,25.9,Dark Chocolate 50%,Lindt,Praline,50.0,120.0,66,Female,0,2022-11-23,Chocolate Store 12,London,France,Mall
+0RD00249055,2024-06-12,P0077,S006,C015100,2,13.96,0.1,25.13,16.33,8.8,Truffle Chocolate 70%,Cadbury,Praline,70.0,100.0,55,Male,1,2023-02-23,Chocolate Store 6,Toronto,Canada,Online
+0RD00067299,2023-11-07,P0039,S089,C001516,5,4.89,0.2,19.56,10.52,9.04,Truffle Chocolate 90%,Ferrero,White,90.0,50.0,25,Female,1,2025-03-18,Chocolate Store 89,Paris,Canada,Online
+0RD00339779,2024-08-20,P0076,S082,C008811,5,12.96,0.0,64.8,44.39,20.41,White Chocolate 60%,Mars,Truffle,60.0,50.0,50,Female,1,2023-05-02,Chocolate Store 82,Toronto,Australia,Mall
+0RD00853199,2023-08-28,P0042,S086,C040700,4,7.55,0.0,30.2,19.29,10.91,Praline Chocolate 50%,Ferrero,Truffle,50.0,120.0,39,Female,0,2025-05-14,Chocolate Store 86,Berlin,Australia,Mall
+0RD00171974,2023-09-17,P0106,S079,C035015,1,7.01,0.0,7.01,4.52,2.49,Milk Chocolate 50%,Lindt,White,50.0,50.0,58,Male,0,2024-02-17,Chocolate Store 79,New York,USA,Mall
+0RD00330757,2023-06-06,P0152,S018,C023202,1,14.49,0.2,11.59,5.89,5.7,Milk Chocolate 70%,Lindt,Praline,70.0,200.0,64,Male,0,2022-06-27,Chocolate Store 18,London,Germany,Retail
+0RD00313680,2024-11-29,P0156,S100,C000155,4,6.83,0.0,27.32,17.82,9.5,Dark Chocolate 60%,Cadbury,White,60.0,200.0,55,Female,1,2025-02-05,Chocolate Store 100,Berlin,France,Airport
+0RD00081096,2024-06-10,P0154,S089,C009490,3,10.53,0.2,25.27,14.19,11.08,Milk Chocolate 70%,Ferrero,Praline,70.0,200.0,44,Male,1,2021-06-28,Chocolate Store 89,Paris,Canada,Online
+0RD00082749,2024-05-09,P0135,S006,C044180,3,13.31,0.0,39.93,24.1,15.83,White Chocolate 80%,Godiva,Praline,80.0,200.0,38,Female,1,2023-01-27,Chocolate Store 6,Toronto,Canada,Online
+0RD00139687,2023-10-13,P0191,S001,C025028,1,14.91,0.0,14.91,7.73,7.18,Truffle Chocolate 70%,Godiva,White,70.0,100.0,45,Male,0,2022-08-17,Chocolate Store 1,New York,Canada,Retail
+0RD00489620,2023-08-17,P0191,S073,C007579,1,11.6,0.0,11.6,6.28,5.32,Truffle Chocolate 70%,Godiva,White,70.0,100.0,39,Female,0,2022-10-04,Chocolate Store 73,Toronto,UK,Online
+0RD00506532,2024-02-21,P0046,S096,C040862,5,11.8,0.0,59.0,36.57,22.43,Dark Chocolate 50%,Cadbury,White,50.0,120.0,33,Female,1,2022-12-08,Chocolate Store 96,Berlin,UK,Mall
+0RD00358724,2023-06-07,P0067,S025,C011242,1,4.09,0.0,4.09,2.75,1.34,Praline Chocolate 80%,Mars,Praline,80.0,120.0,56,Male,1,2024-02-21,Chocolate Store 25,Sydney,USA,Airport
+0RD00779455,2023-05-24,P0193,S094,C000013,3,14.79,0.0,44.37,29.33,15.04,White Chocolate 90%,Cadbury,Dark,90.0,80.0,68,Male,1,2022-03-23,Chocolate Store 94,Paris,Germany,Airport
+0RD00633778,2023-10-15,P0182,S055,C008842,2,12.43,0.0,24.86,13.38,11.48,Praline Chocolate 60%,Mars,Truffle,60.0,120.0,54,Male,0,2024-10-11,Chocolate Store 55,New York,France,Retail
+0RD00183514,2023-09-27,P0082,S032,C007943,5,9.56,0.0,47.8,28.33,19.47,Praline Chocolate 60%,Ferrero,Milk,60.0,120.0,35,Male,1,2026-01-26,Chocolate Store 32,Paris,UK,Mall
+0RD00033225,2024-04-05,P0014,S005,C000180,1,7.68,0.0,7.68,4.29,3.39,White Chocolate 60%,Mars,Praline,60.0,100.0,52,Male,0,2024-03-02,Chocolate Store 5,Sydney,USA,Online
+0RD00567096,2023-02-20,P0002,S066,C038601,3,11.76,0.0,35.28,19.27,16.01,Dark Chocolate 70%,Cadbury,Praline,70.0,100.0,19,Female,0,2023-01-12,Chocolate Store 66,Sydney,USA,Online
+0RD00819654,2024-10-12,P0076,S058,C018802,5,12.73,0.0,63.65,43.97,19.68,White Chocolate 60%,Mars,Truffle,60.0,50.0,57,Male,1,2023-05-08,Chocolate Store 58,Paris,USA,Airport
+0RD00653120,2023-04-05,P0072,S003,C010477,5,13.8,0.0,69.0,39.04,29.96,Truffle Chocolate 90%,Ferrero,White,90.0,100.0,20,Male,1,2021-03-22,Chocolate Store 3,Berlin,France,Mall
+0RD00182396,2023-02-09,P0140,S033,C000612,5,14.07,0.0,70.35,48.72,21.63,Dark Chocolate 80%,Lindt,Milk,80.0,120.0,28,Male,0,2023-11-05,Chocolate Store 33,Toronto,Australia,Retail
+0RD00052403,2023-07-11,P0143,S010,C034370,4,4.46,0.1,16.06,10.6,5.45,White Chocolate 90%,Godiva,Milk,90.0,50.0,53,Female,0,2022-11-07,Chocolate Store 10,Toronto,UK,Retail
+0RD00605878,2024-02-22,P0171,S055,C039168,3,8.04,0.0,24.12,14.1,10.02,Dark Chocolate 50%,Mars,Dark,50.0,50.0,26,Male,0,2021-05-10,Chocolate Store 55,New York,France,Retail
+0RD00505603,2023-05-04,P0113,S011,C049701,4,9.84,0.0,39.36,19.77,19.59,Truffle Chocolate 80%,Mars,White,80.0,50.0,63,Male,0,2024-02-01,Chocolate Store 11,New York,USA,Retail
+0RD00127889,2023-12-24,P0058,S053,C038408,2,8.7,0.1,15.66,9.35,6.31,Truffle Chocolate 80%,Lindt,Dark,80.0,120.0,23,Male,0,2024-11-20,Chocolate Store 53,New York,USA,Retail
+0RD00084895,2023-12-05,P0087,S052,C019990,2,9.88,0.0,19.76,11.36,8.4,Truffle Chocolate 60%,Godiva,Dark,60.0,100.0,60,Male,0,2022-09-10,Chocolate Store 52,Toronto,France,Retail
+0RD00058836,2024-12-27,P0111,S062,C026450,2,7.18,0.0,14.36,8.63,5.73,White Chocolate 80%,Cadbury,Dark,80.0,50.0,64,Female,0,2021-09-09,Chocolate Store 62,Toronto,Canada,Airport
+0RD00510617,2023-06-27,P0054,S043,C030440,1,6.55,0.0,6.55,3.45,3.1,Truffle Chocolate 80%,Lindt,Praline,80.0,50.0,55,Male,0,2025-07-10,Chocolate Store 43,London,Germany,Airport
+0RD00217161,2023-12-21,P0059,S022,C011919,3,8.0,0.0,24.0,16.01,7.99,Praline Chocolate 50%,Godiva,White,50.0,80.0,49,Female,1,2023-07-13,Chocolate Store 22,Berlin,USA,Retail
+0RD00751172,2023-09-18,P0200,S075,C027738,4,11.8,0.0,47.2,26.12,21.08,Milk Chocolate 50%,Cadbury,Milk,50.0,100.0,22,Female,1,2022-07-30,Chocolate Store 75,Sydney,France,Airport
+0RD00793422,2023-02-05,P0184,S037,C047809,2,11.96,0.15,20.33,14.1,6.23,Dark Chocolate 60%,Ferrero,Truffle,60.0,50.0,35,Male,1,2022-11-18,Chocolate Store 37,London,Canada,Online
+0RD00742365,2023-11-02,P0110,S055,C026006,5,10.03,0.1,45.13,28.86,16.27,White Chocolate 50%,Godiva,Milk,50.0,80.0,43,Male,1,2021-06-10,Chocolate Store 55,New York,France,Retail
+0RD00423384,2024-11-27,P0030,S023,C000282,1,13.28,0.0,13.28,8.81,4.47,Praline Chocolate 90%,Lindt,Praline,90.0,120.0,41,Female,0,2024-08-31,Chocolate Store 23,London,Canada,Retail
+0RD00408081,2024-01-10,P0180,S003,C036186,4,5.11,0.15,17.37,9.92,7.45,Truffle Chocolate 80%,Hershey,Praline,80.0,80.0,18,Male,1,2024-06-27,Chocolate Store 3,Berlin,France,Mall
+0RD00151112,2023-01-22,P0178,S026,C018038,1,13.32,0.0,13.32,7.38,5.94,Praline Chocolate 80%,Hershey,Truffle,80.0,200.0,59,Male,1,2024-10-13,Chocolate Store 26,London,USA,Online
+0RD00337358,2024-07-20,P0129,S055,C036067,3,4.47,0.15,11.4,6.61,4.79,Truffle Chocolate 90%,Cadbury,White,90.0,80.0,63,Male,1,2026-02-22,Chocolate Store 55,New York,France,Retail
+0RD00512477,2024-05-18,P0180,S027,C021129,1,7.53,0.15,6.4,3.73,2.67,Truffle Chocolate 80%,Hershey,Praline,80.0,80.0,27,Male,1,2022-05-27,Chocolate Store 27,Sydney,Germany,Airport
+0RD00273908,2024-11-19,P0007,S080,C008658,1,9.46,0.0,9.46,6.16,3.3,Praline Chocolate 70%,Cadbury,Praline,70.0,120.0,28,Female,1,2025-12-28,Chocolate Store 80,Sydney,Australia,Online
+0RD00173547,2023-01-01,P0127,S008,C044623,4,10.81,0.0,43.24,23.97,19.27,Praline Chocolate 90%,Mars,White,90.0,80.0,64,Female,1,2022-09-25,Chocolate Store 8,Paris,UK,Mall
+0RD00763199,2024-12-05,P0060,S068,C047540,4,10.03,0.1,36.11,21.74,14.36,Milk Chocolate 70%,Mars,Praline,70.0,120.0,32,Male,1,2023-01-22,Chocolate Store 68,Melbourne,UK,Online
+0RD00474534,2023-06-03,P0134,S020,C034481,5,6.92,0.0,34.6,19.76,14.84,Praline Chocolate 70%,Mars,Praline,70.0,50.0,31,Male,0,2023-02-28,Chocolate Store 20,Toronto,Germany,Retail
+0RD00096437,2024-03-05,P0087,S048,C017608,3,7.04,0.15,17.95,12.54,5.41,Truffle Chocolate 60%,Godiva,Dark,60.0,100.0,60,Male,1,2022-02-03,Chocolate Store 48,Toronto,Canada,Airport
+0RD00456079,2024-03-27,P0192,S005,C004180,5,8.45,0.0,42.25,28.82,13.43,Milk Chocolate 50%,Ferrero,Dark,50.0,200.0,44,Male,1,2023-04-22,Chocolate Store 5,Sydney,USA,Online
+0RD00547704,2023-05-14,P0005,S079,C004324,3,10.31,0.0,30.93,16.39,14.54,White Chocolate 70%,Ferrero,White,70.0,50.0,46,Male,0,2021-06-03,Chocolate Store 79,New York,USA,Mall
+0RD00138802,2024-05-11,P0142,S036,C031718,2,14.88,0.1,26.78,15.32,11.46,Praline Chocolate 70%,Lindt,Dark,70.0,200.0,39,Male,0,2022-07-20,Chocolate Store 36,Berlin,Australia,Mall
+0RD00198506,2023-06-27,P0052,S047,C005414,4,7.57,0.0,30.28,18.73,11.55,Dark Chocolate 90%,Cadbury,Praline,90.0,100.0,48,Male,1,2024-01-07,Chocolate Store 47,New York,UK,Mall
+0RD00387673,2023-08-09,P0068,S009,C038807,3,10.39,0.0,31.17,17.42,13.75,Praline Chocolate 50%,Hershey,Truffle,50.0,80.0,65,Female,0,2025-07-20,Chocolate Store 9,Paris,France,Online
+0RD00939606,2024-03-02,P0131,S044,C020325,4,10.87,0.1,39.13,21.53,17.6,Dark Chocolate 80%,Hershey,Dark,80.0,80.0,70,Male,1,2022-09-15,Chocolate Store 44,Paris,UK,Airport
+0RD00234037,2024-02-21,P0104,S009,C026163,3,9.04,0.0,27.12,13.82,13.3,Praline Chocolate 80%,Godiva,Truffle,80.0,120.0,60,Male,1,2024-07-18,Chocolate Store 9,Paris,France,Online
+0RD00785556,2023-12-18,P0139,S051,C004970,4,12.02,0.15,40.87,21.85,19.01,Dark Chocolate 50%,Godiva,Praline,50.0,100.0,58,Female,1,2023-05-03,Chocolate Store 51,Toronto,Australia,Retail
+0RD00254293,2024-08-13,P0055,S095,C002149,1,9.71,0.0,9.71,6.59,3.12,Milk Chocolate 60%,Lindt,Milk,60.0,100.0,26,Female,0,2025-04-12,Chocolate Store 95,Toronto,Canada,Mall
+0RD00780365,2023-02-12,P0195,S029,C038704,4,6.12,0.0,24.48,13.71,10.77,White Chocolate 90%,Cadbury,Dark,90.0,120.0,56,Female,1,2022-08-25,Chocolate Store 29,Melbourne,Australia,Online
+0RD00363264,2023-11-14,P0090,S041,C034423,1,14.47,0.0,14.47,8.2,6.27,Dark Chocolate 50%,Hershey,Praline,50.0,120.0,47,Female,0,2024-05-31,Chocolate Store 41,London,Germany,Airport
+0RD00136060,2024-10-29,P0004,S047,C020261,4,10.31,0.0,41.24,22.59,18.65,Milk Chocolate 50%,Mars,Praline,50.0,80.0,30,Male,1,2024-11-11,Chocolate Store 47,New York,UK,Mall
+0RD00051565,2024-09-11,P0001,S011,C006548,5,7.25,0.15,30.81,18.32,12.49,White Chocolate 80%,Mars,Truffle,80.0,120.0,42,Male,0,2021-09-23,Chocolate Store 11,New York,USA,Retail
+0RD00008718,2024-04-08,P0157,S044,C046671,2,10.46,0.1,18.83,9.48,9.35,Dark Chocolate 80%,Cadbury,Truffle,80.0,200.0,20,Female,0,2021-09-05,Chocolate Store 44,Paris,UK,Airport
+0RD00835420,2023-01-14,P0014,S084,C038415,2,4.74,0.15,8.06,5.46,2.59,White Chocolate 60%,Mars,Praline,60.0,100.0,68,Male,0,2023-10-09,Chocolate Store 84,Toronto,France,Airport
+0RD00771750,2024-09-20,P0132,S074,C028926,1,13.55,0.0,13.55,8.52,5.03,Dark Chocolate 70%,Lindt,Milk,70.0,50.0,43,Female,0,2024-08-23,Chocolate Store 74,Sydney,USA,Online
+0RD00778959,2023-03-07,P0155,S080,C025586,2,10.05,0.0,20.1,11.0,9.1,Dark Chocolate 80%,Mars,Truffle,80.0,50.0,55,Female,0,2022-06-15,Chocolate Store 80,Sydney,Australia,Online
+0RD00864373,2024-11-25,P0192,S003,C018266,1,7.4,0.0,7.4,3.82,3.58,Milk Chocolate 50%,Ferrero,Dark,50.0,200.0,66,Male,1,2025-08-07,Chocolate Store 3,Berlin,France,Mall
+0RD00086460,2024-06-14,P0016,S093,C019383,3,10.29,0.0,30.87,16.77,14.1,Dark Chocolate 90%,Mars,White,90.0,50.0,28,Female,1,2024-10-22,Chocolate Store 93,Sydney,UK,Airport
+0RD00257327,2023-08-23,P0100,S050,C036521,5,4.98,0.2,19.92,12.44,7.48,Truffle Chocolate 50%,Ferrero,Milk,50.0,200.0,43,Female,1,2024-02-16,Chocolate Store 50,New York,Canada,Airport
+0RD00130278,2023-10-14,P0072,S045,C024918,4,9.06,0.1,32.62,21.13,11.48,Truffle Chocolate 90%,Ferrero,White,90.0,100.0,47,Female,0,2021-10-03,Chocolate Store 45,Sydney,Canada,Online
+0RD00947557,2024-05-03,P0078,S056,C032530,4,5.57,0.0,22.28,12.38,9.9,Dark Chocolate 60%,Cadbury,White,60.0,120.0,56,Male,1,2022-01-12,Chocolate Store 56,Melbourne,Germany,Online
+0RD00182432,2023-11-24,P0065,S093,C001092,4,9.52,0.0,38.08,25.9,12.18,White Chocolate 80%,Ferrero,Dark,80.0,80.0,64,Male,0,2021-05-30,Chocolate Store 93,Sydney,UK,Airport
+0RD00092377,2023-09-01,P0189,S090,C005648,4,13.96,0.0,55.84,32.43,23.41,Milk Chocolate 50%,Godiva,Truffle,50.0,100.0,33,Female,0,2022-12-02,Chocolate Store 90,Toronto,France,Online
+0RD00971066,2023-12-24,P0195,S045,C044333,5,3.52,0.0,17.6,9.62,7.98,White Chocolate 90%,Cadbury,Dark,90.0,120.0,50,Male,1,2023-05-06,Chocolate Store 45,Sydney,Canada,Online
+0RD00393609,2023-05-01,P0162,S021,C015810,1,5.35,0.0,5.35,3.51,1.84,Dark Chocolate 60%,Cadbury,White,60.0,100.0,56,Female,1,2024-11-20,Chocolate Store 21,Melbourne,USA,Mall
+0RD00105759,2023-10-20,P0112,S011,C041927,4,14.38,0.15,48.89,33.43,15.46,Dark Chocolate 50%,Cadbury,Truffle,50.0,80.0,44,Female,0,2022-02-20,Chocolate Store 11,New York,USA,Retail
+0RD00494035,2024-05-02,P0180,S011,C007405,1,13.57,0.0,13.57,9.25,4.32,Truffle Chocolate 80%,Hershey,Praline,80.0,80.0,53,Male,0,2021-10-27,Chocolate Store 11,New York,USA,Retail
+0RD00287575,2024-03-24,P0120,S013,C032509,3,9.41,0.15,24.0,15.14,8.86,Milk Chocolate 90%,Mars,Dark,90.0,100.0,22,Female,1,2021-06-21,Chocolate Store 13,Melbourne,France,Retail
+0RD00920624,2023-05-14,P0185,S036,C030046,3,10.79,0.1,29.13,17.7,11.43,Milk Chocolate 70%,Ferrero,Praline,70.0,100.0,50,Female,1,2023-10-03,Chocolate Store 36,Berlin,Australia,Mall
+0RD00116593,2023-03-19,P0150,S002,C012017,3,14.51,0.0,43.53,27.9,15.63,Milk Chocolate 50%,Hershey,Praline,50.0,100.0,37,Female,1,2024-04-22,Chocolate Store 2,Melbourne,Canada,Mall
+0RD00924239,2023-07-25,P0101,S075,C047614,1,5.35,0.0,5.35,3.01,2.34,Milk Chocolate 70%,Hershey,Praline,70.0,100.0,45,Male,1,2023-04-11,Chocolate Store 75,Sydney,France,Airport
+0RD00305341,2023-03-12,P0072,S081,C006845,2,5.36,0.1,9.65,5.14,4.5,Truffle Chocolate 90%,Ferrero,White,90.0,100.0,31,Female,0,2021-12-17,Chocolate Store 81,Melbourne,Canada,Airport
+0RD00057394,2024-08-27,P0159,S069,C028814,1,11.36,0.0,11.36,6.2,5.16,Truffle Chocolate 70%,Godiva,Milk,70.0,100.0,59,Female,0,2022-02-08,Chocolate Store 69,London,France,Retail
+0RD00467428,2024-10-16,P0186,S060,C033911,3,3.71,0.0,11.13,5.63,5.5,Dark Chocolate 60%,Godiva,Praline,60.0,50.0,24,Male,1,2025-05-25,Chocolate Store 60,Paris,Australia,Airport
+0RD00752404,2024-10-30,P0044,S019,C048309,3,5.06,0.15,12.9,8.57,4.34,White Chocolate 50%,Ferrero,Praline,50.0,100.0,28,Male,0,2024-10-02,Chocolate Store 19,New York,Germany,Airport
+0RD00999561,2024-11-16,P0156,S048,C035140,3,5.83,0.0,17.49,9.7,7.79,Dark Chocolate 60%,Cadbury,White,60.0,200.0,20,Male,0,2023-03-11,Chocolate Store 48,Toronto,Canada,Airport
+0RD00340826,2024-08-04,P0164,S018,C026647,1,10.98,0.0,10.98,6.21,4.77,Dark Chocolate 80%,Lindt,White,80.0,100.0,62,Female,0,2023-10-02,Chocolate Store 18,London,Germany,Retail
+0RD00037916,2023-12-31,P0034,S017,C039384,2,3.53,0.15,6.0,3.51,2.49,White Chocolate 60%,Godiva,Praline,60.0,100.0,49,Male,0,2023-08-18,Chocolate Store 17,Melbourne,UK,Airport
+0RD00681606,2023-10-08,P0040,S049,C045567,4,3.37,0.2,10.78,5.56,5.23,Dark Chocolate 60%,Mars,Praline,60.0,80.0,60,Female,0,2024-02-21,Chocolate Store 49,Berlin,France,Mall
+0RD00585985,2023-02-08,P0060,S090,C019475,1,10.44,0.0,10.44,6.29,4.15,Milk Chocolate 70%,Mars,Praline,70.0,120.0,53,Female,1,2022-06-05,Chocolate Store 90,Toronto,France,Online
+0RD00918231,2023-06-13,P0010,S015,C015391,5,9.08,0.0,45.4,29.72,15.68,Milk Chocolate 70%,Hershey,Truffle,70.0,50.0,36,Male,1,2023-03-12,Chocolate Store 15,Paris,Canada,Airport
+0RD00806085,2024-08-07,P0104,S047,C039496,3,10.27,0.1,27.73,18.52,9.21,Praline Chocolate 80%,Godiva,Truffle,80.0,120.0,53,Female,0,2021-06-02,Chocolate Store 47,New York,UK,Mall
+0RD00717037,2023-07-25,P0124,S089,C027711,4,11.6,0.0,46.4,25.71,20.69,Truffle Chocolate 80%,Lindt,Praline,80.0,100.0,57,Male,0,2025-03-28,Chocolate Store 89,Paris,Canada,Online
+0RD00649113,2024-04-25,P0072,S009,C018075,5,11.7,0.0,58.5,38.32,20.18,Truffle Chocolate 90%,Ferrero,White,90.0,100.0,32,Female,0,2021-03-14,Chocolate Store 9,Paris,France,Online
+0RD00455035,2024-07-27,P0170,S096,C002785,3,4.42,0.0,13.26,8.8,4.46,Truffle Chocolate 50%,Ferrero,Praline,50.0,50.0,40,Female,1,2022-06-15,Chocolate Store 96,Berlin,UK,Mall
+0RD00646513,2023-01-09,P0155,S068,C003226,2,6.99,0.2,11.18,7.03,4.16,Dark Chocolate 80%,Mars,Truffle,80.0,50.0,56,Female,1,2024-11-18,Chocolate Store 68,Melbourne,UK,Online
+0RD00337831,2024-09-13,P0085,S025,C020445,2,7.94,0.15,13.5,8.4,5.1,Truffle Chocolate 80%,Hershey,White,80.0,50.0,37,Female,1,2025-04-11,Chocolate Store 25,Sydney,USA,Airport
+0RD00030376,2024-01-22,P0002,S021,C017369,2,5.02,0.0,10.04,6.91,3.13,Dark Chocolate 70%,Cadbury,Praline,70.0,100.0,30,Male,0,2025-11-04,Chocolate Store 21,Melbourne,USA,Mall
+0RD00064291,2023-11-29,P0189,S068,C023988,2,8.73,0.15,14.84,9.82,5.02,Milk Chocolate 50%,Godiva,Truffle,50.0,100.0,27,Female,0,2025-06-01,Chocolate Store 68,Melbourne,UK,Online
+0RD00405716,2023-07-29,P0099,S065,C016302,4,13.6,0.2,43.52,23.99,19.53,White Chocolate 80%,Lindt,White,80.0,120.0,21,Male,1,2025-03-09,Chocolate Store 65,New York,Australia,Retail
+0RD00139428,2024-01-19,P0106,S028,C048749,4,4.1,0.0,16.4,8.7,7.7,Milk Chocolate 50%,Lindt,White,50.0,50.0,50,Male,0,2025-03-25,Chocolate Store 28,London,Australia,Mall
+0RD00507443,2024-09-28,P0188,S074,C027530,5,10.9,0.15,46.32,23.77,22.55,Praline Chocolate 50%,Cadbury,Dark,50.0,120.0,23,Male,0,2025-06-24,Chocolate Store 74,Sydney,USA,Online
+0RD00132694,2024-06-18,P0131,S078,C046014,3,6.63,0.1,17.9,10.32,7.58,Dark Chocolate 80%,Hershey,Dark,80.0,80.0,63,Male,0,2023-02-24,Chocolate Store 78,London,UK,Airport
+0RD00936792,2023-03-26,P0188,S036,C018955,2,6.84,0.1,12.31,7.46,4.86,Praline Chocolate 50%,Cadbury,Dark,50.0,120.0,38,Male,0,2024-11-07,Chocolate Store 36,Berlin,Australia,Mall
+0RD00513269,2023-02-26,P0152,S097,C048816,2,7.31,0.0,14.62,7.63,6.99,Milk Chocolate 70%,Lindt,Praline,70.0,200.0,57,Female,0,2022-02-25,Chocolate Store 97,Toronto,Canada,Mall
+0RD00742337,2023-03-24,P0141,S100,C011968,2,7.54,0.0,15.08,9.17,5.91,Dark Chocolate 90%,Mars,Praline,90.0,80.0,67,Female,0,2025-03-16,Chocolate Store 100,Berlin,France,Airport
+0RD00721136,2024-05-20,P0181,S081,C018370,3,3.25,0.2,7.8,4.6,3.2,Praline Chocolate 50%,Ferrero,Milk,50.0,50.0,36,Female,1,2023-06-17,Chocolate Store 81,Melbourne,Canada,Airport
+0RD00751314,2023-10-16,P0002,S054,C022046,1,4.04,0.15,3.43,2.09,1.34,Dark Chocolate 70%,Cadbury,Praline,70.0,100.0,36,Male,1,2022-12-25,Chocolate Store 54,London,Canada,Online
+0RD00166878,2024-03-22,P0114,S095,C035538,4,5.33,0.0,21.32,12.07,9.25,Milk Chocolate 90%,Hershey,Dark,90.0,80.0,54,Male,0,2025-01-01,Chocolate Store 95,Toronto,Canada,Mall
+0RD00023286,2023-03-14,P0131,S054,C025928,1,7.94,0.15,6.75,3.83,2.92,Dark Chocolate 80%,Hershey,Dark,80.0,80.0,59,Female,0,2024-08-19,Chocolate Store 54,London,Canada,Online
+0RD00510045,2023-03-14,P0082,S012,C005943,2,7.53,0.1,13.55,8.83,4.73,Praline Chocolate 60%,Ferrero,Milk,60.0,120.0,38,Female,0,2022-10-17,Chocolate Store 12,London,France,Mall
+0RD00253944,2023-01-28,P0158,S037,C006193,2,13.41,0.2,21.46,14.95,6.51,Truffle Chocolate 80%,Godiva,Dark,80.0,100.0,45,Male,1,2025-01-05,Chocolate Store 37,London,Canada,Online
+0RD00903554,2024-10-16,P0018,S041,C040251,2,14.17,0.0,28.34,19.38,8.96,Dark Chocolate 70%,Ferrero,Dark,70.0,50.0,52,Female,0,2024-07-11,Chocolate Store 41,London,Germany,Airport
+0RD00166605,2023-01-28,P0199,S079,C002955,2,8.98,0.15,15.27,7.75,7.52,Dark Chocolate 70%,Hershey,White,70.0,80.0,34,Male,1,2024-12-01,Chocolate Store 79,New York,USA,Mall
+0RD00158684,2024-06-07,P0124,S091,C024568,3,5.23,0.1,14.12,8.62,5.5,Truffle Chocolate 80%,Lindt,Praline,80.0,100.0,18,Female,0,2024-08-13,Chocolate Store 91,Sydney,UK,Online
+0RD00395979,2023-10-13,P0029,S001,C030295,1,10.88,0.0,10.88,7.32,3.56,Milk Chocolate 60%,Lindt,Milk,60.0,100.0,34,Female,0,2024-06-27,Chocolate Store 1,New York,Canada,Retail
+0RD00009955,2023-11-13,P0135,S007,C012890,2,12.69,0.0,25.38,13.39,11.99,White Chocolate 80%,Godiva,Praline,80.0,200.0,39,Female,1,2022-02-20,Chocolate Store 7,Sydney,France,Mall
+0RD00855215,2023-08-08,P0050,S033,C048291,2,5.8,0.2,9.28,6.13,3.15,Praline Chocolate 60%,Ferrero,Truffle,60.0,50.0,34,Male,1,2022-06-03,Chocolate Store 33,Toronto,Australia,Retail
+0RD00630092,2023-11-24,P0031,S084,C021191,2,6.47,0.0,12.94,6.71,6.23,White Chocolate 80%,Godiva,Praline,80.0,80.0,30,Female,1,2025-10-20,Chocolate Store 84,Toronto,France,Airport
+0RD00761264,2023-07-26,P0006,S003,C030587,4,14.09,0.2,45.09,26.01,19.07,Milk Chocolate 50%,Hershey,Dark,50.0,50.0,36,Male,0,2021-06-18,Chocolate Store 3,Berlin,France,Mall
+0RD00108150,2024-11-21,P0090,S062,C043267,4,10.74,0.0,42.96,24.94,18.02,Dark Chocolate 50%,Hershey,Praline,50.0,120.0,34,Female,0,2025-08-23,Chocolate Store 62,Toronto,Canada,Airport
+0RD00349139,2024-11-20,P0009,S099,C029369,4,10.97,0.0,43.88,24.79,19.09,White Chocolate 50%,Ferrero,Dark,50.0,80.0,36,Female,1,2022-05-25,Chocolate Store 99,Toronto,Australia,Mall
+0RD00987781,2023-08-19,P0036,S097,C018533,1,9.42,0.1,8.48,4.36,4.11,Dark Chocolate 50%,Lindt,Praline,50.0,50.0,42,Male,0,2021-11-23,Chocolate Store 97,Toronto,Canada,Mall
+0RD00804755,2024-10-10,P0095,S039,C010615,5,6.46,0.0,32.3,21.61,10.69,Praline Chocolate 50%,Ferrero,Praline,50.0,80.0,34,Female,0,2024-11-02,Chocolate Store 39,New York,UK,Mall
+0RD00332469,2023-11-18,P0002,S033,C045251,2,6.58,0.1,11.84,6.92,4.92,Dark Chocolate 70%,Cadbury,Praline,70.0,100.0,54,Male,0,2025-04-14,Chocolate Store 33,Toronto,Australia,Retail
+0RD00629265,2024-11-05,P0054,S015,C027201,4,8.75,0.0,35.0,23.82,11.18,Truffle Chocolate 80%,Lindt,Praline,80.0,50.0,62,Male,0,2025-03-15,Chocolate Store 15,Paris,Canada,Airport
+0RD00566364,2024-09-21,P0037,S056,C034163,5,3.38,0.0,16.9,11.35,5.55,Truffle Chocolate 60%,Hershey,White,60.0,120.0,26,Female,1,2024-11-16,Chocolate Store 56,Melbourne,Germany,Online
+0RD00577930,2024-11-15,P0139,S060,C044694,3,6.85,0.0,20.55,13.7,6.85,Dark Chocolate 50%,Godiva,Praline,50.0,100.0,28,Male,1,2022-12-20,Chocolate Store 60,Paris,Australia,Airport
+0RD00001711,2024-03-13,P0077,S055,C010757,3,13.17,0.15,33.58,21.45,12.13,Truffle Chocolate 70%,Cadbury,Praline,70.0,100.0,45,Female,0,2025-04-13,Chocolate Store 55,New York,France,Retail
+0RD00499235,2024-03-03,P0082,S100,C032266,3,9.81,0.0,29.43,19.6,9.83,Praline Chocolate 60%,Ferrero,Milk,60.0,120.0,29,Female,0,2023-08-02,Chocolate Store 100,Berlin,France,Airport
+0RD00043755,2024-06-09,P0036,S086,C004000,2,3.58,0.0,7.16,4.35,2.81,Dark Chocolate 50%,Lindt,Praline,50.0,50.0,31,Male,0,2025-05-18,Chocolate Store 86,Berlin,Australia,Mall
+0RD00738691,2023-04-02,P0091,S070,C038728,1,12.5,0.1,11.25,7.86,3.39,Dark Chocolate 60%,Cadbury,Dark,60.0,200.0,49,Male,0,2022-12-27,Chocolate Store 70,Toronto,Canada,Online
+0RD00521181,2023-01-30,P0189,S031,C000872,1,5.74,0.0,5.74,3.83,1.91,Milk Chocolate 50%,Godiva,Truffle,50.0,100.0,33,Female,0,2023-11-13,Chocolate Store 31,Paris,Australia,Retail
+0RD00906539,2024-05-25,P0112,S066,C003794,1,8.97,0.0,8.97,5.35,3.62,Dark Chocolate 50%,Cadbury,Truffle,50.0,80.0,22,Male,0,2025-11-08,Chocolate Store 66,Sydney,USA,Online
+0RD00988205,2023-02-03,P0163,S040,C027398,3,14.69,0.1,39.66,27.15,12.51,White Chocolate 70%,Lindt,White,70.0,200.0,33,Male,1,2024-07-01,Chocolate Store 40,Melbourne,Canada,Airport
+0RD00671355,2024-01-11,P0106,S081,C003450,3,12.27,0.15,31.29,17.18,14.11,Milk Chocolate 50%,Lindt,White,50.0,50.0,43,Male,0,2022-09-23,Chocolate Store 81,Melbourne,Canada,Airport
+0RD00964598,2023-01-13,P0107,S070,C002762,3,10.74,0.2,25.78,16.87,8.91,Truffle Chocolate 80%,Ferrero,Truffle,80.0,120.0,18,Male,0,2022-04-06,Chocolate Store 70,Toronto,Canada,Online
+0RD00917989,2023-10-11,P0139,S043,C038790,4,6.83,0.0,27.32,16.47,10.85,Dark Chocolate 50%,Godiva,Praline,50.0,100.0,23,Female,1,2023-08-27,Chocolate Store 43,London,Germany,Airport
+0RD00370959,2023-07-14,P0107,S078,C043122,4,9.75,0.0,39.0,19.75,19.25,Truffle Chocolate 80%,Ferrero,Truffle,80.0,120.0,48,Female,1,2025-02-19,Chocolate Store 78,London,UK,Airport
+0RD00277801,2024-05-04,P0160,S060,C030341,3,6.34,0.0,19.02,11.23,7.79,Praline Chocolate 90%,Hershey,Dark,90.0,100.0,52,Male,0,2022-07-18,Chocolate Store 60,Paris,Australia,Airport
+0RD00775109,2024-11-08,P0062,S081,C018916,4,13.44,0.15,45.7,30.37,15.33,Truffle Chocolate 80%,Mars,Dark,80.0,120.0,68,Female,0,2023-02-06,Chocolate Store 81,Melbourne,Canada,Airport
+0RD00133718,2023-07-04,P0169,S040,C033173,5,11.53,0.0,57.65,38.35,19.3,Milk Chocolate 60%,Lindt,White,60.0,80.0,43,Male,0,2021-06-08,Chocolate Store 40,Melbourne,Canada,Airport
+0RD00003727,2023-07-08,P0195,S009,C024884,5,13.79,0.1,62.05,40.85,21.2,White Chocolate 90%,Cadbury,Dark,90.0,120.0,27,Female,1,2023-05-12,Chocolate Store 9,Paris,France,Online
+0RD00107757,2023-03-05,P0168,S080,C016293,4,10.17,0.2,32.54,16.48,16.06,Truffle Chocolate 50%,Ferrero,Praline,50.0,80.0,69,Female,0,2023-02-25,Chocolate Store 80,Sydney,Australia,Online
+0RD00804835,2023-01-10,P0006,S093,C003657,3,14.8,0.0,44.4,23.36,21.04,Milk Chocolate 50%,Hershey,Dark,50.0,50.0,21,Female,0,2023-02-11,Chocolate Store 93,Sydney,UK,Airport
+0RD00329182,2023-03-31,P0036,S045,C035674,5,6.52,0.0,32.6,18.13,14.47,Dark Chocolate 50%,Lindt,Praline,50.0,50.0,58,Male,1,2025-11-22,Chocolate Store 45,Sydney,Canada,Online
+0RD00934075,2024-04-02,P0167,S065,C013721,3,14.78,0.2,35.47,19.02,16.45,Truffle Chocolate 80%,Godiva,White,80.0,200.0,67,Female,1,2023-07-04,Chocolate Store 65,New York,Australia,Retail
+0RD00510677,2024-11-21,P0130,S086,C016623,3,6.0,0.0,18.0,12.44,5.56,Praline Chocolate 70%,Ferrero,Milk,70.0,100.0,21,Female,1,2024-06-05,Chocolate Store 86,Berlin,Australia,Mall
+0RD00949429,2024-02-26,P0021,S092,C008074,4,3.63,0.0,14.52,7.95,6.57,Dark Chocolate 50%,Cadbury,White,50.0,50.0,38,Male,0,2021-03-23,Chocolate Store 92,London,UK,Airport
+0RD00204140,2023-10-15,P0200,S015,C045135,2,11.44,0.2,18.3,12.55,5.76,Milk Chocolate 50%,Cadbury,Milk,50.0,100.0,44,Female,0,2024-08-28,Chocolate Store 15,Paris,Canada,Airport
+0RD00185914,2023-04-02,P0101,S098,C030603,2,7.17,0.1,12.91,7.23,5.68,Milk Chocolate 70%,Hershey,Praline,70.0,100.0,66,Female,1,2024-06-08,Chocolate Store 98,New York,Australia,Online
+0RD00942742,2023-05-27,P0153,S011,C045982,2,13.8,0.2,22.08,12.29,9.79,White Chocolate 70%,Cadbury,White,70.0,50.0,32,Male,0,2022-10-04,Chocolate Store 11,New York,USA,Retail
+0RD00892519,2023-07-28,P0009,S019,C010127,2,4.39,0.0,8.78,4.95,3.83,White Chocolate 50%,Ferrero,Dark,50.0,80.0,23,Male,1,2022-08-24,Chocolate Store 19,New York,Germany,Airport
+0RD00324915,2024-04-21,P0143,S095,C018240,2,8.89,0.2,14.22,7.73,6.49,White Chocolate 90%,Godiva,Milk,90.0,50.0,61,Female,1,2021-10-16,Chocolate Store 95,Toronto,Canada,Mall
+0RD00840746,2023-11-11,P0175,S095,C034870,4,8.12,0.0,32.48,16.27,16.21,White Chocolate 70%,Cadbury,Praline,70.0,100.0,21,Female,0,2025-07-05,Chocolate Store 95,Toronto,Canada,Mall
+0RD00583341,2024-12-09,P0166,S011,C026463,2,10.2,0.15,17.34,9.16,8.18,Milk Chocolate 90%,Mars,White,90.0,80.0,59,Male,1,2024-03-22,Chocolate Store 11,New York,USA,Retail
+0RD00245762,2024-10-01,P0172,S051,C021380,1,3.71,0.0,3.71,2.32,1.39,Truffle Chocolate 80%,Lindt,Dark,80.0,200.0,31,Male,1,2025-07-22,Chocolate Store 51,Toronto,Australia,Retail
+0RD00863831,2023-02-19,P0155,S068,C040395,4,4.0,0.15,13.6,6.98,6.62,Dark Chocolate 80%,Mars,Truffle,80.0,50.0,27,Male,0,2024-01-17,Chocolate Store 68,Melbourne,UK,Online
+0RD00241722,2024-10-28,P0182,S097,C005226,5,7.03,0.0,35.15,19.08,16.07,Praline Chocolate 60%,Mars,Truffle,60.0,120.0,22,Female,1,2022-11-28,Chocolate Store 97,Toronto,Canada,Mall
+0RD00590348,2024-12-21,P0170,S001,C047829,5,13.17,0.0,65.85,38.13,27.72,Truffle Chocolate 50%,Ferrero,Praline,50.0,50.0,19,Female,1,2024-06-06,Chocolate Store 1,New York,Canada,Retail
+0RD00542039,2024-07-13,P0037,S069,C049171,4,10.58,0.15,35.97,21.45,14.52,Truffle Chocolate 60%,Hershey,White,60.0,120.0,36,Female,1,2022-08-15,Chocolate Store 69,London,France,Retail
+0RD00980220,2024-11-21,P0095,S095,C034407,4,3.32,0.2,10.62,6.44,4.18,Praline Chocolate 50%,Ferrero,Praline,50.0,80.0,27,Male,0,2023-05-01,Chocolate Store 95,Toronto,Canada,Mall
+0RD00200079,2023-10-20,P0163,S049,C035040,3,12.45,0.0,37.35,22.68,14.67,White Chocolate 70%,Lindt,White,70.0,200.0,41,Female,1,2024-01-24,Chocolate Store 49,Berlin,France,Mall
+0RD00067080,2024-07-09,P0052,S055,C015763,3,11.83,0.2,28.39,15.61,12.79,Dark Chocolate 90%,Cadbury,Praline,90.0,100.0,54,Male,0,2025-01-05,Chocolate Store 55,New York,France,Retail
+0RD00630215,2023-01-21,P0013,S023,C040985,3,4.83,0.0,14.49,8.3,6.19,White Chocolate 70%,Godiva,Truffle,70.0,120.0,46,Female,1,2026-01-06,Chocolate Store 23,London,Canada,Retail
+0RD00651873,2023-02-17,P0039,S056,C000739,2,14.98,0.15,25.47,16.95,8.52,Truffle Chocolate 90%,Ferrero,White,90.0,50.0,40,Male,1,2022-06-22,Chocolate Store 56,Melbourne,Germany,Online
+0RD00171563,2023-07-05,P0103,S011,C032584,3,13.1,0.0,39.3,23.02,16.28,Praline Chocolate 50%,Ferrero,White,50.0,100.0,42,Female,1,2025-05-28,Chocolate Store 11,New York,USA,Retail
+0RD00606024,2023-12-29,P0008,S053,C012053,2,12.01,0.0,24.02,15.17,8.85,White Chocolate 90%,Godiva,Dark,90.0,100.0,34,Male,1,2023-04-25,Chocolate Store 53,New York,USA,Retail
+0RD00446194,2023-12-14,P0146,S022,C018842,1,7.38,0.0,7.38,3.84,3.54,White Chocolate 50%,Mars,Dark,50.0,50.0,20,Female,1,2023-12-18,Chocolate Store 22,Berlin,USA,Retail
+0RD00031481,2023-11-11,P0112,S019,C035631,1,7.04,0.0,7.04,3.64,3.4,Dark Chocolate 50%,Cadbury,Truffle,50.0,80.0,23,Male,0,2023-07-24,Chocolate Store 19,New York,Germany,Airport
+0RD00014931,2023-05-12,P0196,S043,C036949,2,5.51,0.2,8.82,6.07,2.74,White Chocolate 60%,Mars,Praline,60.0,80.0,65,Female,0,2021-03-11,Chocolate Store 43,London,Germany,Airport
+0RD00913466,2023-03-21,P0011,S069,C028061,2,5.65,0.0,11.3,7.09,4.21,Praline Chocolate 90%,Ferrero,Truffle,90.0,80.0,63,Male,0,2025-06-01,Chocolate Store 69,London,France,Retail
+0RD00940969,2023-04-20,P0121,S052,C019899,3,8.68,0.2,20.83,14.21,6.62,White Chocolate 60%,Mars,Praline,60.0,50.0,32,Male,1,2022-02-18,Chocolate Store 52,Toronto,France,Retail
+0RD00337638,2023-04-07,P0123,S044,C018784,1,7.55,0.15,6.42,3.56,2.85,Praline Chocolate 50%,Cadbury,White,50.0,50.0,62,Female,0,2022-10-16,Chocolate Store 44,Paris,UK,Airport
+0RD00023674,2024-02-06,P0143,S078,C028795,5,5.31,0.0,26.55,15.2,11.35,White Chocolate 90%,Godiva,Milk,90.0,50.0,18,Male,1,2025-06-28,Chocolate Store 78,London,UK,Airport
+0RD00720398,2023-07-24,P0188,S014,C010989,2,12.83,0.0,25.66,13.3,12.36,Praline Chocolate 50%,Cadbury,Dark,50.0,120.0,61,Female,0,2024-12-17,Chocolate Store 14,London,Australia,Airport
+0RD00060541,2024-12-19,P0086,S078,C025765,1,9.48,0.15,8.06,5.57,2.48,Truffle Chocolate 80%,Cadbury,Truffle,80.0,120.0,66,Female,1,2023-09-13,Chocolate Store 78,London,UK,Airport
+0RD00422426,2023-06-30,P0140,S069,C035369,1,12.79,0.0,12.79,7.29,5.5,Dark Chocolate 80%,Lindt,Milk,80.0,120.0,65,Male,1,2025-02-05,Chocolate Store 69,London,France,Retail
+0RD00178035,2024-02-03,P0142,S036,C016528,1,5.9,0.15,5.02,3.49,1.53,Praline Chocolate 70%,Lindt,Dark,70.0,200.0,61,Male,1,2022-03-21,Chocolate Store 36,Berlin,Australia,Mall
+0RD00318065,2023-06-09,P0142,S089,C037866,3,9.3,0.2,22.32,11.92,10.4,Praline Chocolate 70%,Lindt,Dark,70.0,200.0,25,Male,0,2023-11-07,Chocolate Store 89,Paris,Canada,Online
+0RD00960457,2023-07-12,P0187,S057,C042375,3,9.77,0.0,29.31,20.35,8.96,Praline Chocolate 50%,Godiva,Truffle,50.0,120.0,44,Male,0,2022-01-31,Chocolate Store 57,London,UK,Airport
+0RD00597280,2024-08-11,P0185,S026,C025602,4,6.65,0.15,22.61,11.94,10.67,Milk Chocolate 70%,Ferrero,Praline,70.0,100.0,60,Female,1,2022-02-22,Chocolate Store 26,London,USA,Online
+0RD00240652,2023-12-15,P0132,S067,C046441,4,7.07,0.0,28.28,14.38,13.9,Dark Chocolate 70%,Lindt,Milk,70.0,50.0,50,Male,1,2025-02-02,Chocolate Store 67,Berlin,UK,Online
+0RD00860509,2023-08-21,P0115,S009,C032632,3,12.11,0.0,36.33,24.57,11.76,Milk Chocolate 90%,Hershey,Milk,90.0,50.0,52,Female,0,2024-05-04,Chocolate Store 9,Paris,France,Online
+0RD00010465,2023-04-16,P0158,S049,C022674,4,3.12,0.0,12.48,6.28,6.2,Truffle Chocolate 80%,Godiva,Dark,80.0,100.0,44,Female,0,2021-10-27,Chocolate Store 49,Berlin,France,Mall
+0RD00880165,2023-04-04,P0146,S036,C019303,4,11.68,0.2,37.38,21.81,15.57,White Chocolate 50%,Mars,Dark,50.0,50.0,35,Male,1,2025-04-21,Chocolate Store 36,Berlin,Australia,Mall
+0RD00250557,2023-03-29,P0087,S093,C002220,3,10.5,0.2,25.2,14.35,10.85,Truffle Chocolate 60%,Godiva,Dark,60.0,100.0,20,Male,0,2023-12-03,Chocolate Store 93,Sydney,UK,Airport
+0RD00324044,2023-06-14,P0126,S071,C042397,4,8.91,0.1,32.08,17.5,14.57,White Chocolate 50%,Cadbury,Truffle,50.0,200.0,26,Male,1,2022-01-29,Chocolate Store 71,Sydney,Canada,Online
+0RD00399197,2023-11-15,P0190,S031,C014809,1,4.67,0.0,4.67,2.42,2.25,Milk Chocolate 70%,Lindt,Dark,70.0,200.0,52,Male,0,2021-12-01,Chocolate Store 31,Paris,Australia,Retail
+0RD00196808,2024-05-27,P0005,S033,C020249,2,12.94,0.1,23.29,14.48,8.81,White Chocolate 70%,Ferrero,White,70.0,50.0,47,Male,0,2026-02-09,Chocolate Store 33,Toronto,Australia,Retail
+0RD00221877,2024-01-12,P0072,S087,C017911,2,14.39,0.0,28.78,16.26,12.52,Truffle Chocolate 90%,Ferrero,White,90.0,100.0,60,Female,0,2022-02-06,Chocolate Store 87,Paris,Germany,Airport
+0RD00660824,2024-06-21,P0046,S001,C039452,2,11.51,0.15,19.57,11.51,8.06,Dark Chocolate 50%,Cadbury,White,50.0,120.0,49,Male,1,2021-03-31,Chocolate Store 1,New York,Canada,Retail
+0RD00452448,2024-12-03,P0088,S081,C026052,1,13.61,0.0,13.61,8.22,5.39,White Chocolate 90%,Lindt,Truffle,90.0,100.0,44,Male,1,2024-04-08,Chocolate Store 81,Melbourne,Canada,Airport
+0RD00090152,2024-10-31,P0033,S047,C017483,4,7.79,0.0,31.16,16.2,14.96,White Chocolate 90%,Hershey,Praline,90.0,120.0,65,Male,1,2025-05-24,Chocolate Store 47,New York,UK,Mall
+0RD00144139,2024-06-23,P0120,S001,C022208,1,12.36,0.15,10.51,5.43,5.08,Milk Chocolate 90%,Mars,Dark,90.0,100.0,66,Male,0,2025-04-02,Chocolate Store 1,New York,Canada,Retail
+0RD00979593,2023-09-29,P0180,S006,C008125,4,8.05,0.1,28.98,19.53,9.45,Truffle Chocolate 80%,Hershey,Praline,80.0,80.0,43,Male,1,2024-12-17,Chocolate Store 6,Toronto,Canada,Online
+0RD00870290,2023-11-10,P0086,S037,C028895,3,14.38,0.0,43.14,23.41,19.73,Truffle Chocolate 80%,Cadbury,Truffle,80.0,120.0,66,Male,0,2025-05-20,Chocolate Store 37,London,Canada,Online
+0RD00842883,2024-10-02,P0191,S026,C010478,5,7.7,0.15,32.73,17.03,15.7,Truffle Chocolate 70%,Godiva,White,70.0,100.0,68,Female,1,2023-03-07,Chocolate Store 26,London,USA,Online
+0RD00114136,2024-03-04,P0048,S026,C015014,2,10.85,0.0,21.7,13.28,8.42,Praline Chocolate 90%,Cadbury,Milk,90.0,50.0,33,Female,0,2022-07-23,Chocolate Store 26,London,USA,Online
+0RD00052414,2024-01-05,P0146,S063,C035326,4,13.84,0.0,55.36,36.92,18.44,White Chocolate 50%,Mars,Dark,50.0,50.0,36,Female,0,2021-11-09,Chocolate Store 63,Sydney,Australia,Retail
+0RD00407528,2023-12-17,P0102,S024,C011223,2,12.09,0.0,24.18,16.16,8.02,Dark Chocolate 50%,Cadbury,Truffle,50.0,50.0,26,Male,1,2025-06-28,Chocolate Store 24,Paris,France,Online
+0RD00782232,2023-11-26,P0007,S052,C018972,2,7.44,0.0,14.88,9.0,5.88,Praline Chocolate 70%,Cadbury,Praline,70.0,120.0,68,Male,0,2024-08-10,Chocolate Store 52,Toronto,France,Retail
+0RD00622143,2024-10-24,P0017,S042,C043740,1,11.18,0.15,9.5,5.18,4.32,White Chocolate 50%,Hershey,Milk,50.0,120.0,58,Male,0,2025-07-31,Chocolate Store 42,Paris,USA,Online
+0RD00012974,2024-03-03,P0113,S051,C025539,2,10.18,0.0,20.36,13.38,6.98,Truffle Chocolate 80%,Mars,White,80.0,50.0,67,Female,1,2021-08-01,Chocolate Store 51,Toronto,Australia,Retail
+0RD00877531,2023-09-21,P0163,S088,C019895,2,5.76,0.0,11.52,6.47,5.05,White Chocolate 70%,Lindt,White,70.0,200.0,46,Female,0,2024-01-04,Chocolate Store 88,Toronto,USA,Retail
+0RD00272356,2024-08-04,P0143,S054,C002208,2,11.8,0.0,23.6,15.1,8.5,White Chocolate 90%,Godiva,Milk,90.0,50.0,65,Female,1,2022-01-24,Chocolate Store 54,London,Canada,Online
+0RD00113373,2024-07-09,P0138,S096,C032809,3,7.52,0.0,22.56,12.51,10.05,Milk Chocolate 80%,Mars,White,80.0,120.0,23,Female,0,2025-05-20,Chocolate Store 96,Berlin,UK,Mall
+0RD00122582,2024-09-24,P0180,S013,C024228,1,13.72,0.2,10.98,6.74,4.24,Truffle Chocolate 80%,Hershey,Praline,80.0,80.0,46,Male,1,2022-09-09,Chocolate Store 13,Melbourne,France,Retail
+0RD00812445,2023-08-21,P0098,S004,C027945,3,14.82,0.15,37.79,19.06,18.73,Truffle Chocolate 50%,Mars,Milk,50.0,200.0,25,Female,0,2024-04-18,Chocolate Store 4,Paris,UK,Airport
+0RD00860003,2023-12-15,P0038,S014,C019987,3,14.53,0.0,43.59,26.34,17.25,White Chocolate 50%,Cadbury,Milk,50.0,100.0,64,Male,1,2024-08-28,Chocolate Store 14,London,Australia,Airport
+0RD00943203,2023-12-19,P0032,S094,C004780,3,5.47,0.0,16.41,10.79,5.62,Praline Chocolate 70%,Ferrero,Dark,70.0,200.0,56,Female,0,2021-12-10,Chocolate Store 94,Paris,Germany,Airport
+0RD00167490,2024-02-19,P0039,S024,C013268,5,4.19,0.1,18.86,10.36,8.49,Truffle Chocolate 90%,Ferrero,White,90.0,50.0,41,Male,1,2025-12-23,Chocolate Store 24,Paris,France,Online
+0RD00961315,2023-09-16,P0121,S060,C028646,1,11.07,0.0,11.07,6.96,4.11,White Chocolate 60%,Mars,Praline,60.0,50.0,26,Female,0,2022-01-30,Chocolate Store 60,Paris,Australia,Airport
+0RD00647360,2024-12-09,P0191,S047,C023304,3,3.39,0.0,10.17,6.99,3.18,Truffle Chocolate 70%,Godiva,White,70.0,100.0,61,Female,1,2024-06-30,Chocolate Store 47,New York,UK,Mall
+0RD00931205,2024-12-30,P0190,S077,C049117,2,13.41,0.15,22.8,13.58,9.21,Milk Chocolate 70%,Lindt,Dark,70.0,200.0,44,Female,1,2023-09-13,Chocolate Store 77,Paris,UK,Airport
+0RD00023683,2024-04-09,P0142,S021,C042038,4,10.02,0.15,34.07,17.65,16.42,Praline Chocolate 70%,Lindt,Dark,70.0,200.0,31,Female,0,2023-04-30,Chocolate Store 21,Melbourne,USA,Mall
+0RD00848534,2023-06-17,P0196,S087,C043253,3,12.99,0.0,38.97,23.58,15.39,White Chocolate 60%,Mars,Praline,60.0,80.0,32,Male,1,2022-03-01,Chocolate Store 87,Paris,Germany,Airport
+0RD00751502,2023-10-10,P0060,S055,C045360,1,8.15,0.0,8.15,4.48,3.67,Milk Chocolate 70%,Mars,Praline,70.0,120.0,70,Male,0,2025-02-11,Chocolate Store 55,New York,France,Retail
+0RD00481860,2023-11-19,P0057,S089,C016400,1,12.44,0.0,12.44,7.68,4.76,Truffle Chocolate 90%,Cadbury,Milk,90.0,80.0,49,Female,0,2021-07-03,Chocolate Store 89,Paris,Canada,Online
+0RD00023952,2023-06-27,P0067,S064,C002561,3,5.62,0.0,16.86,10.67,6.19,Praline Chocolate 80%,Mars,Praline,80.0,120.0,65,Female,0,2022-04-03,Chocolate Store 64,Berlin,Germany,Airport
+0RD00378209,2024-05-17,P0200,S071,C018551,2,5.14,0.15,8.74,5.68,3.06,Milk Chocolate 50%,Cadbury,Milk,50.0,100.0,68,Male,1,2024-08-05,Chocolate Store 71,Sydney,Canada,Online
+0RD00868698,2023-09-24,P0032,S039,C009681,1,3.11,0.0,3.11,1.59,1.52,Praline Chocolate 70%,Ferrero,Dark,70.0,200.0,21,Male,1,2023-07-02,Chocolate Store 39,New York,UK,Mall
+0RD00546942,2023-09-18,P0136,S058,C029002,2,11.5,0.0,23.0,14.24,8.76,Dark Chocolate 90%,Mars,Milk,90.0,200.0,65,Female,1,2025-11-06,Chocolate Store 58,Paris,USA,Airport
+0RD00901729,2024-04-22,P0142,S036,C043481,5,8.55,0.2,34.2,20.81,13.39,Praline Chocolate 70%,Lindt,Dark,70.0,200.0,31,Male,1,2022-06-22,Chocolate Store 36,Berlin,Australia,Mall
+0RD00321779,2024-09-25,P0194,S026,C006831,2,14.53,0.0,29.06,19.58,9.48,Truffle Chocolate 90%,Godiva,Milk,90.0,200.0,33,Female,0,2022-03-04,Chocolate Store 26,London,USA,Online
+0RD00971149,2023-11-26,P0142,S038,C013192,1,11.95,0.0,11.95,6.27,5.68,Praline Chocolate 70%,Lindt,Dark,70.0,200.0,60,Female,1,2023-10-01,Chocolate Store 38,Melbourne,USA,Mall
+0RD00061677,2024-03-15,P0199,S074,C015177,1,4.14,0.0,4.14,2.86,1.28,Dark Chocolate 70%,Hershey,White,70.0,80.0,24,Female,0,2022-07-19,Chocolate Store 74,Sydney,USA,Online
+0RD00169483,2023-10-04,P0194,S052,C005233,3,4.96,0.0,14.88,9.13,5.75,Truffle Chocolate 90%,Godiva,Milk,90.0,200.0,29,Female,0,2022-08-25,Chocolate Store 52,Toronto,France,Retail
+0RD00674943,2023-11-14,P0044,S097,C032376,4,7.82,0.2,25.02,13.69,11.33,White Chocolate 50%,Ferrero,Praline,50.0,100.0,60,Male,0,2021-07-17,Chocolate Store 97,Toronto,Canada,Mall
+0RD00416509,2023-09-15,P0018,S015,C015547,4,6.7,0.15,22.78,12.4,10.38,Dark Chocolate 70%,Ferrero,Dark,70.0,50.0,70,Male,0,2025-02-13,Chocolate Store 15,Paris,Canada,Airport
+0RD00712239,2023-11-23,P0116,S035,C047818,2,14.68,0.0,29.36,16.33,13.03,Dark Chocolate 70%,Ferrero,Dark,70.0,100.0,60,Female,1,2021-03-09,Chocolate Store 35,Melbourne,USA,Mall
+0RD00092084,2024-12-18,P0158,S021,C004901,2,9.71,0.0,19.42,9.91,9.51,Truffle Chocolate 80%,Godiva,Dark,80.0,100.0,61,Male,1,2024-11-25,Chocolate Store 21,Melbourne,USA,Mall
+0RD00113068,2023-12-18,P0081,S061,C044262,4,7.17,0.0,28.68,19.25,9.43,Truffle Chocolate 90%,Cadbury,White,90.0,100.0,50,Male,0,2022-12-07,Chocolate Store 61,London,France,Online
+0RD00960561,2024-06-17,P0094,S012,C042512,5,7.05,0.0,35.25,22.2,13.05,Dark Chocolate 50%,Ferrero,Dark,50.0,200.0,32,Male,0,2023-01-15,Chocolate Store 12,London,France,Mall
+0RD00168064,2023-12-09,P0046,S016,C015123,5,14.49,0.0,72.45,43.12,29.33,Dark Chocolate 50%,Cadbury,White,50.0,120.0,43,Male,1,2026-02-24,Chocolate Store 16,New York,USA,Mall
+0RD00018093,2024-10-10,P0070,S054,C014520,2,4.81,0.1,8.66,5.97,2.69,White Chocolate 90%,Ferrero,Milk,90.0,200.0,21,Female,1,2022-10-08,Chocolate Store 54,London,Canada,Online
+0RD00868206,2023-02-15,P0117,S088,C008320,4,11.37,0.0,45.48,30.49,14.99,Dark Chocolate 50%,Mars,White,50.0,50.0,32,Male,1,2022-05-23,Chocolate Store 88,Toronto,USA,Retail
+0RD00980295,2024-05-14,P0038,S070,C012197,2,14.59,0.0,29.18,16.31,12.87,White Chocolate 50%,Cadbury,Milk,50.0,100.0,31,Male,0,2025-06-28,Chocolate Store 70,Toronto,Canada,Online
+0RD00865261,2023-03-20,P0018,S019,C040758,4,8.91,0.0,35.64,19.38,16.26,Dark Chocolate 70%,Ferrero,Dark,70.0,50.0,66,Male,0,2023-05-22,Chocolate Store 19,New York,Germany,Airport
+0RD00396639,2024-11-05,P0163,S029,C044611,1,7.45,0.0,7.45,5.14,2.31,White Chocolate 70%,Lindt,White,70.0,200.0,66,Male,1,2024-01-27,Chocolate Store 29,Melbourne,Australia,Online
+0RD00293541,2023-07-16,P0067,S038,C036363,1,9.1,0.15,7.73,4.47,3.26,Praline Chocolate 80%,Mars,Praline,80.0,120.0,28,Male,0,2025-10-01,Chocolate Store 38,Melbourne,USA,Mall
+0RD00096512,2023-06-21,P0003,S070,C000339,2,13.19,0.1,23.74,16.11,7.63,Truffle Chocolate 70%,Hershey,Praline,70.0,120.0,47,Female,1,2024-07-22,Chocolate Store 70,Toronto,Canada,Online
+0RD00131553,2023-12-18,P0094,S011,C005598,3,5.94,0.0,17.82,11.99,5.83,Dark Chocolate 50%,Ferrero,Dark,50.0,200.0,57,Male,1,2025-08-02,Chocolate Store 11,New York,USA,Retail
+0RD00678827,2024-12-14,P0140,S002,C015759,3,3.73,0.0,11.19,6.23,4.96,Dark Chocolate 80%,Lindt,Milk,80.0,120.0,59,Female,1,2022-04-15,Chocolate Store 2,Melbourne,Canada,Mall
+0RD00313600,2023-05-07,P0175,S063,C000001,2,10.2,0.2,16.32,10.38,5.94,White Chocolate 70%,Cadbury,Praline,70.0,100.0,40,Male,1,2025-05-21,Chocolate Store 63,Sydney,Australia,Retail
+0RD00853785,2023-10-09,P0188,S033,C010379,4,13.41,0.1,48.28,32.59,15.69,Praline Chocolate 50%,Cadbury,Dark,50.0,120.0,57,Female,0,2025-07-29,Chocolate Store 33,Toronto,Australia,Retail
+0RD00155553,2024-03-02,P0172,S052,C039573,2,10.22,0.0,20.44,13.13,7.31,Truffle Chocolate 80%,Lindt,Dark,80.0,200.0,24,Female,0,2025-03-15,Chocolate Store 52,Toronto,France,Retail
+0RD00672359,2023-10-28,P0187,S041,C011407,1,13.49,0.0,13.49,9.0,4.49,Praline Chocolate 50%,Godiva,Truffle,50.0,120.0,64,Female,1,2025-09-07,Chocolate Store 41,London,Germany,Airport
+0RD00661483,2024-04-18,P0092,S019,C005872,2,9.84,0.1,17.71,11.42,6.29,Truffle Chocolate 60%,Lindt,Praline,60.0,50.0,41,Male,0,2023-04-05,Chocolate Store 19,New York,Germany,Airport
+0RD00173512,2024-08-23,P0177,S094,C025607,3,7.75,0.2,18.6,11.84,6.76,Praline Chocolate 50%,Ferrero,Dark,50.0,100.0,38,Female,0,2021-03-22,Chocolate Store 94,Paris,Germany,Airport
+0RD00993153,2023-09-22,P0085,S043,C027938,1,14.89,0.0,14.89,8.37,6.52,Truffle Chocolate 80%,Hershey,White,80.0,50.0,55,Male,1,2024-12-03,Chocolate Store 43,London,Germany,Airport
+0RD00817323,2024-08-17,P0010,S017,C038930,4,8.81,0.2,28.19,18.42,9.77,Milk Chocolate 70%,Hershey,Truffle,70.0,50.0,67,Male,0,2025-03-04,Chocolate Store 17,Melbourne,UK,Airport
+0RD00074397,2024-08-17,P0111,S029,C010866,1,3.71,0.1,3.34,1.84,1.5,White Chocolate 80%,Cadbury,Dark,80.0,50.0,33,Female,1,2023-08-11,Chocolate Store 29,Melbourne,Australia,Online
+0RD00033381,2024-02-22,P0150,S071,C048165,5,14.24,0.0,71.2,49.08,22.12,Milk Chocolate 50%,Hershey,Praline,50.0,100.0,29,Male,1,2024-03-14,Chocolate Store 71,Sydney,Canada,Online
+0RD00131915,2023-07-02,P0036,S011,C016885,5,14.12,0.1,63.54,31.87,31.67,Dark Chocolate 50%,Lindt,Praline,50.0,50.0,43,Male,0,2022-12-09,Chocolate Store 11,New York,USA,Retail
+0RD00921166,2024-08-24,P0091,S061,C021994,3,9.56,0.0,28.68,16.47,12.21,Dark Chocolate 60%,Cadbury,Dark,60.0,200.0,50,Female,1,2025-02-16,Chocolate Store 61,London,France,Online
+0RD00191116,2023-09-17,P0083,S064,C049772,4,3.79,0.1,13.64,7.36,6.28,Truffle Chocolate 70%,Cadbury,White,70.0,200.0,49,Female,0,2022-02-28,Chocolate Store 64,Berlin,Germany,Airport
+0RD00169123,2023-03-06,P0159,S097,C043517,3,7.34,0.1,19.82,13.85,5.97,Truffle Chocolate 70%,Godiva,Milk,70.0,100.0,56,Male,1,2024-09-04,Chocolate Store 97,Toronto,Canada,Mall
+0RD00058471,2023-12-16,P0126,S077,C003819,5,11.42,0.0,57.1,29.97,27.13,White Chocolate 50%,Cadbury,Truffle,50.0,200.0,47,Female,1,2024-01-26,Chocolate Store 77,Paris,UK,Airport
+0RD00164672,2023-05-23,P0126,S055,C001557,4,4.78,0.0,19.12,12.97,6.15,White Chocolate 50%,Cadbury,Truffle,50.0,200.0,52,Female,0,2024-11-26,Chocolate Store 55,New York,France,Retail
+0RD00407892,2024-06-10,P0079,S052,C027920,5,11.54,0.0,57.7,33.35,24.35,White Chocolate 80%,Hershey,Praline,80.0,50.0,37,Female,0,2022-02-19,Chocolate Store 52,Toronto,France,Retail
+0RD00224871,2023-03-12,P0116,S062,C044115,3,5.2,0.15,13.26,7.22,6.04,Dark Chocolate 70%,Ferrero,Dark,70.0,100.0,47,Male,1,2025-05-13,Chocolate Store 62,Toronto,Canada,Airport
+0RD00715677,2024-04-21,P0124,S011,C016886,4,3.79,0.0,15.16,7.7,7.46,Truffle Chocolate 80%,Lindt,Praline,80.0,100.0,41,Male,0,2024-10-26,Chocolate Store 11,New York,USA,Retail
+0RD00179130,2023-08-29,P0083,S084,C030003,4,14.72,0.2,47.1,29.94,17.16,Truffle Chocolate 70%,Cadbury,White,70.0,200.0,52,Female,0,2023-12-03,Chocolate Store 84,Toronto,France,Airport
+0RD00390434,2023-07-19,P0194,S014,C043840,1,13.9,0.0,13.9,7.89,6.01,Truffle Chocolate 90%,Godiva,Milk,90.0,200.0,23,Female,0,2022-04-30,Chocolate Store 14,London,Australia,Airport
+0RD00004417,2024-04-21,P0040,S069,C039933,4,7.0,0.0,28.0,18.36,9.64,Dark Chocolate 60%,Mars,Praline,60.0,80.0,25,Male,1,2021-04-28,Chocolate Store 69,London,France,Retail
+0RD00250210,2023-06-15,P0013,S092,C032750,5,7.61,0.0,38.05,19.67,18.38,White Chocolate 70%,Godiva,Truffle,70.0,120.0,26,Male,0,2025-12-12,Chocolate Store 92,London,UK,Airport
+0RD00332271,2024-01-25,P0061,S042,C047608,1,6.3,0.0,6.3,3.95,2.35,Truffle Chocolate 50%,Lindt,Milk,50.0,200.0,49,Female,1,2025-04-29,Chocolate Store 42,Paris,USA,Online
+0RD00476291,2023-08-25,P0005,S037,C000875,1,12.39,0.15,10.53,5.67,4.86,White Chocolate 70%,Ferrero,White,70.0,50.0,24,Female,1,2023-03-01,Chocolate Store 37,London,Canada,Online
+0RD00863785,2023-09-10,P0002,S038,C043856,4,5.61,0.0,22.44,12.87,9.57,Dark Chocolate 70%,Cadbury,Praline,70.0,100.0,31,Male,0,2024-11-26,Chocolate Store 38,Melbourne,USA,Mall
+0RD00982816,2024-05-12,P0184,S053,C006077,3,13.94,0.0,41.82,26.52,15.3,Dark Chocolate 60%,Ferrero,Truffle,60.0,50.0,44,Male,1,2024-09-13,Chocolate Store 53,New York,USA,Retail
+0RD00590888,2024-01-27,P0008,S091,C012203,3,12.66,0.0,37.98,25.68,12.3,White Chocolate 90%,Godiva,Dark,90.0,100.0,38,Female,1,2023-11-22,Chocolate Store 91,Sydney,UK,Online
+0RD00532311,2024-01-03,P0027,S092,C048293,1,6.71,0.0,6.71,4.24,2.47,White Chocolate 60%,Mars,White,60.0,200.0,44,Female,0,2023-12-23,Chocolate Store 92,London,UK,Airport
+0RD00160878,2023-08-05,P0121,S061,C043486,2,8.88,0.0,17.76,12.02,5.74,White Chocolate 60%,Mars,Praline,60.0,50.0,67,Female,1,2023-06-08,Chocolate Store 61,London,France,Online
+0RD00203287,2024-01-02,P0113,S028,C032069,5,3.05,0.0,15.25,9.35,5.9,Truffle Chocolate 80%,Mars,White,80.0,50.0,67,Male,0,2025-08-27,Chocolate Store 28,London,Australia,Mall
+0RD00489241,2024-09-09,P0081,S007,C023111,1,9.24,0.0,9.24,5.83,3.41,Truffle Chocolate 90%,Cadbury,White,90.0,100.0,49,Female,1,2021-11-28,Chocolate Store 7,Sydney,France,Mall
+0RD00186090,2023-06-27,P0164,S084,C001984,1,3.32,0.0,3.32,2.13,1.19,Dark Chocolate 80%,Lindt,White,80.0,100.0,60,Male,0,2023-11-24,Chocolate Store 84,Toronto,France,Airport
+0RD00807089,2024-11-30,P0180,S038,C000265,5,5.31,0.0,26.55,13.72,12.83,Truffle Chocolate 80%,Hershey,Praline,80.0,80.0,54,Female,1,2022-07-10,Chocolate Store 38,Melbourne,USA,Mall
+0RD00977289,2024-10-11,P0172,S019,C040108,5,13.63,0.0,68.15,34.08,34.07,Truffle Chocolate 80%,Lindt,Dark,80.0,200.0,23,Female,0,2023-06-01,Chocolate Store 19,New York,Germany,Airport
+0RD00016248,2024-06-05,P0026,S092,C033152,1,5.58,0.2,4.46,2.44,2.03,Dark Chocolate 90%,Godiva,Praline,90.0,120.0,56,Female,1,2021-11-10,Chocolate Store 92,London,UK,Airport
+0RD00947798,2023-05-16,P0095,S053,C024327,1,12.84,0.0,12.84,6.82,6.02,Praline Chocolate 50%,Ferrero,Praline,50.0,80.0,61,Male,0,2022-11-11,Chocolate Store 53,New York,USA,Retail
+0RD00799218,2023-09-12,P0158,S001,C000381,3,5.17,0.1,13.96,9.61,4.35,Truffle Chocolate 80%,Godiva,Dark,80.0,100.0,18,Male,0,2026-01-04,Chocolate Store 1,New York,Canada,Retail
+0RD00547780,2023-02-22,P0186,S037,C004319,2,10.33,0.1,18.59,12.68,5.92,Dark Chocolate 60%,Godiva,Praline,60.0,50.0,46,Male,1,2024-12-20,Chocolate Store 37,London,Canada,Online
+0RD00740547,2024-11-25,P0058,S033,C037549,1,7.46,0.0,7.46,4.29,3.17,Truffle Chocolate 80%,Lindt,Dark,80.0,120.0,37,Female,0,2025-06-26,Chocolate Store 33,Toronto,Australia,Retail
+0RD00977553,2024-08-04,P0127,S081,C039253,2,3.39,0.1,6.1,3.13,2.97,Praline Chocolate 90%,Mars,White,90.0,80.0,39,Male,1,2022-05-06,Chocolate Store 81,Melbourne,Canada,Airport
+0RD00507951,2024-05-01,P0041,S002,C049000,1,9.61,0.1,8.65,4.52,4.13,Milk Chocolate 70%,Cadbury,Praline,70.0,80.0,28,Female,0,2022-09-12,Chocolate Store 2,Melbourne,Canada,Mall
+0RD00689412,2023-05-02,P0175,S050,C028051,1,8.15,0.0,8.15,4.93,3.22,White Chocolate 70%,Cadbury,Praline,70.0,100.0,49,Male,1,2025-01-14,Chocolate Store 50,New York,Canada,Airport
+0RD00311168,2023-01-05,P0135,S027,C032992,5,8.99,0.1,40.46,23.63,16.83,White Chocolate 80%,Godiva,Praline,80.0,200.0,57,Female,1,2025-07-11,Chocolate Store 27,Sydney,Germany,Airport
+0RD00615316,2023-02-15,P0076,S023,C001946,5,4.72,0.15,20.06,11.13,8.93,White Chocolate 60%,Mars,Truffle,60.0,50.0,35,Female,1,2021-10-04,Chocolate Store 23,London,Canada,Retail
+0RD00625493,2023-12-31,P0180,S092,C036458,1,9.9,0.2,7.92,4.67,3.25,Truffle Chocolate 80%,Hershey,Praline,80.0,80.0,42,Male,0,2025-06-25,Chocolate Store 92,London,UK,Airport
+0RD00913276,2023-01-14,P0004,S045,C043752,3,14.68,0.0,44.04,24.18,19.86,Milk Chocolate 50%,Mars,Praline,50.0,80.0,44,Male,0,2024-09-13,Chocolate Store 45,Sydney,Canada,Online
+0RD00575895,2023-04-10,P0016,S090,C042838,3,7.92,0.1,21.38,13.64,7.75,Dark Chocolate 90%,Mars,White,90.0,50.0,66,Male,0,2025-03-30,Chocolate Store 90,Toronto,France,Online
+0RD00194277,2023-06-18,P0091,S071,C015151,5,11.79,0.15,50.11,30.48,19.62,Dark Chocolate 60%,Cadbury,Dark,60.0,200.0,65,Female,0,2022-11-10,Chocolate Store 71,Sydney,Canada,Online
+0RD00173033,2023-03-09,P0169,S070,C018054,3,12.58,0.0,37.74,22.69,15.05,Milk Chocolate 60%,Lindt,White,60.0,80.0,70,Female,0,2025-08-01,Chocolate Store 70,Toronto,Canada,Online
+0RD00398058,2024-01-25,P0200,S089,C022710,3,3.65,0.0,10.95,6.24,4.71,Milk Chocolate 50%,Cadbury,Milk,50.0,100.0,48,Male,0,2023-04-01,Chocolate Store 89,Paris,Canada,Online
+0RD00804525,2024-08-21,P0075,S066,C029233,5,12.45,0.15,52.91,29.64,23.27,Praline Chocolate 70%,Godiva,White,70.0,200.0,38,Male,0,2022-03-17,Chocolate Store 66,Sydney,USA,Online
+0RD00765525,2024-10-01,P0044,S059,C019921,1,9.21,0.2,7.37,4.75,2.62,White Chocolate 50%,Ferrero,Praline,50.0,100.0,63,Male,1,2022-03-18,Chocolate Store 59,New York,Germany,Airport
+0RD00334866,2024-07-16,P0120,S003,C021640,1,4.62,0.1,4.16,2.65,1.51,Milk Chocolate 90%,Mars,Dark,90.0,100.0,27,Female,0,2023-08-25,Chocolate Store 3,Berlin,France,Mall
+0RD00381824,2023-03-02,P0183,S044,C024067,4,10.25,0.0,41.0,28.26,12.74,White Chocolate 50%,Mars,Praline,50.0,120.0,34,Male,0,2023-06-26,Chocolate Store 44,Paris,UK,Airport
+0RD00311454,2023-07-25,P0175,S034,C004859,5,7.94,0.0,39.7,20.22,19.48,White Chocolate 70%,Cadbury,Praline,70.0,100.0,54,Male,1,2021-10-18,Chocolate Store 34,Paris,Canada,Mall
+0RD00340737,2024-12-19,P0034,S055,C009980,5,14.54,0.0,72.7,43.37,29.33,White Chocolate 60%,Godiva,Praline,60.0,100.0,61,Male,1,2023-07-12,Chocolate Store 55,New York,France,Retail
+0RD00259313,2023-10-22,P0007,S054,C031816,4,5.41,0.15,18.39,12.44,5.95,Praline Chocolate 70%,Cadbury,Praline,70.0,120.0,20,Male,1,2022-02-12,Chocolate Store 54,London,Canada,Online
+0RD00386319,2023-08-15,P0165,S099,C026955,2,4.66,0.0,9.32,5.13,4.19,Praline Chocolate 70%,Godiva,Dark,70.0,50.0,38,Male,0,2022-03-29,Chocolate Store 99,Toronto,Australia,Mall
+0RD00021426,2023-07-01,P0059,S067,C043504,1,13.48,0.0,13.48,9.3,4.18,Praline Chocolate 50%,Godiva,White,50.0,80.0,35,Female,0,2022-01-17,Chocolate Store 67,Berlin,UK,Online
+0RD00328674,2023-02-13,P0059,S073,C018901,3,13.31,0.15,33.94,17.6,16.34,Praline Chocolate 50%,Godiva,White,50.0,80.0,50,Female,1,2024-06-26,Chocolate Store 73,Toronto,UK,Online
+0RD00931748,2024-08-02,P0070,S083,C037347,2,7.49,0.2,11.98,6.51,5.47,White Chocolate 90%,Ferrero,Milk,90.0,200.0,56,Female,1,2021-05-20,Chocolate Store 83,Toronto,France,Mall
+0RD00964907,2023-12-15,P0158,S050,C027389,5,10.07,0.0,50.35,29.39,20.96,Truffle Chocolate 80%,Godiva,Dark,80.0,100.0,31,Female,0,2023-03-05,Chocolate Store 50,New York,Canada,Airport
+0RD00631382,2024-03-15,P0025,S005,C008055,5,5.78,0.15,24.57,14.68,9.89,Praline Chocolate 90%,Lindt,Truffle,90.0,120.0,19,Female,0,2023-10-27,Chocolate Store 5,Sydney,USA,Online
+0RD00460438,2023-06-11,P0103,S011,C023173,3,7.63,0.2,18.31,9.64,8.67,Praline Chocolate 50%,Ferrero,White,50.0,100.0,20,Female,1,2026-01-29,Chocolate Store 11,New York,USA,Retail
+0RD00181147,2023-02-07,P0155,S088,C035939,4,10.84,0.15,36.86,20.85,16.01,Dark Chocolate 80%,Mars,Truffle,80.0,50.0,45,Male,0,2026-02-15,Chocolate Store 88,Toronto,USA,Retail
+0RD00073341,2023-12-23,P0086,S043,C049571,3,12.92,0.2,31.01,16.12,14.89,Truffle Chocolate 80%,Cadbury,Truffle,80.0,120.0,20,Male,0,2026-02-01,Chocolate Store 43,London,Germany,Airport
+0RD00379912,2023-08-16,P0053,S079,C013775,4,6.59,0.1,23.72,14.74,8.99,Milk Chocolate 60%,Ferrero,White,60.0,100.0,47,Male,0,2021-05-01,Chocolate Store 79,New York,USA,Mall
+0RD00311893,2023-09-20,P0037,S002,C034657,2,8.84,0.0,17.68,11.07,6.61,Truffle Chocolate 60%,Hershey,White,60.0,120.0,64,Female,1,2023-12-23,Chocolate Store 2,Melbourne,Canada,Mall
+0RD00300349,2023-03-22,P0152,S092,C014456,5,7.2,0.0,36.0,22.78,13.22,Milk Chocolate 70%,Lindt,Praline,70.0,200.0,57,Female,0,2025-08-27,Chocolate Store 92,London,UK,Airport
+0RD00695225,2024-08-16,P0086,S078,C017837,2,10.48,0.0,20.96,11.88,9.08,Truffle Chocolate 80%,Cadbury,Truffle,80.0,120.0,60,Female,1,2025-06-21,Chocolate Store 78,London,UK,Airport
+0RD00999030,2023-05-17,P0126,S042,C004041,1,4.36,0.15,3.71,2.16,1.54,White Chocolate 50%,Cadbury,Truffle,50.0,200.0,57,Male,0,2026-02-19,Chocolate Store 42,Paris,USA,Online
+0RD00202052,2023-08-12,P0066,S015,C020386,1,12.65,0.15,10.75,6.79,3.96,White Chocolate 80%,Ferrero,Praline,80.0,80.0,59,Male,0,2024-10-04,Chocolate Store 15,Paris,Canada,Airport
+0RD00686066,2023-02-18,P0186,S001,C010465,5,8.92,0.0,44.6,28.13,16.47,Dark Chocolate 60%,Godiva,Praline,60.0,50.0,32,Female,1,2024-11-29,Chocolate Store 1,New York,Canada,Retail
+0RD00757599,2024-03-29,P0159,S020,C040115,5,5.26,0.15,22.35,13.91,8.44,Truffle Chocolate 70%,Godiva,Milk,70.0,100.0,55,Male,0,2026-02-15,Chocolate Store 20,Toronto,Germany,Retail
+0RD00802211,2023-08-21,P0129,S063,C029049,4,6.1,0.2,19.52,13.5,6.02,Truffle Chocolate 90%,Cadbury,White,90.0,80.0,47,Male,0,2022-06-24,Chocolate Store 63,Sydney,Australia,Retail
+0RD00852975,2023-03-04,P0009,S019,C020236,4,12.37,0.0,49.48,29.06,20.42,White Chocolate 50%,Ferrero,Dark,50.0,80.0,44,Male,0,2025-01-12,Chocolate Store 19,New York,Germany,Airport
+0RD00416778,2024-11-08,P0194,S091,C032725,2,10.26,0.1,18.47,10.03,8.43,Truffle Chocolate 90%,Godiva,Milk,90.0,200.0,41,Male,0,2023-11-08,Chocolate Store 91,Sydney,UK,Online
+0RD00821317,2023-10-17,P0081,S002,C034174,4,12.67,0.15,43.08,29.62,13.46,Truffle Chocolate 90%,Cadbury,White,90.0,100.0,54,Male,0,2021-10-01,Chocolate Store 2,Melbourne,Canada,Mall
+0RD00144346,2024-02-03,P0172,S052,C013061,2,8.64,0.0,17.28,8.65,8.63,Truffle Chocolate 80%,Lindt,Dark,80.0,200.0,37,Female,0,2022-02-18,Chocolate Store 52,Toronto,France,Retail
+0RD00875800,2023-10-10,P0007,S019,C039709,5,7.45,0.0,37.25,19.58,17.67,Praline Chocolate 70%,Cadbury,Praline,70.0,120.0,36,Male,0,2023-08-25,Chocolate Store 19,New York,Germany,Airport
+0RD00509246,2023-01-08,P0152,S078,C003700,3,9.83,0.0,29.49,19.32,10.17,Milk Chocolate 70%,Lindt,Praline,70.0,200.0,36,Male,0,2023-08-27,Chocolate Store 78,London,UK,Airport
+0RD00602960,2024-05-28,P0176,S075,C020096,5,8.73,0.15,37.1,24.06,13.04,Truffle Chocolate 90%,Lindt,Praline,90.0,50.0,49,Female,1,2024-03-27,Chocolate Store 75,Sydney,France,Airport
+0RD00126000,2024-10-02,P0096,S084,C012895,1,7.42,0.0,7.42,4.44,2.98,White Chocolate 50%,Hershey,Truffle,50.0,100.0,65,Female,0,2021-06-03,Chocolate Store 84,Toronto,France,Airport
+0RD00251186,2023-07-29,P0097,S091,C010974,2,12.06,0.15,20.5,12.51,7.99,Milk Chocolate 80%,Godiva,Milk,80.0,50.0,21,Female,0,2021-05-14,Chocolate Store 91,Sydney,UK,Online
+0RD00974747,2024-02-24,P0106,S073,C027999,5,4.45,0.0,22.25,11.97,10.28,Milk Chocolate 50%,Lindt,White,50.0,50.0,41,Male,0,2022-08-25,Chocolate Store 73,Toronto,UK,Online
+0RD00312460,2024-03-29,P0131,S100,C034282,5,5.06,0.0,25.3,14.56,10.74,Dark Chocolate 80%,Hershey,Dark,80.0,80.0,51,Female,0,2023-01-20,Chocolate Store 100,Berlin,France,Airport
+0RD00323915,2024-08-19,P0161,S024,C006215,3,13.71,0.0,41.13,28.53,12.6,Praline Chocolate 60%,Ferrero,Dark,60.0,50.0,36,Male,1,2022-07-08,Chocolate Store 24,Paris,France,Online
+0RD00765187,2024-03-16,P0070,S046,C022882,3,11.06,0.15,28.2,18.46,9.74,White Chocolate 90%,Ferrero,Milk,90.0,200.0,30,Female,0,2023-03-11,Chocolate Store 46,London,Canada,Mall
+0RD00327738,2023-07-13,P0046,S009,C048496,2,4.43,0.0,8.86,5.17,3.69,Dark Chocolate 50%,Cadbury,White,50.0,120.0,60,Male,0,2026-02-01,Chocolate Store 9,Paris,France,Online
+0RD00602682,2024-10-08,P0005,S082,C012076,4,3.73,0.0,14.92,8.96,5.96,White Chocolate 70%,Ferrero,White,70.0,50.0,58,Male,0,2026-01-24,Chocolate Store 82,Toronto,Australia,Mall
+0RD00784383,2024-09-26,P0023,S067,C032988,1,5.92,0.0,5.92,4.14,1.78,Dark Chocolate 70%,Cadbury,Praline,70.0,100.0,50,Male,1,2023-09-28,Chocolate Store 67,Berlin,UK,Online
+0RD00016081,2023-03-16,P0118,S083,C018940,4,12.21,0.0,48.84,32.59,16.25,Milk Chocolate 70%,Godiva,Praline,70.0,120.0,70,Male,1,2022-02-01,Chocolate Store 83,Toronto,France,Mall
+0RD00730354,2024-04-20,P0164,S033,C040932,5,13.07,0.0,65.35,38.15,27.2,Dark Chocolate 80%,Lindt,White,80.0,100.0,55,Male,1,2024-01-18,Chocolate Store 33,Toronto,Australia,Retail
+0RD00949855,2023-03-18,P0136,S022,C012320,4,10.68,0.2,34.18,22.64,11.54,Dark Chocolate 90%,Mars,Milk,90.0,200.0,43,Female,1,2023-07-20,Chocolate Store 22,Berlin,USA,Retail
+0RD00073226,2023-06-19,P0059,S051,C008800,4,5.42,0.0,21.68,10.88,10.8,Praline Chocolate 50%,Godiva,White,50.0,80.0,61,Male,1,2022-08-11,Chocolate Store 51,Toronto,Australia,Retail
+0RD00244782,2024-02-03,P0083,S067,C022098,4,7.5,0.0,30.0,20.3,9.7,Truffle Chocolate 70%,Cadbury,White,70.0,200.0,26,Male,0,2023-11-23,Chocolate Store 67,Berlin,UK,Online
+0RD00945334,2024-06-10,P0144,S040,C003266,4,9.22,0.0,36.88,20.3,16.58,Milk Chocolate 60%,Cadbury,Praline,60.0,50.0,24,Male,0,2023-06-19,Chocolate Store 40,Melbourne,Canada,Airport
+0RD00833380,2024-04-20,P0196,S011,C036634,5,9.32,0.0,46.6,24.44,22.16,White Chocolate 60%,Mars,Praline,60.0,80.0,46,Male,1,2025-10-24,Chocolate Store 11,New York,USA,Retail
+0RD00920541,2023-01-26,P0104,S049,C002398,1,8.26,0.15,7.02,4.67,2.35,Praline Chocolate 80%,Godiva,Truffle,80.0,120.0,59,Male,0,2025-08-22,Chocolate Store 49,Berlin,France,Mall
+0RD00227345,2023-04-03,P0085,S083,C018997,4,10.55,0.0,42.2,21.41,20.79,Truffle Chocolate 80%,Hershey,White,80.0,50.0,57,Male,0,2022-01-19,Chocolate Store 83,Toronto,France,Mall
+0RD00732667,2024-04-06,P0069,S087,C028081,4,5.7,0.15,19.38,12.38,7.0,White Chocolate 90%,Cadbury,Milk,90.0,120.0,44,Female,1,2024-01-17,Chocolate Store 87,Paris,Germany,Airport
+0RD00101955,2024-07-21,P0039,S059,C019615,2,8.95,0.2,14.32,8.25,6.07,Truffle Chocolate 90%,Ferrero,White,90.0,50.0,49,Male,0,2024-02-27,Chocolate Store 59,New York,Germany,Airport
+0RD00043142,2023-07-04,P0005,S046,C046171,5,4.83,0.15,20.53,13.79,6.73,White Chocolate 70%,Ferrero,White,70.0,50.0,22,Female,0,2022-05-18,Chocolate Store 46,London,Canada,Mall
+0RD00201004,2023-12-01,P0024,S017,C007561,4,12.86,0.15,43.72,29.61,14.12,Milk Chocolate 70%,Cadbury,White,70.0,100.0,58,Male,1,2023-06-26,Chocolate Store 17,Melbourne,UK,Airport
+0RD00403987,2023-04-16,P0055,S010,C004542,5,7.11,0.0,35.55,24.57,10.98,Milk Chocolate 60%,Lindt,Milk,60.0,100.0,37,Female,1,2024-04-06,Chocolate Store 10,Toronto,UK,Retail
+0RD00663942,2023-11-02,P0169,S093,C014142,2,12.0,0.1,21.6,11.06,10.54,Milk Chocolate 60%,Lindt,White,60.0,80.0,23,Female,1,2024-06-27,Chocolate Store 93,Sydney,UK,Airport
+0RD00990415,2023-06-29,P0125,S056,C035165,3,6.84,0.0,20.52,10.77,9.75,Milk Chocolate 60%,Lindt,Truffle,60.0,50.0,49,Female,0,2024-02-07,Chocolate Store 56,Melbourne,Germany,Online
+0RD00734472,2024-02-10,P0156,S009,C014968,4,13.81,0.2,44.19,27.53,16.66,Dark Chocolate 60%,Cadbury,White,60.0,200.0,35,Female,0,2023-03-31,Chocolate Store 9,Paris,France,Online
+0RD00049199,2023-09-08,P0137,S049,C048733,4,8.32,0.0,33.28,22.55,10.73,Praline Chocolate 80%,Cadbury,White,80.0,100.0,20,Female,1,2024-09-27,Chocolate Store 49,Berlin,France,Mall
+0RD00456378,2023-03-12,P0061,S006,C036712,2,8.67,0.2,13.87,8.98,4.89,Truffle Chocolate 50%,Lindt,Milk,50.0,200.0,20,Male,0,2025-02-05,Chocolate Store 6,Toronto,Canada,Online
+0RD00687421,2023-09-24,P0172,S025,C048467,3,10.88,0.0,32.64,16.87,15.77,Truffle Chocolate 80%,Lindt,Dark,80.0,200.0,19,Male,1,2023-02-17,Chocolate Store 25,Sydney,USA,Airport
+0RD00784893,2023-03-17,P0193,S060,C002925,2,4.83,0.0,9.66,6.64,3.02,White Chocolate 90%,Cadbury,Dark,90.0,80.0,61,Female,0,2022-06-21,Chocolate Store 60,Paris,Australia,Airport
+0RD00213328,2024-07-11,P0163,S057,C016322,3,7.59,0.2,18.22,12.26,5.95,White Chocolate 70%,Lindt,White,70.0,200.0,29,Male,0,2022-10-17,Chocolate Store 57,London,UK,Airport
+0RD00723029,2023-07-02,P0122,S095,C028886,3,9.6,0.0,28.8,18.15,10.65,White Chocolate 70%,Lindt,Milk,70.0,120.0,25,Male,1,2023-06-01,Chocolate Store 95,Toronto,Canada,Mall
+0RD00563590,2023-05-07,P0187,S094,C041069,1,4.67,0.0,4.67,2.78,1.89,Praline Chocolate 50%,Godiva,Truffle,50.0,120.0,59,Female,0,2025-08-24,Chocolate Store 94,Paris,Germany,Airport
+0RD00984260,2024-10-24,P0039,S005,C012481,3,8.16,0.0,24.48,17.05,7.43,Truffle Chocolate 90%,Ferrero,White,90.0,50.0,38,Male,1,2025-12-19,Chocolate Store 5,Sydney,USA,Online
+0RD00887155,2024-09-13,P0008,S045,C039649,3,3.26,0.0,9.78,5.74,4.04,White Chocolate 90%,Godiva,Dark,90.0,100.0,22,Male,0,2023-02-13,Chocolate Store 45,Sydney,Canada,Online
+0RD00623329,2023-08-17,P0117,S008,C040457,5,9.63,0.0,48.15,26.7,21.45,Dark Chocolate 50%,Mars,White,50.0,50.0,39,Male,0,2023-08-28,Chocolate Store 8,Paris,UK,Mall
+0RD00485312,2024-10-12,P0051,S038,C019243,3,8.28,0.1,22.36,13.38,8.97,Milk Chocolate 80%,Lindt,Truffle,80.0,200.0,27,Male,1,2023-04-03,Chocolate Store 38,Melbourne,USA,Mall
+0RD00880550,2024-03-01,P0003,S001,C008678,1,6.84,0.2,5.47,3.57,1.91,Truffle Chocolate 70%,Hershey,Praline,70.0,120.0,30,Female,0,2021-07-12,Chocolate Store 1,New York,Canada,Retail
+0RD00236212,2023-09-19,P0045,S084,C034175,4,7.71,0.0,30.84,15.59,15.25,Milk Chocolate 80%,Godiva,Truffle,80.0,50.0,28,Male,0,2024-08-22,Chocolate Store 84,Toronto,France,Airport
+0RD00559363,2024-02-17,P0118,S067,C048598,3,7.7,0.0,23.1,15.45,7.65,Milk Chocolate 70%,Godiva,Praline,70.0,120.0,70,Female,1,2025-09-13,Chocolate Store 67,Berlin,UK,Online
+0RD00724745,2023-06-10,P0160,S069,C001243,4,10.96,0.2,35.07,21.74,13.33,Praline Chocolate 90%,Hershey,Dark,90.0,100.0,68,Female,0,2024-02-15,Chocolate Store 69,London,France,Retail
+0RD00141117,2024-02-09,P0195,S054,C003289,3,10.86,0.0,32.58,21.98,10.6,White Chocolate 90%,Cadbury,Dark,90.0,120.0,32,Female,0,2022-09-30,Chocolate Store 54,London,Canada,Online
+0RD00501231,2023-08-31,P0114,S031,C046210,2,3.6,0.0,7.2,4.81,2.39,Milk Chocolate 90%,Hershey,Dark,90.0,80.0,50,Female,1,2025-12-29,Chocolate Store 31,Paris,Australia,Retail
+0RD00942088,2023-08-29,P0052,S097,C002127,2,5.49,0.1,9.88,5.44,4.44,Dark Chocolate 90%,Cadbury,Praline,90.0,100.0,45,Male,1,2024-05-09,Chocolate Store 97,Toronto,Canada,Mall
+0RD00479254,2024-11-11,P0009,S092,C013255,2,5.97,0.15,10.15,6.85,3.3,White Chocolate 50%,Ferrero,Dark,50.0,80.0,51,Female,0,2023-02-20,Chocolate Store 92,London,UK,Airport
+0RD00631639,2024-11-17,P0056,S089,C044618,1,3.56,0.0,3.56,2.12,1.44,Dark Chocolate 50%,Lindt,Praline,50.0,120.0,60,Male,0,2024-10-13,Chocolate Store 89,Paris,Canada,Online
+0RD00273193,2024-07-25,P0088,S024,C048459,1,11.49,0.0,11.49,7.8,3.69,White Chocolate 90%,Lindt,Truffle,90.0,100.0,66,Female,1,2022-01-22,Chocolate Store 24,Paris,France,Online
+0RD00593968,2024-05-03,P0151,S027,C027707,2,9.75,0.0,19.5,12.31,7.19,Milk Chocolate 70%,Hershey,White,70.0,200.0,61,Female,1,2022-08-14,Chocolate Store 27,Sydney,Germany,Airport
+0RD00949906,2024-10-01,P0157,S037,C039825,1,6.41,0.0,6.41,3.69,2.72,Dark Chocolate 80%,Cadbury,Truffle,80.0,200.0,22,Female,0,2025-06-17,Chocolate Store 37,London,Canada,Online
+0RD00686751,2024-11-28,P0100,S070,C020190,1,4.4,0.0,4.4,2.51,1.89,Truffle Chocolate 50%,Ferrero,Milk,50.0,200.0,31,Female,1,2023-01-08,Chocolate Store 70,Toronto,Canada,Online
+0RD00389129,2024-10-20,P0120,S063,C024242,3,14.67,0.0,44.01,27.96,16.05,Milk Chocolate 90%,Mars,Dark,90.0,100.0,18,Female,0,2024-05-01,Chocolate Store 63,Sydney,Australia,Retail
+0RD00567203,2024-03-22,P0100,S037,C011820,3,12.64,0.2,30.34,17.14,13.19,Truffle Chocolate 50%,Ferrero,Milk,50.0,200.0,69,Male,1,2025-06-21,Chocolate Store 37,London,Canada,Online
+0RD00599607,2023-02-24,P0095,S046,C030625,1,7.96,0.2,6.37,4.01,2.36,Praline Chocolate 50%,Ferrero,Praline,50.0,80.0,61,Male,1,2023-08-25,Chocolate Store 46,London,Canada,Mall
+0RD00897248,2023-04-06,P0072,S090,C026516,5,9.75,0.0,48.75,28.51,20.24,Truffle Chocolate 90%,Ferrero,White,90.0,100.0,57,Female,1,2023-07-21,Chocolate Store 90,Toronto,France,Online
+0RD00275735,2023-11-10,P0132,S015,C034349,2,8.72,0.0,17.44,9.02,8.42,Dark Chocolate 70%,Lindt,Milk,70.0,50.0,51,Male,1,2023-12-31,Chocolate Store 15,Paris,Canada,Airport
+0RD00107321,2024-08-27,P0173,S023,C042171,5,11.69,0.0,58.45,35.53,22.92,Dark Chocolate 60%,Lindt,Praline,60.0,50.0,57,Female,0,2023-08-23,Chocolate Store 23,London,Canada,Retail
+0RD00047423,2023-08-31,P0176,S062,C003067,2,9.96,0.0,19.92,13.92,6.0,Truffle Chocolate 90%,Lindt,Praline,90.0,50.0,43,Male,1,2024-11-03,Chocolate Store 62,Toronto,Canada,Airport
+0RD00083048,2023-04-12,P0134,S041,C002815,4,3.31,0.0,13.24,8.5,4.74,Praline Chocolate 70%,Mars,Praline,70.0,50.0,65,Female,1,2022-01-19,Chocolate Store 41,London,Germany,Airport
+0RD00249923,2023-10-12,P0081,S030,C038995,3,7.21,0.0,21.63,11.8,9.83,Truffle Chocolate 90%,Cadbury,White,90.0,100.0,28,Male,1,2021-06-21,Chocolate Store 30,New York,UK,Airport
+0RD00762884,2024-05-28,P0143,S047,C042496,3,6.18,0.0,18.54,10.11,8.43,White Chocolate 90%,Godiva,Milk,90.0,50.0,57,Female,0,2025-06-22,Chocolate Store 47,New York,UK,Mall
+0RD00456903,2024-02-10,P0021,S016,C017694,4,8.04,0.0,32.16,21.25,10.91,Dark Chocolate 50%,Cadbury,White,50.0,50.0,50,Female,0,2021-05-04,Chocolate Store 16,New York,USA,Mall
+0RD00257529,2023-02-25,P0059,S021,C019660,1,10.33,0.0,10.33,6.37,3.96,Praline Chocolate 50%,Godiva,White,50.0,80.0,69,Female,0,2021-10-01,Chocolate Store 21,Melbourne,USA,Mall
+0RD00100489,2023-11-25,P0138,S040,C008579,5,10.33,0.0,51.65,36.0,15.65,Milk Chocolate 80%,Mars,White,80.0,120.0,36,Female,1,2023-05-27,Chocolate Store 40,Melbourne,Canada,Airport
+0RD00184041,2023-07-31,P0055,S051,C031579,5,8.28,0.1,37.26,22.69,14.57,Milk Chocolate 60%,Lindt,Milk,60.0,100.0,64,Female,1,2023-02-20,Chocolate Store 51,Toronto,Australia,Retail
+0RD00041378,2024-09-09,P0113,S003,C042106,4,12.55,0.0,50.2,32.68,17.52,Truffle Chocolate 80%,Mars,White,80.0,50.0,45,Male,1,2024-04-15,Chocolate Store 3,Berlin,France,Mall
+0RD00310043,2024-07-20,P0110,S022,C012581,5,10.05,0.0,50.25,29.14,21.11,White Chocolate 50%,Godiva,Milk,50.0,80.0,59,Male,0,2022-10-16,Chocolate Store 22,Berlin,USA,Retail
+0RD00890815,2024-10-25,P0157,S091,C013619,5,4.29,0.2,17.16,9.95,7.21,Dark Chocolate 80%,Cadbury,Truffle,80.0,200.0,44,Female,0,2025-06-02,Chocolate Store 91,Sydney,UK,Online
+0RD00283768,2024-09-18,P0021,S080,C037237,4,5.17,0.1,18.61,11.64,6.97,Dark Chocolate 50%,Cadbury,White,50.0,50.0,30,Female,1,2022-04-26,Chocolate Store 80,Sydney,Australia,Online
+0RD00941994,2023-04-30,P0150,S055,C002236,4,5.23,0.0,20.92,13.67,7.25,Milk Chocolate 50%,Hershey,Praline,50.0,100.0,18,Male,0,2023-03-03,Chocolate Store 55,New York,France,Retail
+0RD00777195,2024-10-19,P0083,S029,C014091,4,5.76,0.0,23.04,13.84,9.2,Truffle Chocolate 70%,Cadbury,White,70.0,200.0,50,Female,0,2025-12-08,Chocolate Store 29,Melbourne,Australia,Online
+0RD00508511,2024-04-09,P0106,S094,C034826,1,10.11,0.0,10.11,5.39,4.72,Milk Chocolate 50%,Lindt,White,50.0,50.0,19,Female,0,2022-12-11,Chocolate Store 94,Paris,Germany,Airport
+0RD00233568,2023-03-27,P0156,S087,C011404,5,9.06,0.15,38.51,22.09,16.41,Dark Chocolate 60%,Cadbury,White,60.0,200.0,56,Female,0,2025-11-08,Chocolate Store 87,Paris,Germany,Airport
+0RD00319645,2023-03-30,P0006,S042,C041207,2,3.81,0.0,7.62,4.47,3.15,Milk Chocolate 50%,Hershey,Dark,50.0,50.0,50,Female,1,2024-12-07,Chocolate Store 42,Paris,USA,Online
+0RD00082894,2024-06-27,P0047,S046,C033178,3,12.44,0.0,37.32,22.89,14.43,Truffle Chocolate 70%,Mars,Dark,70.0,200.0,50,Male,0,2024-04-03,Chocolate Store 46,London,Canada,Mall
+0RD00999593,2024-11-30,P0024,S013,C018083,1,10.81,0.0,10.81,5.46,5.35,Milk Chocolate 70%,Cadbury,White,70.0,100.0,43,Female,1,2025-10-04,Chocolate Store 13,Melbourne,France,Retail
+0RD00693141,2023-03-22,P0123,S066,C001987,3,5.16,0.2,12.38,7.23,5.15,Praline Chocolate 50%,Cadbury,White,50.0,50.0,52,Female,0,2023-10-24,Chocolate Store 66,Sydney,USA,Online
+0RD00526748,2024-09-04,P0193,S087,C046567,3,3.29,0.0,9.87,6.2,3.67,White Chocolate 90%,Cadbury,Dark,90.0,80.0,37,Male,0,2022-05-13,Chocolate Store 87,Paris,Germany,Airport
+0RD00748708,2024-10-10,P0192,S083,C012765,5,6.74,0.2,26.96,16.2,10.76,Milk Chocolate 50%,Ferrero,Dark,50.0,200.0,58,Male,1,2022-09-14,Chocolate Store 83,Toronto,France,Mall
+0RD00580446,2024-07-18,P0193,S041,C042482,5,10.18,0.0,50.9,35.58,15.32,White Chocolate 90%,Cadbury,Dark,90.0,80.0,70,Male,1,2023-09-11,Chocolate Store 41,London,Germany,Airport
+0RD00285417,2023-03-28,P0176,S030,C043408,1,8.49,0.0,8.49,5.87,2.62,Truffle Chocolate 90%,Lindt,Praline,90.0,50.0,18,Male,1,2022-10-19,Chocolate Store 30,New York,UK,Airport
+0RD00955530,2023-09-17,P0162,S026,C049199,4,6.31,0.0,25.24,16.72,8.52,Dark Chocolate 60%,Cadbury,White,60.0,100.0,29,Male,0,2022-01-31,Chocolate Store 26,London,USA,Online
+0RD00202064,2024-03-21,P0141,S032,C040774,2,7.2,0.1,12.96,8.96,4.0,Dark Chocolate 90%,Mars,Praline,90.0,80.0,55,Female,1,2025-12-29,Chocolate Store 32,Paris,UK,Mall
+0RD00920590,2023-12-20,P0063,S086,C039783,2,14.6,0.0,29.2,20.14,9.06,Praline Chocolate 90%,Lindt,White,90.0,100.0,24,Female,0,2021-08-02,Chocolate Store 86,Berlin,Australia,Mall
+0RD00861311,2024-01-23,P0139,S025,C003846,5,14.31,0.0,71.55,37.34,34.21,Dark Chocolate 50%,Godiva,Praline,50.0,100.0,51,Female,0,2024-05-16,Chocolate Store 25,Sydney,USA,Airport
+0RD00051620,2023-08-13,P0199,S078,C013623,1,14.72,0.0,14.72,8.68,6.04,Dark Chocolate 70%,Hershey,White,70.0,80.0,20,Male,1,2023-10-31,Chocolate Store 78,London,UK,Airport
+0RD00716635,2023-10-17,P0163,S044,C012376,4,12.97,0.0,51.88,29.16,22.72,White Chocolate 70%,Lindt,White,70.0,200.0,62,Female,0,2023-05-25,Chocolate Store 44,Paris,UK,Airport
+0RD00793762,2024-09-25,P0122,S001,C005155,4,13.92,0.0,55.68,37.09,18.59,White Chocolate 70%,Lindt,Milk,70.0,120.0,57,Female,0,2023-09-29,Chocolate Store 1,New York,Canada,Retail
+0RD00056319,2023-08-06,P0032,S076,C000025,4,14.14,0.0,56.56,33.31,23.25,Praline Chocolate 70%,Ferrero,Dark,70.0,200.0,33,Male,0,2025-08-11,Chocolate Store 76,Berlin,Germany,Retail
+0RD00004899,2024-04-21,P0001,S094,C041311,3,9.29,0.0,27.87,14.0,13.87,White Chocolate 80%,Mars,Truffle,80.0,120.0,21,Male,1,2025-04-29,Chocolate Store 94,Paris,Germany,Airport
+0RD00075777,2023-04-14,P0011,S057,C040033,5,9.46,0.0,47.3,27.57,19.73,Praline Chocolate 90%,Ferrero,Truffle,90.0,80.0,58,Male,0,2025-09-12,Chocolate Store 57,London,UK,Airport
+0RD00658138,2023-01-27,P0128,S018,C005389,5,3.28,0.0,16.4,10.85,5.55,White Chocolate 80%,Godiva,Dark,80.0,50.0,56,Male,1,2024-12-21,Chocolate Store 18,London,Germany,Retail
+0RD00387912,2024-10-08,P0160,S094,C032210,1,8.22,0.0,8.22,4.38,3.84,Praline Chocolate 90%,Hershey,Dark,90.0,100.0,30,Male,0,2026-01-22,Chocolate Store 94,Paris,Germany,Airport
+0RD00030982,2023-08-18,P0167,S050,C024822,4,13.55,0.2,43.36,24.71,18.65,Truffle Chocolate 80%,Godiva,White,80.0,200.0,67,Female,0,2023-06-21,Chocolate Store 50,New York,Canada,Airport
+0RD00982472,2024-11-06,P0053,S006,C005019,4,7.74,0.0,30.96,20.95,10.01,Milk Chocolate 60%,Ferrero,White,60.0,100.0,63,Female,0,2025-09-01,Chocolate Store 6,Toronto,Canada,Online
+0RD00411756,2023-02-12,P0020,S060,C009511,5,4.66,0.1,20.97,12.91,8.06,Truffle Chocolate 70%,Godiva,Dark,70.0,200.0,61,Female,1,2022-11-07,Chocolate Store 60,Paris,Australia,Airport
+0RD00602384,2023-07-23,P0159,S082,C000578,5,6.11,0.0,30.55,17.09,13.46,Truffle Chocolate 70%,Godiva,Milk,70.0,100.0,42,Male,0,2022-03-08,Chocolate Store 82,Toronto,Australia,Mall
+0RD00653726,2024-07-23,P0042,S060,C043277,5,9.9,0.2,39.6,25.58,14.02,Praline Chocolate 50%,Ferrero,Truffle,50.0,120.0,50,Female,0,2023-09-22,Chocolate Store 60,Paris,Australia,Airport
+0RD00182323,2024-02-04,P0095,S060,C049967,1,13.88,0.2,11.1,7.68,3.43,Praline Chocolate 50%,Ferrero,Praline,50.0,80.0,29,Female,1,2022-01-09,Chocolate Store 60,Paris,Australia,Airport
+0RD00997168,2024-11-03,P0159,S056,C040363,1,3.05,0.2,2.44,1.29,1.15,Truffle Chocolate 70%,Godiva,Milk,70.0,100.0,27,Male,0,2021-12-21,Chocolate Store 56,Melbourne,Germany,Online
+0RD00632304,2024-02-09,P0159,S032,C045644,5,7.16,0.1,32.22,21.46,10.76,Truffle Chocolate 70%,Godiva,Milk,70.0,100.0,37,Male,1,2022-09-24,Chocolate Store 32,Paris,UK,Mall
+0RD00796041,2023-12-05,P0070,S029,C041965,3,5.56,0.0,16.68,11.19,5.49,White Chocolate 90%,Ferrero,Milk,90.0,200.0,30,Female,1,2022-07-23,Chocolate Store 29,Melbourne,Australia,Online
+0RD00663732,2023-09-01,P0122,S074,C037675,3,7.91,0.2,18.98,10.64,8.34,White Chocolate 70%,Lindt,Milk,70.0,120.0,35,Female,1,2023-08-11,Chocolate Store 74,Sydney,USA,Online
+0RD00358247,2023-12-10,P0190,S079,C005470,1,10.77,0.0,10.77,5.75,5.02,Milk Chocolate 70%,Lindt,Dark,70.0,200.0,58,Female,0,2026-03-01,Chocolate Store 79,New York,USA,Mall
+0RD00439056,2023-11-03,P0007,S086,C009146,1,14.39,0.0,14.39,8.18,6.21,Praline Chocolate 70%,Cadbury,Praline,70.0,120.0,54,Male,1,2025-05-25,Chocolate Store 86,Berlin,Australia,Mall
+0RD00091890,2024-10-13,P0092,S059,C042739,3,6.5,0.0,19.5,12.09,7.41,Truffle Chocolate 60%,Lindt,Praline,60.0,50.0,64,Male,1,2023-11-26,Chocolate Store 59,New York,Germany,Airport
+0RD00128052,2024-11-18,P0036,S001,C037985,1,4.27,0.0,4.27,2.96,1.31,Dark Chocolate 50%,Lindt,Praline,50.0,50.0,25,Male,0,2023-02-26,Chocolate Store 1,New York,Canada,Retail
+0RD00422041,2024-01-02,P0050,S072,C046512,1,5.12,0.2,4.1,2.68,1.42,Praline Chocolate 60%,Ferrero,Truffle,60.0,50.0,24,Male,1,2023-11-10,Chocolate Store 72,New York,France,Mall
+0RD00617718,2023-03-29,P0074,S074,C026004,2,7.19,0.2,11.5,6.94,4.57,Dark Chocolate 90%,Hershey,Truffle,90.0,80.0,61,Female,0,2021-09-18,Chocolate Store 74,Sydney,USA,Online
+0RD00882363,2023-03-20,P0155,S024,C017502,1,3.76,0.2,3.01,1.81,1.19,Dark Chocolate 80%,Mars,Truffle,80.0,50.0,66,Male,1,2025-02-14,Chocolate Store 24,Paris,France,Online
+0RD00395037,2024-01-23,P0105,S091,C027288,5,7.43,0.0,37.15,20.84,16.31,Milk Chocolate 80%,Mars,White,80.0,100.0,26,Female,0,2023-12-10,Chocolate Store 91,Sydney,UK,Online
+0RD00426624,2024-08-24,P0137,S045,C024632,4,11.41,0.2,36.51,20.15,16.36,Praline Chocolate 80%,Cadbury,White,80.0,100.0,58,Female,1,2024-07-26,Chocolate Store 45,Sydney,Canada,Online
+0RD00461163,2024-11-26,P0099,S023,C032775,1,10.58,0.0,10.58,6.84,3.74,White Chocolate 80%,Lindt,White,80.0,120.0,20,Male,0,2023-08-15,Chocolate Store 23,London,Canada,Retail
+0RD00912352,2024-10-10,P0200,S008,C032062,3,3.33,0.0,9.99,5.14,4.85,Milk Chocolate 50%,Cadbury,Milk,50.0,100.0,37,Female,0,2023-10-19,Chocolate Store 8,Paris,UK,Mall
+0RD00904783,2023-05-30,P0092,S027,C017519,4,4.06,0.0,16.24,10.29,5.95,Truffle Chocolate 60%,Lindt,Praline,60.0,50.0,21,Female,0,2025-06-25,Chocolate Store 27,Sydney,Germany,Airport
+0RD00228565,2023-06-27,P0020,S041,C036095,4,11.93,0.0,47.72,31.24,16.48,Truffle Chocolate 70%,Godiva,Dark,70.0,200.0,60,Female,1,2024-09-14,Chocolate Store 41,London,Germany,Airport
+0RD00056418,2024-07-13,P0008,S020,C032850,1,14.57,0.0,14.57,8.21,6.36,White Chocolate 90%,Godiva,Dark,90.0,100.0,24,Male,1,2021-04-19,Chocolate Store 20,Toronto,Germany,Retail
+0RD00082034,2024-04-23,P0107,S068,C009264,4,9.12,0.0,36.48,18.33,18.15,Truffle Chocolate 80%,Ferrero,Truffle,80.0,120.0,51,Female,0,2021-05-04,Chocolate Store 68,Melbourne,UK,Online
+0RD00104236,2024-01-17,P0098,S037,C026795,3,8.44,0.0,25.32,15.13,10.19,Truffle Chocolate 50%,Mars,Milk,50.0,200.0,30,Female,1,2025-10-21,Chocolate Store 37,London,Canada,Online
+0RD00125787,2024-03-05,P0146,S034,C024084,2,12.59,0.15,21.4,13.16,8.24,White Chocolate 50%,Mars,Dark,50.0,50.0,54,Female,0,2023-10-29,Chocolate Store 34,Paris,Canada,Mall
+0RD00587548,2024-06-25,P0130,S077,C002788,2,10.63,0.0,21.26,14.32,6.94,Praline Chocolate 70%,Ferrero,Milk,70.0,100.0,41,Male,0,2024-02-03,Chocolate Store 77,Paris,UK,Airport
+0RD00294290,2024-09-14,P0030,S082,C046086,1,13.91,0.1,12.52,6.85,5.67,Praline Chocolate 90%,Lindt,Praline,90.0,120.0,51,Female,1,2023-02-05,Chocolate Store 82,Toronto,Australia,Mall
+0RD00597965,2023-10-10,P0070,S021,C019924,5,6.17,0.0,30.85,21.14,9.71,White Chocolate 90%,Ferrero,Milk,90.0,200.0,35,Male,0,2023-11-28,Chocolate Store 21,Melbourne,USA,Mall
+0RD00500047,2023-02-02,P0159,S082,C017374,4,4.69,0.0,18.76,11.5,7.26,Truffle Chocolate 70%,Godiva,Milk,70.0,100.0,21,Female,0,2022-11-27,Chocolate Store 82,Toronto,Australia,Mall
+0RD00431464,2023-09-30,P0187,S058,C041281,1,12.9,0.0,12.9,7.93,4.97,Praline Chocolate 50%,Godiva,Truffle,50.0,120.0,26,Female,1,2023-11-25,Chocolate Store 58,Paris,USA,Airport
+0RD00032827,2023-06-11,P0078,S041,C046256,1,6.06,0.2,4.85,2.64,2.21,Dark Chocolate 60%,Cadbury,White,60.0,120.0,43,Male,1,2025-10-05,Chocolate Store 41,London,Germany,Airport
+0RD00832557,2024-02-16,P0160,S037,C031151,2,10.65,0.1,19.17,12.41,6.76,Praline Chocolate 90%,Hershey,Dark,90.0,100.0,42,Female,1,2022-07-05,Chocolate Store 37,London,Canada,Online
+0RD00399338,2023-02-25,P0140,S021,C005428,4,13.01,0.0,52.04,30.15,21.89,Dark Chocolate 80%,Lindt,Milk,80.0,120.0,21,Male,0,2023-11-14,Chocolate Store 21,Melbourne,USA,Mall
+0RD00870471,2024-05-12,P0053,S091,C011021,1,4.02,0.0,4.02,2.39,1.63,Milk Chocolate 60%,Ferrero,White,60.0,100.0,24,Male,0,2023-04-27,Chocolate Store 91,Sydney,UK,Online
+0RD00301048,2024-12-21,P0033,S028,C027140,3,12.94,0.0,38.82,26.63,12.19,White Chocolate 90%,Hershey,Praline,90.0,120.0,26,Female,0,2021-12-15,Chocolate Store 28,London,Australia,Mall
+0RD00185382,2024-11-25,P0175,S088,C004207,3,9.97,0.0,29.91,16.08,13.83,White Chocolate 70%,Cadbury,Praline,70.0,100.0,64,Male,1,2024-09-07,Chocolate Store 88,Toronto,USA,Retail
+0RD00413555,2024-03-05,P0116,S065,C046076,1,13.96,0.0,13.96,7.85,6.11,Dark Chocolate 70%,Ferrero,Dark,70.0,100.0,48,Female,1,2022-12-01,Chocolate Store 65,New York,Australia,Retail
+0RD00330236,2023-11-20,P0107,S040,C018921,5,4.61,0.15,19.59,11.18,8.41,Truffle Chocolate 80%,Ferrero,Truffle,80.0,120.0,34,Male,0,2025-02-18,Chocolate Store 40,Melbourne,Canada,Airport
+0RD00738782,2023-07-21,P0148,S064,C002671,2,10.38,0.0,20.76,12.76,8.0,White Chocolate 50%,Hershey,Dark,50.0,200.0,22,Male,1,2024-06-15,Chocolate Store 64,Berlin,Germany,Airport
+0RD00019610,2023-11-22,P0191,S023,C001766,4,9.94,0.0,39.76,23.75,16.01,Truffle Chocolate 70%,Godiva,White,70.0,100.0,18,Male,1,2022-02-01,Chocolate Store 23,London,Canada,Retail
+0RD00671362,2024-03-14,P0119,S060,C017030,2,14.87,0.1,26.77,15.04,11.73,Truffle Chocolate 50%,Ferrero,White,50.0,100.0,60,Female,1,2026-01-08,Chocolate Store 60,Paris,Australia,Airport
+0RD00280532,2024-11-16,P0198,S063,C047060,1,3.07,0.1,2.76,1.54,1.22,Dark Chocolate 90%,Ferrero,White,90.0,80.0,19,Male,1,2023-07-14,Chocolate Store 63,Sydney,Australia,Retail
+0RD00848988,2023-05-31,P0119,S041,C000345,3,14.01,0.0,42.03,21.94,20.09,Truffle Chocolate 50%,Ferrero,White,50.0,100.0,44,Female,1,2024-12-18,Chocolate Store 41,London,Germany,Airport
+0RD00192367,2024-11-01,P0200,S080,C048330,3,12.59,0.1,33.99,19.23,14.76,Milk Chocolate 50%,Cadbury,Milk,50.0,100.0,32,Female,0,2025-08-17,Chocolate Store 80,Sydney,Australia,Online
+0RD00568761,2024-05-30,P0051,S052,C043166,4,12.82,0.0,51.28,33.82,17.46,Milk Chocolate 80%,Lindt,Truffle,80.0,200.0,32,Male,1,2023-12-15,Chocolate Store 52,Toronto,France,Retail
+0RD00801373,2023-01-09,P0124,S083,C047844,3,7.28,0.0,21.84,11.61,10.23,Truffle Chocolate 80%,Lindt,Praline,80.0,100.0,56,Male,0,2023-10-19,Chocolate Store 83,Toronto,France,Mall
+0RD00461962,2024-04-11,P0190,S061,C047377,5,12.37,0.2,49.48,30.44,19.04,Milk Chocolate 70%,Lindt,Dark,70.0,200.0,70,Female,1,2022-06-18,Chocolate Store 61,London,France,Online
+0RD00173516,2024-08-18,P0152,S097,C017783,2,4.8,0.15,8.16,4.3,3.86,Milk Chocolate 70%,Lindt,Praline,70.0,200.0,26,Female,0,2025-04-10,Chocolate Store 97,Toronto,Canada,Mall
+0RD00482672,2024-05-24,P0023,S018,C012743,4,11.22,0.1,40.39,21.7,18.69,Dark Chocolate 70%,Cadbury,Praline,70.0,100.0,57,Male,1,2023-07-18,Chocolate Store 18,London,Germany,Retail
+0RD00284000,2023-02-19,P0010,S059,C002224,5,14.97,0.2,59.88,40.34,19.54,Milk Chocolate 70%,Hershey,Truffle,70.0,50.0,51,Male,1,2022-11-09,Chocolate Store 59,New York,Germany,Airport
+0RD00640055,2023-02-08,P0024,S080,C012156,5,4.99,0.0,24.95,14.33,10.62,Milk Chocolate 70%,Cadbury,White,70.0,100.0,36,Female,0,2023-09-27,Chocolate Store 80,Sydney,Australia,Online
+0RD00719551,2024-06-07,P0037,S057,C035030,4,14.2,0.1,51.12,26.65,24.47,Truffle Chocolate 60%,Hershey,White,60.0,120.0,35,Female,1,2022-12-05,Chocolate Store 57,London,UK,Airport
+0RD00587409,2024-01-20,P0075,S045,C010399,2,8.29,0.15,14.09,8.54,5.55,Praline Chocolate 70%,Godiva,White,70.0,200.0,58,Male,1,2022-09-01,Chocolate Store 45,Sydney,Canada,Online
+0RD00620176,2024-11-02,P0155,S021,C048064,2,5.82,0.1,10.48,5.56,4.92,Dark Chocolate 80%,Mars,Truffle,80.0,50.0,22,Male,1,2024-10-31,Chocolate Store 21,Melbourne,USA,Mall
+0RD00333677,2024-03-16,P0056,S041,C007258,2,5.94,0.2,9.5,5.77,3.73,Dark Chocolate 50%,Lindt,Praline,50.0,120.0,30,Male,0,2024-02-08,Chocolate Store 41,London,Germany,Airport
+0RD00816030,2024-07-22,P0044,S093,C032735,1,7.07,0.15,6.01,3.12,2.89,White Chocolate 50%,Ferrero,Praline,50.0,100.0,31,Female,1,2022-12-03,Chocolate Store 93,Sydney,UK,Airport
+0RD00797882,2024-09-24,P0111,S084,C014501,3,13.34,0.0,40.02,24.01,16.01,White Chocolate 80%,Cadbury,Dark,80.0,50.0,56,Female,1,2026-01-23,Chocolate Store 84,Toronto,France,Airport
+0RD00597553,2024-12-13,P0033,S044,C005651,5,14.32,0.1,64.44,33.14,31.3,White Chocolate 90%,Hershey,Praline,90.0,120.0,47,Male,0,2023-05-25,Chocolate Store 44,Paris,UK,Airport
+0RD00390351,2023-03-25,P0130,S032,C001643,2,13.89,0.2,22.22,11.56,10.66,Praline Chocolate 70%,Ferrero,Milk,70.0,100.0,56,Male,0,2021-10-30,Chocolate Store 32,Paris,UK,Mall
+0RD00505381,2024-08-09,P0056,S013,C028213,2,8.87,0.15,15.08,8.19,6.89,Dark Chocolate 50%,Lindt,Praline,50.0,120.0,66,Male,1,2022-04-07,Chocolate Store 13,Melbourne,France,Retail
+0RD00437249,2024-04-05,P0093,S088,C001219,1,14.87,0.1,13.38,8.6,4.78,Milk Chocolate 90%,Cadbury,White,90.0,80.0,29,Female,0,2024-09-11,Chocolate Store 88,Toronto,USA,Retail
+0RD00756451,2024-08-12,P0074,S040,C029825,5,5.02,0.0,25.1,13.8,11.3,Dark Chocolate 90%,Hershey,Truffle,90.0,80.0,27,Male,0,2025-07-20,Chocolate Store 40,Melbourne,Canada,Airport
+0RD00469958,2023-04-30,P0126,S041,C024852,4,3.89,0.0,15.56,10.53,5.03,White Chocolate 50%,Cadbury,Truffle,50.0,200.0,46,Male,1,2024-05-29,Chocolate Store 41,London,Germany,Airport
+0RD00031742,2023-11-07,P0165,S071,C006330,5,14.89,0.1,67.01,37.82,29.18,Praline Chocolate 70%,Godiva,Dark,70.0,50.0,44,Male,0,2024-08-29,Chocolate Store 71,Sydney,Canada,Online
+0RD00655983,2024-10-16,P0134,S064,C048616,1,11.81,0.1,10.63,6.5,4.13,Praline Chocolate 70%,Mars,Praline,70.0,50.0,54,Male,1,2023-01-12,Chocolate Store 64,Berlin,Germany,Airport
+0RD00060913,2024-08-28,P0090,S079,C008619,1,12.74,0.0,12.74,8.66,4.08,Dark Chocolate 50%,Hershey,Praline,50.0,120.0,51,Female,0,2024-08-19,Chocolate Store 79,New York,USA,Mall
+0RD00644498,2023-07-08,P0172,S034,C016079,4,4.52,0.0,18.08,10.66,7.42,Truffle Chocolate 80%,Lindt,Dark,80.0,200.0,52,Male,0,2023-09-23,Chocolate Store 34,Paris,Canada,Mall
+0RD00117691,2023-09-21,P0015,S064,C010729,3,8.23,0.1,22.22,11.24,10.98,Dark Chocolate 50%,Ferrero,Praline,50.0,50.0,18,Female,1,2024-04-26,Chocolate Store 64,Berlin,Germany,Airport
+0RD00001239,2023-05-31,P0147,S021,C033540,1,12.4,0.0,12.4,6.94,5.46,Dark Chocolate 60%,Mars,White,60.0,120.0,39,Female,0,2025-11-03,Chocolate Store 21,Melbourne,USA,Mall
+0RD00697339,2023-07-29,P0018,S061,C014425,1,10.77,0.15,9.15,5.94,3.22,Dark Chocolate 70%,Ferrero,Dark,70.0,50.0,25,Female,1,2025-09-25,Chocolate Store 61,London,France,Online
+0RD00755121,2024-03-12,P0014,S013,C010235,4,11.26,0.0,45.04,25.99,19.05,White Chocolate 60%,Mars,Praline,60.0,100.0,26,Female,0,2025-11-10,Chocolate Store 13,Melbourne,France,Retail
+0RD00977501,2023-11-12,P0118,S099,C035973,4,8.11,0.1,29.2,19.55,9.64,Milk Chocolate 70%,Godiva,Praline,70.0,120.0,35,Female,0,2025-08-08,Chocolate Store 99,Toronto,Australia,Mall
+0RD00970137,2024-07-06,P0149,S056,C016672,2,6.19,0.0,12.38,8.46,3.92,Milk Chocolate 80%,Lindt,Dark,80.0,80.0,56,Male,0,2022-05-13,Chocolate Store 56,Melbourne,Germany,Online
+0RD00212251,2023-09-08,P0080,S097,C031855,3,3.43,0.0,10.29,5.63,4.66,Praline Chocolate 70%,Hershey,White,70.0,200.0,20,Male,0,2024-11-02,Chocolate Store 97,Toronto,Canada,Mall
+0RD00137307,2023-05-30,P0157,S012,C017743,1,14.45,0.0,14.45,8.84,5.61,Dark Chocolate 80%,Cadbury,Truffle,80.0,200.0,41,Female,1,2025-12-22,Chocolate Store 12,London,France,Mall
+0RD00887312,2024-04-19,P0075,S078,C027707,4,3.42,0.0,13.68,8.04,5.64,Praline Chocolate 70%,Godiva,White,70.0,200.0,61,Female,1,2022-08-14,Chocolate Store 78,London,UK,Airport
+0RD00659640,2024-10-23,P0103,S021,C032622,3,5.08,0.2,12.19,7.79,4.4,Praline Chocolate 50%,Ferrero,White,50.0,100.0,52,Female,1,2023-10-08,Chocolate Store 21,Melbourne,USA,Mall
+0RD00751169,2023-01-31,P0014,S033,C045607,4,9.0,0.0,36.0,24.35,11.65,White Chocolate 60%,Mars,Praline,60.0,100.0,20,Male,0,2022-01-12,Chocolate Store 33,Toronto,Australia,Retail
+0RD00561975,2023-07-19,P0004,S061,C010637,2,13.44,0.15,22.85,14.79,8.06,Milk Chocolate 50%,Mars,Praline,50.0,80.0,43,Female,0,2021-12-31,Chocolate Store 61,London,France,Online
+0RD00696232,2024-04-10,P0110,S055,C017467,4,8.01,0.0,32.04,18.84,13.2,White Chocolate 50%,Godiva,Milk,50.0,80.0,19,Male,0,2022-01-25,Chocolate Store 55,New York,France,Retail
+0RD00991352,2024-04-18,P0135,S077,C044065,2,12.06,0.0,24.12,14.26,9.86,White Chocolate 80%,Godiva,Praline,80.0,200.0,70,Male,1,2025-07-03,Chocolate Store 77,Paris,UK,Airport
+0RD00523263,2024-08-02,P0017,S017,C005460,5,13.26,0.0,66.3,33.69,32.61,White Chocolate 50%,Hershey,Milk,50.0,120.0,21,Male,1,2025-08-04,Chocolate Store 17,Melbourne,UK,Airport
+0RD00110339,2024-02-29,P0091,S082,C044250,1,10.46,0.15,8.89,5.02,3.87,Dark Chocolate 60%,Cadbury,Dark,60.0,200.0,34,Female,0,2021-08-26,Chocolate Store 82,Toronto,Australia,Mall
+0RD00392358,2023-08-10,P0119,S046,C044065,1,9.19,0.2,7.35,4.74,2.61,Truffle Chocolate 50%,Ferrero,White,50.0,100.0,70,Male,1,2025-07-03,Chocolate Store 46,London,Canada,Mall
+0RD00698919,2023-12-19,P0068,S081,C034921,1,9.21,0.0,9.21,5.84,3.37,Praline Chocolate 50%,Hershey,Truffle,50.0,80.0,57,Male,1,2025-06-28,Chocolate Store 81,Melbourne,Canada,Airport
+0RD00929486,2023-09-03,P0167,S006,C001538,2,6.32,0.2,10.11,5.92,4.19,Truffle Chocolate 80%,Godiva,White,80.0,200.0,46,Female,0,2021-03-06,Chocolate Store 6,Toronto,Canada,Online
+0RD00033201,2023-11-12,P0005,S081,C005227,4,10.56,0.0,42.24,29.21,13.03,White Chocolate 70%,Ferrero,White,70.0,50.0,19,Male,1,2023-06-07,Chocolate Store 81,Melbourne,Canada,Airport
+0RD00641022,2023-03-17,P0141,S054,C044040,4,7.98,0.0,31.92,21.4,10.52,Dark Chocolate 90%,Mars,Praline,90.0,80.0,48,Female,1,2022-08-02,Chocolate Store 54,London,Canada,Online
+0RD00815747,2024-01-07,P0114,S091,C015465,2,4.29,0.2,6.86,3.93,2.93,Milk Chocolate 90%,Hershey,Dark,90.0,80.0,47,Male,0,2023-07-20,Chocolate Store 91,Sydney,UK,Online
+0RD00118843,2023-09-12,P0018,S027,C000393,5,3.1,0.1,13.95,8.9,5.05,Dark Chocolate 70%,Ferrero,Dark,70.0,50.0,22,Female,1,2021-06-17,Chocolate Store 27,Sydney,Germany,Airport
+0RD00340025,2024-02-23,P0136,S014,C011590,1,12.53,0.1,11.28,7.55,3.73,Dark Chocolate 90%,Mars,Milk,90.0,200.0,22,Male,0,2025-11-07,Chocolate Store 14,London,Australia,Airport
+0RD00914889,2024-02-16,P0190,S028,C026862,4,10.83,0.0,43.32,25.92,17.4,Milk Chocolate 70%,Lindt,Dark,70.0,200.0,40,Male,0,2025-06-04,Chocolate Store 28,London,Australia,Mall
+0RD00773173,2023-01-12,P0001,S028,C007127,1,7.35,0.0,7.35,3.94,3.41,White Chocolate 80%,Mars,Truffle,80.0,120.0,48,Male,0,2023-11-21,Chocolate Store 28,London,Australia,Mall
+0RD00201232,2024-10-26,P0186,S004,C013944,4,11.29,0.0,45.16,29.82,15.34,Dark Chocolate 60%,Godiva,Praline,60.0,50.0,21,Female,1,2023-12-17,Chocolate Store 4,Paris,UK,Airport
+0RD00855308,2023-04-06,P0134,S040,C047875,2,9.79,0.0,19.58,12.53,7.05,Praline Chocolate 70%,Mars,Praline,70.0,50.0,63,Female,0,2024-03-15,Chocolate Store 40,Melbourne,Canada,Airport
+0RD00953332,2023-07-20,P0182,S029,C039405,3,9.99,0.1,26.97,16.91,10.06,Praline Chocolate 60%,Mars,Truffle,60.0,120.0,51,Female,1,2025-03-27,Chocolate Store 29,Melbourne,Australia,Online
+0RD00834662,2023-10-04,P0090,S011,C000823,4,11.36,0.2,36.35,21.62,14.74,Dark Chocolate 50%,Hershey,Praline,50.0,120.0,54,Male,0,2025-05-23,Chocolate Store 11,New York,USA,Retail
+0RD00552548,2023-01-08,P0137,S021,C049385,3,8.05,0.0,24.15,16.17,7.98,Praline Chocolate 80%,Cadbury,White,80.0,100.0,35,Female,1,2022-06-13,Chocolate Store 21,Melbourne,USA,Mall
+0RD00302267,2024-08-07,P0077,S029,C024446,3,5.37,0.1,14.5,9.47,5.03,Truffle Chocolate 70%,Cadbury,Praline,70.0,100.0,58,Female,0,2025-12-10,Chocolate Store 29,Melbourne,Australia,Online
+0RD00454553,2024-11-03,P0073,S024,C009556,2,7.72,0.0,15.44,9.09,6.35,Milk Chocolate 50%,Mars,Praline,50.0,80.0,32,Male,0,2023-05-30,Chocolate Store 24,Paris,France,Online
+0RD00441910,2023-06-27,P0191,S079,C000007,4,6.74,0.0,26.96,18.52,8.44,Truffle Chocolate 70%,Godiva,White,70.0,100.0,51,Male,1,2024-07-28,Chocolate Store 79,New York,USA,Mall
+0RD00354859,2024-08-21,P0157,S010,C048463,5,12.16,0.0,60.8,32.37,28.43,Dark Chocolate 80%,Cadbury,Truffle,80.0,200.0,20,Female,1,2024-08-09,Chocolate Store 10,Toronto,UK,Retail
+0RD00516706,2023-11-19,P0169,S082,C000817,1,14.07,0.0,14.07,7.38,6.69,Milk Chocolate 60%,Lindt,White,60.0,80.0,34,Male,0,2023-08-29,Chocolate Store 82,Toronto,Australia,Mall
+0RD00556875,2023-10-26,P0099,S008,C036644,3,3.36,0.1,9.07,5.15,3.92,White Chocolate 80%,Lindt,White,80.0,120.0,32,Male,1,2024-12-30,Chocolate Store 8,Paris,UK,Mall
+0RD00688932,2023-08-31,P0091,S046,C011607,3,7.8,0.0,23.4,12.47,10.93,Dark Chocolate 60%,Cadbury,Dark,60.0,200.0,67,Female,0,2022-09-18,Chocolate Store 46,London,Canada,Mall
+0RD00318942,2024-08-23,P0009,S031,C006482,1,3.46,0.0,3.46,1.83,1.63,White Chocolate 50%,Ferrero,Dark,50.0,80.0,28,Male,1,2021-03-29,Chocolate Store 31,Paris,Australia,Retail
+0RD00457102,2023-06-01,P0200,S020,C030239,4,8.51,0.0,34.04,18.41,15.63,Milk Chocolate 50%,Cadbury,Milk,50.0,100.0,52,Female,1,2022-05-17,Chocolate Store 20,Toronto,Germany,Retail
+0RD00129819,2023-07-02,P0033,S028,C007354,2,6.07,0.0,12.14,8.04,4.1,White Chocolate 90%,Hershey,Praline,90.0,120.0,63,Male,0,2022-07-23,Chocolate Store 28,London,Australia,Mall
+0RD00451080,2023-04-10,P0171,S099,C042800,4,3.59,0.0,14.36,8.95,5.41,Dark Chocolate 50%,Mars,Dark,50.0,50.0,69,Female,0,2022-04-09,Chocolate Store 99,Toronto,Australia,Mall
+0RD00159356,2024-12-24,P0164,S039,C032790,2,6.93,0.0,13.86,9.02,4.84,Dark Chocolate 80%,Lindt,White,80.0,100.0,43,Male,1,2021-06-16,Chocolate Store 39,New York,UK,Mall
+0RD00920176,2023-01-19,P0009,S015,C023748,5,7.15,0.15,30.39,16.93,13.46,White Chocolate 50%,Ferrero,Dark,50.0,80.0,32,Male,0,2025-12-10,Chocolate Store 15,Paris,Canada,Airport
+0RD00654625,2023-01-01,P0126,S031,C009874,3,12.3,0.0,36.9,22.29,14.61,White Chocolate 50%,Cadbury,Truffle,50.0,200.0,63,Female,1,2024-11-23,Chocolate Store 31,Paris,Australia,Retail
+0RD00671926,2023-08-09,P0101,S067,C015666,2,9.59,0.2,15.34,8.57,6.77,Milk Chocolate 70%,Hershey,Praline,70.0,100.0,64,Male,1,2025-08-30,Chocolate Store 67,Berlin,UK,Online
+0RD00177138,2023-10-18,P0193,S020,C016238,1,12.53,0.1,11.28,5.97,5.31,White Chocolate 90%,Cadbury,Dark,90.0,80.0,62,Female,0,2025-12-08,Chocolate Store 20,Toronto,Germany,Retail
+0RD00610459,2024-11-27,P0049,S007,C037969,3,3.25,0.1,8.78,4.44,4.33,Milk Chocolate 60%,Ferrero,Truffle,60.0,50.0,58,Female,1,2024-05-16,Chocolate Store 7,Sydney,France,Mall
+0RD00894679,2024-04-07,P0104,S055,C044733,4,11.01,0.1,39.64,25.96,13.67,Praline Chocolate 80%,Godiva,Truffle,80.0,120.0,19,Male,1,2023-03-05,Chocolate Store 55,New York,France,Retail
+0RD00929225,2023-07-13,P0142,S055,C017284,1,9.97,0.2,7.98,4.88,3.1,Praline Chocolate 70%,Lindt,Dark,70.0,200.0,24,Female,1,2021-04-28,Chocolate Store 55,New York,France,Retail
+0RD00017647,2023-11-16,P0019,S033,C039716,1,10.44,0.15,8.87,5.84,3.03,Dark Chocolate 70%,Mars,White,70.0,50.0,55,Male,1,2023-04-06,Chocolate Store 33,Toronto,Australia,Retail
+0RD00096998,2024-09-22,P0066,S087,C032434,2,11.45,0.0,22.9,13.99,8.91,White Chocolate 80%,Ferrero,Praline,80.0,80.0,63,Female,1,2025-09-16,Chocolate Store 87,Paris,Germany,Airport
+0RD00597586,2023-08-28,P0027,S086,C042235,1,11.84,0.0,11.84,7.19,4.65,White Chocolate 60%,Mars,White,60.0,200.0,55,Female,1,2022-11-07,Chocolate Store 86,Berlin,Australia,Mall
+0RD00367837,2023-03-29,P0038,S049,C005108,4,6.67,0.0,26.68,14.7,11.98,White Chocolate 50%,Cadbury,Milk,50.0,100.0,52,Male,0,2022-10-16,Chocolate Store 49,Berlin,France,Mall
+0RD00896828,2023-11-16,P0113,S007,C006173,2,13.75,0.0,27.5,14.68,12.82,Truffle Chocolate 80%,Mars,White,80.0,50.0,29,Male,1,2022-03-11,Chocolate Store 7,Sydney,France,Mall
+0RD00002363,2023-11-27,P0184,S007,C021185,4,14.33,0.15,48.72,26.68,22.05,Dark Chocolate 60%,Ferrero,Truffle,60.0,50.0,40,Male,0,2021-07-15,Chocolate Store 7,Sydney,France,Mall
+0RD00235880,2024-11-01,P0012,S066,C010421,3,6.24,0.0,18.72,11.37,7.35,Truffle Chocolate 80%,Mars,Praline,80.0,200.0,40,Male,0,2026-01-20,Chocolate Store 66,Sydney,USA,Online
+0RD00000917,2024-05-22,P0041,S029,C026255,3,7.19,0.0,21.57,12.85,8.72,Milk Chocolate 70%,Cadbury,Praline,70.0,80.0,27,Male,0,2025-04-07,Chocolate Store 29,Melbourne,Australia,Online
+0RD00887065,2023-07-21,P0170,S068,C048491,4,13.28,0.0,53.12,28.25,24.87,Truffle Chocolate 50%,Ferrero,Praline,50.0,50.0,34,Male,0,2021-04-19,Chocolate Store 68,Melbourne,UK,Online
+0RD00960537,2023-06-01,P0019,S067,C002100,2,10.02,0.0,20.04,11.52,8.52,Dark Chocolate 70%,Mars,White,70.0,50.0,67,Female,0,2021-04-12,Chocolate Store 67,Berlin,UK,Online
+0RD00242023,2023-10-14,P0105,S031,C033529,4,7.42,0.15,25.23,14.33,10.9,Milk Chocolate 80%,Mars,White,80.0,100.0,54,Male,0,2021-06-18,Chocolate Store 31,Paris,Australia,Retail
+0RD00000079,2024-10-06,P0118,S013,C028707,3,7.07,0.2,16.97,10.33,6.63,Milk Chocolate 70%,Godiva,Praline,70.0,120.0,36,Male,0,2021-09-16,Chocolate Store 13,Melbourne,France,Retail
+0RD00964629,2023-03-06,P0157,S055,C034558,2,4.53,0.0,9.06,5.83,3.23,Dark Chocolate 80%,Cadbury,Truffle,80.0,200.0,59,Male,1,2024-08-01,Chocolate Store 55,New York,France,Retail
+0RD00739482,2024-03-20,P0103,S058,C029311,1,4.0,0.0,4.0,2.56,1.44,Praline Chocolate 50%,Ferrero,White,50.0,100.0,25,Male,0,2022-06-10,Chocolate Store 58,Paris,USA,Airport
+0RD00828826,2023-03-04,P0035,S096,C011661,1,10.59,0.0,10.59,5.86,4.73,White Chocolate 70%,Hershey,Dark,70.0,200.0,45,Male,0,2023-11-25,Chocolate Store 96,Berlin,UK,Mall
+0RD00487125,2024-07-16,P0110,S080,C031344,5,4.49,0.1,20.21,11.84,8.37,White Chocolate 50%,Godiva,Milk,50.0,80.0,44,Female,1,2025-02-21,Chocolate Store 80,Sydney,Australia,Online
+0RD00351345,2023-01-08,P0066,S019,C003086,1,10.34,0.0,10.34,5.41,4.93,White Chocolate 80%,Ferrero,Praline,80.0,80.0,39,Female,1,2024-09-11,Chocolate Store 19,New York,Germany,Airport
+0RD00328601,2023-01-06,P0026,S086,C040418,4,13.39,0.0,53.56,35.61,17.95,Dark Chocolate 90%,Godiva,Praline,90.0,120.0,58,Male,1,2025-05-01,Chocolate Store 86,Berlin,Australia,Mall
+0RD00803977,2023-11-29,P0039,S088,C001685,1,14.68,0.2,11.74,6.04,5.71,Truffle Chocolate 90%,Ferrero,White,90.0,50.0,66,Female,1,2022-12-05,Chocolate Store 88,Toronto,USA,Retail
+0RD00934289,2024-02-14,P0041,S028,C018719,5,7.34,0.15,31.2,20.72,10.48,Milk Chocolate 70%,Cadbury,Praline,70.0,80.0,47,Female,0,2022-07-10,Chocolate Store 28,London,Australia,Mall
+0RD00468411,2023-03-14,P0128,S097,C024715,4,9.36,0.0,37.44,20.75,16.69,White Chocolate 80%,Godiva,Dark,80.0,50.0,36,Male,0,2021-11-19,Chocolate Store 97,Toronto,Canada,Mall
+0RD00504627,2024-01-15,P0180,S040,C043360,2,11.22,0.0,22.44,12.26,10.18,Truffle Chocolate 80%,Hershey,Praline,80.0,80.0,62,Female,0,2025-04-27,Chocolate Store 40,Melbourne,Canada,Airport
+0RD00878974,2024-10-31,P0073,S072,C021332,5,12.02,0.0,60.1,41.38,18.72,Milk Chocolate 50%,Mars,Praline,50.0,80.0,43,Female,0,2021-07-27,Chocolate Store 72,New York,France,Mall
+0RD00620299,2024-12-30,P0049,S070,C000478,2,6.22,0.0,12.44,7.55,4.89,Milk Chocolate 60%,Ferrero,Truffle,60.0,50.0,40,Male,1,2022-02-17,Chocolate Store 70,Toronto,Canada,Online
+0RD00572617,2024-07-16,P0090,S015,C015890,5,14.12,0.15,60.01,39.4,20.61,Dark Chocolate 50%,Hershey,Praline,50.0,120.0,41,Female,0,2024-01-15,Chocolate Store 15,Paris,Canada,Airport
+0RD00004730,2023-09-17,P0022,S084,C021448,3,9.51,0.2,22.82,12.45,10.37,Praline Chocolate 50%,Hershey,Dark,50.0,200.0,70,Female,0,2024-01-10,Chocolate Store 84,Toronto,France,Airport
+0RD00684251,2024-11-30,P0189,S021,C027114,3,5.08,0.15,12.95,7.93,5.02,Milk Chocolate 50%,Godiva,Truffle,50.0,100.0,42,Male,1,2022-11-24,Chocolate Store 21,Melbourne,USA,Mall
+0RD00018374,2023-05-31,P0110,S065,C045462,1,10.97,0.15,9.32,4.76,4.56,White Chocolate 50%,Godiva,Milk,50.0,80.0,62,Male,1,2025-06-03,Chocolate Store 65,New York,Australia,Retail
+0RD00284415,2024-10-20,P0186,S041,C049749,4,10.3,0.0,41.2,22.94,18.26,Dark Chocolate 60%,Godiva,Praline,60.0,50.0,45,Male,0,2022-02-12,Chocolate Store 41,London,Germany,Airport
+0RD00510306,2024-04-08,P0159,S018,C002075,3,11.15,0.2,26.76,15.94,10.82,Truffle Chocolate 70%,Godiva,Milk,70.0,100.0,45,Female,0,2023-09-11,Chocolate Store 18,London,Germany,Retail
+0RD00428731,2024-10-11,P0062,S011,C020795,1,5.63,0.0,5.63,3.08,2.55,Truffle Chocolate 80%,Mars,Dark,80.0,120.0,60,Male,1,2021-05-22,Chocolate Store 11,New York,USA,Retail
+0RD00750651,2024-01-18,P0082,S084,C044040,2,3.57,0.2,5.71,3.0,2.71,Praline Chocolate 60%,Ferrero,Milk,60.0,120.0,48,Female,1,2022-08-02,Chocolate Store 84,Toronto,France,Airport
+0RD00147157,2024-04-27,P0197,S054,C014646,3,12.36,0.0,37.08,23.63,13.45,Truffle Chocolate 90%,Hershey,Truffle,90.0,120.0,46,Female,0,2025-10-09,Chocolate Store 54,London,Canada,Online
+0RD00625675,2023-02-26,P0193,S066,C043942,4,4.6,0.15,15.64,9.03,6.61,White Chocolate 90%,Cadbury,Dark,90.0,80.0,61,Female,1,2023-05-07,Chocolate Store 66,Sydney,USA,Online
+0RD00549275,2024-11-11,P0111,S054,C006841,2,7.82,0.1,14.08,8.78,5.3,White Chocolate 80%,Cadbury,Dark,80.0,50.0,40,Male,0,2021-04-16,Chocolate Store 54,London,Canada,Online
+0RD00541131,2023-01-05,P0101,S046,C007938,1,3.5,0.15,2.98,1.88,1.1,Milk Chocolate 70%,Hershey,Praline,70.0,100.0,18,Male,1,2024-10-05,Chocolate Store 46,London,Canada,Mall
+0RD00811162,2024-05-02,P0133,S081,C026043,1,8.23,0.15,7.0,4.76,2.23,Milk Chocolate 90%,Lindt,Dark,90.0,100.0,64,Female,0,2024-09-18,Chocolate Store 81,Melbourne,Canada,Airport
+0RD00427874,2024-07-28,P0161,S068,C040032,4,5.58,0.0,22.32,13.67,8.65,Praline Chocolate 60%,Ferrero,Dark,60.0,50.0,54,Male,0,2022-09-17,Chocolate Store 68,Melbourne,UK,Online
+0RD00508394,2024-01-24,P0133,S053,C048541,1,8.3,0.0,8.3,4.62,3.68,Milk Chocolate 90%,Lindt,Dark,90.0,100.0,52,Female,1,2024-05-30,Chocolate Store 53,New York,USA,Retail
+0RD00413324,2024-02-02,P0136,S014,C036872,1,6.08,0.0,6.08,4.04,2.04,Dark Chocolate 90%,Mars,Milk,90.0,200.0,50,Male,1,2022-07-14,Chocolate Store 14,London,Australia,Airport
+0RD00212179,2024-05-17,P0193,S019,C044276,4,9.35,0.0,37.4,22.39,15.01,White Chocolate 90%,Cadbury,Dark,90.0,80.0,46,Male,1,2024-10-14,Chocolate Store 19,New York,Germany,Airport
+0RD00467407,2023-12-16,P0055,S099,C009057,2,4.91,0.0,9.82,5.2,4.62,Milk Chocolate 60%,Lindt,Milk,60.0,100.0,66,Male,1,2025-12-23,Chocolate Store 99,Toronto,Australia,Mall
+0RD00859499,2024-08-14,P0061,S043,C031577,5,11.9,0.15,50.57,34.07,16.51,Truffle Chocolate 50%,Lindt,Milk,50.0,200.0,66,Female,1,2021-06-22,Chocolate Store 43,London,Germany,Airport
+0RD00219805,2023-04-07,P0153,S049,C046950,2,7.19,0.0,14.38,8.83,5.55,White Chocolate 70%,Cadbury,White,70.0,50.0,41,Male,1,2024-12-02,Chocolate Store 49,Berlin,France,Mall
+0RD00245875,2023-11-30,P0131,S035,C028993,2,13.42,0.2,21.47,10.99,10.49,Dark Chocolate 80%,Hershey,Dark,80.0,80.0,39,Female,1,2024-10-01,Chocolate Store 35,Melbourne,USA,Mall
+0RD00087947,2023-03-06,P0133,S085,C049884,2,6.43,0.0,12.86,6.64,6.22,Milk Chocolate 90%,Lindt,Dark,90.0,100.0,20,Female,0,2026-02-28,Chocolate Store 85,Melbourne,USA,Online
+0RD00017238,2024-08-27,P0137,S031,C014495,3,5.85,0.1,15.79,8.1,7.69,Praline Chocolate 80%,Cadbury,White,80.0,100.0,26,Male,1,2024-10-03,Chocolate Store 31,Paris,Australia,Retail
+0RD00413235,2024-05-23,P0188,S089,C000806,2,5.72,0.0,11.44,7.61,3.83,Praline Chocolate 50%,Cadbury,Dark,50.0,120.0,19,Male,1,2024-05-23,Chocolate Store 89,Paris,Canada,Online
+0RD00964802,2023-04-30,P0051,S024,C007863,4,10.47,0.1,37.69,22.21,15.49,Milk Chocolate 80%,Lindt,Truffle,80.0,200.0,69,Male,1,2022-03-10,Chocolate Store 24,Paris,France,Online
+0RD00231026,2024-04-07,P0122,S086,C041395,4,4.18,0.2,13.38,8.5,4.87,White Chocolate 70%,Lindt,Milk,70.0,120.0,18,Female,0,2025-09-01,Chocolate Store 86,Berlin,Australia,Mall
+0RD00043531,2023-04-25,P0075,S031,C003154,4,4.18,0.1,15.05,8.84,6.21,Praline Chocolate 70%,Godiva,White,70.0,200.0,41,Female,1,2022-03-19,Chocolate Store 31,Paris,Australia,Retail
+0RD00135121,2023-03-18,P0139,S044,C034911,5,7.62,0.0,38.1,20.81,17.29,Dark Chocolate 50%,Godiva,Praline,50.0,100.0,57,Male,0,2024-08-15,Chocolate Store 44,Paris,UK,Airport
+0RD00386100,2023-05-02,P0130,S076,C044671,3,12.66,0.0,37.98,23.34,14.64,Praline Chocolate 70%,Ferrero,Milk,70.0,100.0,25,Female,0,2023-12-08,Chocolate Store 76,Berlin,Germany,Retail
+0RD00328850,2023-11-15,P0080,S008,C018713,3,5.45,0.0,16.35,8.98,7.37,Praline Chocolate 70%,Hershey,White,70.0,200.0,40,Female,1,2025-03-21,Chocolate Store 8,Paris,UK,Mall
+0RD00093743,2023-11-29,P0168,S090,C046442,1,8.53,0.0,8.53,5.11,3.42,Truffle Chocolate 50%,Ferrero,Praline,50.0,80.0,52,Male,1,2022-11-07,Chocolate Store 90,Toronto,France,Online
+0RD00235821,2023-09-01,P0108,S083,C020900,2,5.97,0.0,11.94,7.19,4.75,Dark Chocolate 60%,Lindt,Truffle,60.0,100.0,18,Female,0,2024-09-26,Chocolate Store 83,Toronto,France,Mall
+0RD00169480,2023-03-27,P0095,S077,C021547,2,13.7,0.0,27.4,18.04,9.36,Praline Chocolate 50%,Ferrero,Praline,50.0,80.0,48,Male,1,2024-07-01,Chocolate Store 77,Paris,UK,Airport
+0RD00450823,2024-07-22,P0033,S093,C037640,2,13.35,0.1,24.03,13.57,10.46,White Chocolate 90%,Hershey,Praline,90.0,120.0,60,Male,0,2024-02-23,Chocolate Store 93,Sydney,UK,Airport
+0RD00407986,2023-10-12,P0110,S012,C019776,3,7.21,0.1,19.47,9.94,9.52,White Chocolate 50%,Godiva,Milk,50.0,80.0,42,Female,1,2025-06-23,Chocolate Store 12,London,France,Mall
+0RD00678240,2023-02-04,P0002,S042,C042667,4,11.14,0.2,35.65,24.59,11.06,Dark Chocolate 70%,Cadbury,Praline,70.0,100.0,69,Male,0,2021-12-11,Chocolate Store 42,Paris,USA,Online
+0RD00737328,2024-02-29,P0078,S096,C017029,1,9.61,0.2,7.69,4.45,3.24,Dark Chocolate 60%,Cadbury,White,60.0,120.0,22,Male,0,2022-06-17,Chocolate Store 96,Berlin,UK,Mall
+0RD00735918,2024-12-25,P0188,S073,C020768,4,7.09,0.0,28.36,16.17,12.19,Praline Chocolate 50%,Cadbury,Dark,50.0,120.0,20,Male,1,2022-04-16,Chocolate Store 73,Toronto,UK,Online
+0RD00345839,2024-11-20,P0191,S020,C029629,2,4.73,0.0,9.46,5.52,3.94,Truffle Chocolate 70%,Godiva,White,70.0,100.0,63,Male,0,2023-09-27,Chocolate Store 20,Toronto,Germany,Retail
+0RD00940617,2023-11-17,P0024,S095,C017422,4,13.98,0.0,55.92,28.25,27.67,Milk Chocolate 70%,Cadbury,White,70.0,100.0,64,Female,1,2025-05-02,Chocolate Store 95,Toronto,Canada,Mall
+0RD00463911,2023-06-28,P0086,S091,C032517,2,12.24,0.0,24.48,15.33,9.15,Truffle Chocolate 80%,Cadbury,Truffle,80.0,120.0,31,Male,0,2021-07-02,Chocolate Store 91,Sydney,UK,Online
+0RD00937174,2023-01-11,P0103,S078,C003988,3,12.66,0.0,37.98,22.15,15.83,Praline Chocolate 50%,Ferrero,White,50.0,100.0,67,Male,1,2024-05-19,Chocolate Store 78,London,UK,Airport
+0RD00784150,2024-02-15,P0039,S045,C005747,5,4.19,0.15,17.81,9.94,7.87,Truffle Chocolate 90%,Ferrero,White,90.0,50.0,18,Male,0,2022-03-03,Chocolate Store 45,Sydney,Canada,Online
+0RD00016488,2023-09-18,P0168,S061,C002065,3,13.81,0.15,35.22,23.45,11.76,Truffle Chocolate 50%,Ferrero,Praline,50.0,80.0,28,Female,1,2022-05-09,Chocolate Store 61,London,France,Online
+0RD00001173,2023-11-05,P0129,S081,C042577,4,4.65,0.0,18.6,9.97,8.63,Truffle Chocolate 90%,Cadbury,White,90.0,80.0,59,Female,1,2023-12-05,Chocolate Store 81,Melbourne,Canada,Airport
+0RD00113342,2024-04-15,P0185,S051,C023175,5,9.37,0.0,46.85,32.32,14.53,Milk Chocolate 70%,Ferrero,Praline,70.0,100.0,25,Female,1,2025-08-28,Chocolate Store 51,Toronto,Australia,Retail
+0RD00118210,2024-11-18,P0017,S065,C005323,1,13.02,0.15,11.07,5.87,5.2,White Chocolate 50%,Hershey,Milk,50.0,120.0,18,Male,1,2023-05-11,Chocolate Store 65,New York,Australia,Retail
+0RD00029783,2024-06-26,P0009,S028,C049918,4,9.26,0.0,37.04,18.88,18.16,White Chocolate 50%,Ferrero,Dark,50.0,80.0,28,Female,1,2025-06-25,Chocolate Store 28,London,Australia,Mall
+0RD00841873,2024-03-30,P0089,S077,C025067,5,5.64,0.0,28.2,19.13,9.07,Dark Chocolate 70%,Godiva,White,70.0,200.0,43,Male,0,2023-10-22,Chocolate Store 77,Paris,UK,Airport
+0RD00150875,2023-12-02,P0043,S079,C048483,4,13.14,0.0,52.56,30.66,21.9,Truffle Chocolate 90%,Lindt,Praline,90.0,200.0,23,Female,1,2021-12-31,Chocolate Store 79,New York,USA,Mall
+0RD00531516,2024-09-11,P0076,S036,C001068,1,12.98,0.0,12.98,8.52,4.46,White Chocolate 60%,Mars,Truffle,60.0,50.0,19,Male,0,2021-05-29,Chocolate Store 36,Berlin,Australia,Mall
+0RD00302244,2024-01-26,P0159,S027,C018832,4,3.3,0.0,13.2,9.12,4.08,Truffle Chocolate 70%,Godiva,Milk,70.0,100.0,43,Male,1,2023-10-08,Chocolate Store 27,Sydney,Germany,Airport
+0RD00849696,2024-12-31,P0198,S054,C001694,3,13.04,0.0,39.12,26.49,12.63,Dark Chocolate 90%,Ferrero,White,90.0,80.0,29,Female,0,2025-11-15,Chocolate Store 54,London,Canada,Online
+0RD00321777,2023-05-18,P0120,S026,C029161,5,9.97,0.0,49.85,30.29,19.56,Milk Chocolate 90%,Mars,Dark,90.0,100.0,18,Male,1,2022-08-08,Chocolate Store 26,London,USA,Online
+0RD00049983,2024-02-19,P0196,S047,C000160,3,12.29,0.2,29.5,19.52,9.98,White Chocolate 60%,Mars,Praline,60.0,80.0,22,Female,1,2024-06-20,Chocolate Store 47,New York,UK,Mall
+0RD00758445,2024-06-12,P0103,S081,C030103,3,10.64,0.15,27.13,14.86,12.28,Praline Chocolate 50%,Ferrero,White,50.0,100.0,47,Female,1,2024-03-19,Chocolate Store 81,Melbourne,Canada,Airport
+0RD00154450,2024-08-06,P0013,S061,C021554,5,8.05,0.0,40.25,26.75,13.5,White Chocolate 70%,Godiva,Truffle,70.0,120.0,25,Female,0,2023-08-21,Chocolate Store 61,London,France,Online
+0RD00914399,2024-05-18,P0095,S025,C003647,1,11.69,0.15,9.94,5.48,4.46,Praline Chocolate 50%,Ferrero,Praline,50.0,80.0,42,Male,1,2025-07-25,Chocolate Store 25,Sydney,USA,Airport
+0RD00189054,2023-04-19,P0191,S012,C036075,4,11.54,0.0,46.16,27.03,19.13,Truffle Chocolate 70%,Godiva,White,70.0,100.0,45,Female,1,2023-03-07,Chocolate Store 12,London,France,Mall
+0RD00047978,2023-01-01,P0189,S081,C024464,5,8.17,0.0,40.85,23.81,17.04,Milk Chocolate 50%,Godiva,Truffle,50.0,100.0,37,Female,0,2022-05-27,Chocolate Store 81,Melbourne,Canada,Airport
+0RD00600786,2023-03-05,P0064,S005,C032084,3,14.68,0.0,44.04,30.54,13.5,Dark Chocolate 50%,Ferrero,Milk,50.0,200.0,22,Female,1,2025-03-02,Chocolate Store 5,Sydney,USA,Online
+0RD00067401,2024-06-09,P0087,S022,C044475,1,6.31,0.0,6.31,3.8,2.51,Truffle Chocolate 60%,Godiva,Dark,60.0,100.0,27,Female,1,2022-02-15,Chocolate Store 22,Berlin,USA,Retail
