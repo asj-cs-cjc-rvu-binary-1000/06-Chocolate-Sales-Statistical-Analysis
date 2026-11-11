@@ -1,144 +1,153 @@
+
 import csv
 import os
-import math
-import openpyxl
+from collections import Counter
+
 import matplotlib.pyplot as plt
-
-WORKBOOK_PATH = "excel/chocolate_sales_analysis.xlsx"
-DATA_PATH = "data/processed/chocolate_sales_clean.csv"
-PNG_PATH = "charts/revenue_histogram.png"
-
-BIN_EDGES = list(range(0, 81, 10))
-EXPECTED_COUNTS = [179, 306, 194, 138, 99, 46, 22, 8]
+import openpyxl
+from openpyxl.chart import BarChart, Reference
+from openpyxl.chart.label import DataLabelList
+from openpyxl.chart.shapes import GraphicalProperties
 
 print("=" * 65)
 print("PHASE 4 - TASK 3: REVENUE HISTOGRAM")
 print("=" * 65)
 
-# ------------------------------------------------------------
-# 1. Read revenue values from the cleaned CSV.
-# ------------------------------------------------------------
+csv_path = "data/processed/chocolate_sales_clean.csv"
+workbook_path = "excel/chocolate_sales_analysis.xlsx"
+png_path = "charts/revenue_histogram.png"
 
-with open(DATA_PATH, "r", encoding="utf-8-sig", newline="") as file:
+os.makedirs("charts", exist_ok=True)
+
+# ---------------------------------------------------------
+# 1. Read revenue values from the cleaned dataset.
+# ---------------------------------------------------------
+
+revenues = []
+
+with open(csv_path, "r", encoding="utf-8-sig", newline="") as file:
     reader = csv.DictReader(file)
 
-    revenue_column = next(
-        (
-            name for name in reader.fieldnames
-            if name.strip().lower() in ("revenue", "total_revenue")
-        ),
-        None
-    )
-
-    if revenue_column is None:
-        raise ValueError(
-            f"Could not identify the revenue column. "
-            f"Available columns: {reader.fieldnames}"
-        )
-
-    revenues = []
+    if "revenue" not in reader.fieldnames:
+        raise ValueError("Revenue column not found in cleaned dataset.")
 
     for row in reader:
-        value = row[revenue_column].strip()
-        if value:
+        value = row["revenue"]
+
+        if value is not None and value.strip() != "":
             revenues.append(float(value))
 
-assert len(revenues) == 992, (
-    f"Expected 992 revenue values, found {len(revenues)}"
-)
+if len(revenues) != 992:
+    raise ValueError(
+        f"Expected 992 revenue values, found {len(revenues)}."
+    )
 
-assert all(value >= 0 for value in revenues), (
-    "Revenue contains negative values."
-)
+if min(revenues) < 0:
+    raise ValueError("Negative revenue values detected.")
 
-print(f"\nRevenue column: {revenue_column}")
-print(f"Valid revenue observations: {len(revenues)}")
+print("\nREVENUE DATA")
+print("-" * 65)
+print("Number of transactions:", len(revenues))
 print(f"Minimum revenue: ${min(revenues):.2f}")
 print(f"Maximum revenue: ${max(revenues):.2f}")
+print(f"Mean revenue: ${sum(revenues) / len(revenues):.2f}")
 
-# ------------------------------------------------------------
-# 2. Calculate grouped frequencies and verify existing table.
-# Bins: 0-10, 10-20, ..., 70-80.
-# ------------------------------------------------------------
+# ---------------------------------------------------------
+# 2. Create grouped frequency distribution.
+#    Class intervals: 0-10, 10-20, ..., 70-80.
+# ---------------------------------------------------------
 
-frequencies = []
+bins = list(range(0, 81, 10))
+labels = [
+    f"${bins[i]}-${bins[i + 1]}"
+    for i in range(len(bins) - 1)
+]
 
-for index in range(len(BIN_EDGES) - 1):
-    lower = BIN_EDGES[index]
-    upper = BIN_EDGES[index + 1]
+frequencies = [0] * (len(bins) - 1)
 
-    if index == len(BIN_EDGES) - 2:
-        count = sum(
-            lower <= value <= upper
-            for value in revenues
-        )
+for revenue in revenues:
+    for i in range(len(bins) - 1):
+        if bins[i] <= revenue < bins[i + 1]:
+            frequencies[i] += 1
+            break
     else:
-        count = sum(
-            lower <= value < upper
-            for value in revenues
+        if revenue == bins[-1]:
+            frequencies[-1] += 1
+
+if sum(frequencies) != len(revenues):
+    raise ValueError(
+        "Grouped frequencies do not add up to 992."
+    )
+
+print("\nGROUPED REVENUE FREQUENCY")
+print("-" * 65)
+
+for label, frequency in zip(labels, frequencies):
+    print(f"{label:15s} {frequency:5d}")
+
+print("-" * 65)
+print(f"{'Total':15s} {sum(frequencies):5d}")
+
+# ---------------------------------------------------------
+# 3. Verify the existing workbook and frequency table.
+# ---------------------------------------------------------
+
+wb = openpyxl.load_workbook(workbook_path)
+freq = wb["Freq_Tables"]
+charts = wb["Charts"]
+
+expected_intervals = [
+    "0-10",
+    "10-20",
+    "20-30",
+    "30-40",
+    "40-50",
+    "50-60",
+    "60-70",
+    "70-80"
+]
+
+for index, expected_label in enumerate(expected_intervals, start=3):
+
+    actual_label = str(
+        freq.cell(index, 9).value
+    )
+
+    # Normalize spaces, currency symbols and dash characters.
+    actual_normalized = (
+        actual_label
+        .replace(" ", "")
+        .replace("$", "")
+        .replace("–", "-")
+        .replace("—", "-")
+    )
+
+    expected_normalized = expected_label.replace(" ", "")
+
+    if actual_normalized != expected_normalized:
+        raise ValueError(
+            f"Unexpected revenue interval at I{index}: "
+            f"{actual_label}"
         )
 
-    frequencies.append(count)
+# Check formulas are present.
+for row in range(3, 11):
+    formula = freq.cell(row, 10).value
 
-print("\nREVENUE GROUPED FREQUENCY DISTRIBUTION")
-print("-" * 65)
+    if not isinstance(formula, str) or not formula.startswith("="):
+        raise ValueError(
+            f"Missing frequency formula at J{row}."
+        )
 
-for index, count in enumerate(frequencies):
-    print(
-        f"${BIN_EDGES[index]:.0f}-${BIN_EDGES[index + 1]:.0f}"
-        f"{'':<12}{count:>5}"
-    )
+print("\nExisting revenue frequency table verified.")
 
-print("-" * 65)
-print(f"{'Total':<20}{sum(frequencies):>5}")
+# ---------------------------------------------------------
+# 4. Add an editable Excel histogram-style column chart.
+# ---------------------------------------------------------
 
-assert frequencies == EXPECTED_COUNTS, (
-    f"Frequency mismatch. Expected {EXPECTED_COUNTS}, "
-    f"calculated {frequencies}"
-)
-
-assert sum(frequencies) == 992
-
-# ------------------------------------------------------------
-# 3. Load workbook and verify the existing frequency table.
-# ------------------------------------------------------------
-
-wb = openpyxl.load_workbook(
-    WORKBOOK_PATH,
-    data_only=False
-)
-
-assert "Clean_Data" in wb.sheetnames
-assert "Freq_Tables" in wb.sheetnames
-assert "Charts" in wb.sheetnames
-
-freq_ws = wb["Freq_Tables"]
-charts_ws = wb["Charts"]
-
-for index, expected_count in enumerate(EXPECTED_COUNTS, start=3):
-    label = freq_ws.cell(index, 9).value
-    formula = freq_ws.cell(index, 10).value
-
-    assert label is not None, (
-        f"Missing revenue interval in Freq_Tables!I{index}"
-    )
-
-    assert isinstance(formula, str) and formula.startswith("="), (
-        f"Missing frequency formula in Freq_Tables!J{index}"
-    )
-
-print("\nVerified existing revenue frequency table.")
-
-# ------------------------------------------------------------
-# 4. Create editable Excel column chart with zero gap.
-# This represents a histogram using the grouped frequencies.
-# ------------------------------------------------------------
-
-from openpyxl.chart import BarChart, Reference
-
-# Remove an earlier version of this chart if the script is rerun.
-charts_ws._charts = [
-    chart for chart in charts_ws._charts
+# Remove an earlier chart at A20 if the script is rerun.
+charts._charts = [
+    chart for chart in charts._charts
     if not (
         chart.anchor._from.col == 0
         and chart.anchor._from.row == 19
@@ -149,21 +158,21 @@ chart = BarChart()
 chart.type = "col"
 chart.style = 10
 chart.title = "Distribution of Transaction Revenue"
+chart.x_axis.title = "Revenue Class Interval ($)"
 chart.y_axis.title = "Frequency"
-chart.x_axis.title = "Revenue ($)"
 chart.height = 10
-chart.width = 18
+chart.width = 20
 chart.gapWidth = 0
 
 data = Reference(
-    freq_ws,
+    freq,
     min_col=10,
     min_row=2,
     max_row=10
 )
 
 categories = Reference(
-    freq_ws,
+    freq,
     min_col=9,
     min_row=3,
     max_row=10
@@ -172,59 +181,52 @@ categories = Reference(
 chart.add_data(data, titles_from_data=True)
 chart.set_categories(categories)
 
-charts_ws.add_chart(chart, "A20")
+chart.legend = None
+chart.dataLabels = DataLabelList()
+chart.dataLabels.showVal = True
 
-# Ensure Excel recalculates formulas when the workbook is opened.
+charts.add_chart(chart, "A20")
+
+# Request automatic formula recalculation in Excel.
 wb.calculation.fullCalcOnLoad = True
 wb.calculation.forceFullCalc = True
 wb.calculation.calcMode = "auto"
 
-wb.save(WORKBOOK_PATH)
+wb.save(workbook_path)
 
-print("\nEditable Excel histogram chart created.")
+print("Editable Excel histogram-style chart created.")
 print("Chart data source: Freq_Tables!I2:J10")
 print("Chart destination: Charts!A20")
-print("Bar gap width: 0")
 
-# ------------------------------------------------------------
-# 5. Export a high-resolution PNG histogram.
-# ------------------------------------------------------------
+# ---------------------------------------------------------
+# 5. Export a true histogram as a PNG image.
+# ---------------------------------------------------------
 
-os.makedirs("charts", exist_ok=True)
-
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(11, 6))
 
 plt.hist(
     revenues,
-    bins=BIN_EDGES,
+    bins=bins,
     edgecolor="black",
-    linewidth=1.2
+    alpha=0.85
 )
 
 plt.title("Distribution of Transaction Revenue")
 plt.xlabel("Revenue ($)")
 plt.ylabel("Frequency")
-plt.xticks(BIN_EDGES)
-plt.grid(axis="y", linestyle="--", alpha=0.5)
+plt.xticks(bins)
+plt.grid(axis="y", linestyle="--", alpha=0.4)
 
 plt.tight_layout()
-plt.savefig(
-    PNG_PATH,
-    dpi=300,
-    bbox_inches="tight"
-)
+plt.savefig(png_path, dpi=300, bbox_inches="tight")
 plt.close()
-
-print("\nPNG histogram exported successfully.")
-print(f"PNG image: {PNG_PATH}")
 
 print("\n" + "=" * 65)
 print("PHASE 4 - TASK 3 RESULTS")
 print("=" * 65)
-print(f"Total transactions: {len(revenues)}")
-print(f"Revenue range: ${min(revenues):.2f} to ${max(revenues):.2f}")
-print(f"Frequency total: {sum(frequencies)}")
-print(f"Excel workbook: {WORKBOOK_PATH}")
-print(f"PNG image: {PNG_PATH}")
+print("Total transactions:", len(revenues))
+print("Revenue histogram created.")
+print("Excel workbook:", workbook_path)
+print("PNG image:", png_path)
 print("\nSTATUS: SUCCESS")
 print("=" * 65)

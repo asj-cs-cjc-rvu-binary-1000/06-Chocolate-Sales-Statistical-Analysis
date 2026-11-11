@@ -101,3 +101,14 @@ Data cleaning decisions will be documented separately.
 The analysis will establish whether quantity sold
 and total revenue exhibit a positive, negative, or
 negligible linear association.
+
+
+## Phase 6 – Correlation Interpretation
+
+**Pearson's correlation coefficient:** 0.7425
+
+**Direction:** Positive.
+
+**Strength:** Strong (0.60–0.79).
+
+There is a strong positive linear association between quantity sold and total revenue (Pearson's r = 0.7425). This indicates that transactions involving higher quantities tend to have higher total revenue. The association is strong because the absolute correlation coefficient falls within the 0.60–0.79 classification interval. This finding describes association and does not establish causation.
