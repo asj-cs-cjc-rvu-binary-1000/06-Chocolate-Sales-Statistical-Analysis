@@ -76,4 +76,32 @@ documented after the original dataset provenance is verified.
 
 ## Project Status
 
-Project setup and initial repository organisation are in progress.
+The statistical analysis, report, Excel workbook, and cleaned dataset have been completed and prepared for submission.
+
+
+## Final Results
+
+The analysis was conducted using a simple random sample of 1,000
+transactions. After data cleaning, 992 valid records were retained.
+
+### Key Statistical Findings
+
+- Cleaned sample size: 992 transactions.
+- Quantity mean: 2.8901.
+- Revenue mean: 24.3781.
+- Pearson correlation coefficient: r = 0.7425.
+- Coefficient of determination: R² = 0.5513.
+- Approximately 55.13% of the variation in revenue is explained
+  by the fitted linear relationship with quantity.
+
+### Interpretation
+
+The results indicate a strong positive association between
+quantity sold and revenue. However, correlation does not establish
+causation.
+
+### Final Deliverables
+
+- Statistical analysis report (PDF).
+- Editable Excel statistical analysis workbook.
+- Cleaned CSV dataset containing 992 records.
